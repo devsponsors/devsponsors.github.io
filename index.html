@@ -9,19 +9,54 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap');
     body { font-family: 'Vazirmatn', sans-serif; }
+    
     .hero-glow {
       background: radial-gradient(circle at 50% -20%, rgba(99, 102, 241, 0.18), transparent 70%);
     }
-    .card-glass {
+    
+    .card-spotlight {
+      position: relative;
       background: rgba(15, 23, 42, 0.75);
       backdrop-filter: blur(12px);
+      border: 1px solid rgba(51, 65, 85, 0.8);
+      overflow: hidden;
+      transition: border-color 0.3s ease, transform 0.2s ease;
     }
+    .card-spotlight:hover {
+      transform: translateY(-2px);
+    }
+    .card-spotlight::before {
+      content: '';
+      position: absolute;
+      top: var(--mouse-y, -1000px);
+      left: var(--mouse-x, -1000px);
+      width: 350px;
+      height: 350px;
+      background: radial-gradient(circle, rgba(99, 102, 241, 0.18), transparent 70%);
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .card-spotlight:hover::before {
+      opacity: 1;
+    }
+
     .pulse-dot {
       animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
     }
     @keyframes pulse {
       0%, 100% { opacity: 1; transform: scale(1); }
       50% { opacity: .4; transform: scale(1.15); }
+    }
+
+    .terminal-scroll::-webkit-scrollbar {
+      height: 4px;
+    }
+    .terminal-scroll::-webkit-scrollbar-thumb {
+      background: rgba(99, 102, 241, 0.3);
+      border-radius: 4px;
     }
   </style>
 </head>
@@ -53,30 +88,36 @@
   </nav>
 
   <!-- Hero Section -->
-  <header class="py-16 px-4 text-center max-w-4xl mx-auto">
+  <header class="py-14 px-4 text-center max-w-4xl mx-auto">
     <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-semibold mb-6">
       <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
-      ارتباط مستقیم شرکت‌های هاستینگ، ابری و AI با توسعه‌دهندگان متن‌باز ایران
+      کانال ارتباط مستقیم شرکت‌های هاستینگ، ابری و AI با توسعه‌دهندگان متن‌باز ایران
     </div>
     <h1 class="text-3xl sm:text-5xl font-black text-white leading-tight mb-6">
       حمایت هدفمند از <span class="bg-gradient-to-r from-blue-400 via-indigo-300 to-pink-400 bg-clip-text text-transparent">سازندگان تکنولوژی</span> و پروژه‌های متن‌باز ایران
     </h1>
     <p class="text-slate-400 text-base sm:text-lg leading-relaxed mb-8">
-      رتبه‌بندی زنده توسعه‌دهندگان گیت‌هاب بر اساس دنبال‌کنندگان و فعالیت ۳۰ روز گذشته با امکان اسپانسرشیپ تک‌نفره یا حمایت جامع از کل شبکه به صورت قراردادهای ۶ ماهه و ۱ ساله.
+      رتبه‌بندی زنده توسعه‌دهندگان گیت‌هاب بر اساس دنبال‌کنندگان و فعالیت ماهانه با امکان اسپانسرشیپ تک‌نفره یا حمایت جامع از کل شبکه در قالب قراردادهای ۶ ماهه و ۱ ساله.
     </p>
 
-    <!-- Stats Counter -->
+    <!-- Animated Number Stats Counter -->
     <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-3xl mx-auto pt-4 border-t border-slate-800/80">
       <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
-        <div class="text-2xl font-black text-blue-400">۴,۰۰۰+</div>
+        <div class="text-2xl font-black text-blue-400 flex items-center justify-center gap-1">
+          <span class="counter" data-target="4000">0</span>+
+        </div>
         <div class="text-xs text-slate-400 mt-1">استار ثبت‌شده گیت‌هاب</div>
       </div>
       <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
-        <div class="text-2xl font-black text-indigo-400">۲۵۰k+</div>
+        <div class="text-2xl font-black text-indigo-400 flex items-center justify-center gap-1">
+          <span class="counter" data-target="250">0</span>k+
+        </div>
         <div class="text-xs text-slate-400 mt-1">ایمپرشن ماهانه دولوپری</div>
       </div>
       <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
-        <div class="text-2xl font-black text-pink-400">۲,۶۰۰+</div>
+        <div class="text-2xl font-black text-pink-400 flex items-center justify-center gap-1">
+          <span class="counter" data-target="2600">0</span>+
+        </div>
         <div class="text-xs text-slate-400 mt-1">فالوور مستقیم گیت‌هاب</div>
       </div>
       <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
@@ -86,35 +127,107 @@
     </div>
   </header>
 
-  <!-- Developers Section -->
-  <section id="developers" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-    <div class="flex flex-col sm:flex-row items-center justify-between mb-8 gap-4">
-      <div>
-        <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-md bg-indigo-500/10 text-indigo-400 text-xs font-bold mb-2">
-          <i class="fa-solid fa-trophy"></i>
-          <span>رتبه‌بندی اعضا بر اساس دنبال‌کنندگان + فعالیت واقعی در ۳۰ روز اخیر</span>
+  <!-- Live Activity Stream Ticker (Terminal Style) -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
+    <div class="p-4 rounded-2xl bg-slate-950/90 border border-slate-800/90 shadow-2xl relative overflow-hidden">
+      <div class="flex items-center justify-between pb-3 mb-3 border-b border-slate-800/80 text-xs">
+        <div class="flex items-center gap-2">
+          <span class="w-3 h-3 rounded-full bg-red-500/80 inline-block"></span>
+          <span class="w-3 h-3 rounded-full bg-yellow-500/80 inline-block"></span>
+          <span class="w-3 h-3 rounded-full bg-green-500/80 inline-block"></span>
+          <span class="font-mono text-slate-400 font-semibold mr-2 flex items-center gap-1">
+            <i class="fa-solid fa-terminal text-indigo-400"></i>
+            <span>live_activity_stream.log</span>
+          </span>
         </div>
-        <h2 class="text-2xl sm:text-3xl font-black text-white">توسعه‌دهندگان و پروژه‌های برتر عضو هاب</h2>
-        <p class="text-slate-400 text-sm mt-1">مرتب‌شده بر اساس فالوور، میزان استارها و جزئیات فعالیت و کامیت‌های ۳۰ روز اخیر</p>
+        <div class="flex items-center gap-2 text-emerald-400 text-[11px] font-mono">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 pulse-dot"></span>
+          <span>LIVE OSS FEED</span>
+        </div>
       </div>
-      <div class="flex flex-wrap gap-2">
-        <a href="projects.html" class="px-3.5 py-1.5 rounded-xl bg-indigo-600/20 text-indigo-300 hover:bg-indigo-600/30 text-xs font-semibold border border-indigo-500/30 transition flex items-center gap-1.5">
-          <i class="fa-solid fa-layer-group"></i>
-          <span>مشاهده بانک کامل پروژه‌ها</span>
-        </a>
+
+      <div class="flex items-center gap-4 overflow-x-auto terminal-scroll pb-1 text-xs font-mono text-slate-300">
+        <div class="flex-shrink-0 flex items-center gap-2 bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-800">
+          <span class="text-emerald-400 font-bold">ketabchi-ar</span>
+          <span class="text-slate-500">pushed 60 commits to</span>
+          <span class="text-indigo-300">domain-price-checker</span>
+        </div>
+        <div class="flex-shrink-0 flex items-center gap-2 bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-800">
+          <span class="text-amber-400 font-bold">MatinSenPai</span>
+          <span class="text-slate-500">updated</span>
+          <span class="text-indigo-300">SenPai-Rust-Journey</span>
+        </div>
+        <div class="flex-shrink-0 flex items-center gap-2 bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-800">
+          <span class="text-blue-400 font-bold">taymakz</span>
+          <span class="text-slate-500">released update on</span>
+          <span class="text-indigo-300">taymakz/tehgo</span>
+        </div>
+        <div class="flex-shrink-0 flex items-center gap-2 bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-800">
+          <span class="text-pink-400 font-bold">Mahdi-mortazavi</span>
+          <span class="text-slate-500">tagged new build on</span>
+          <span class="text-indigo-300">relay (WireGuard)</span>
+        </div>
+        <div class="flex-shrink-0 flex items-center gap-2 bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-800">
+          <span class="text-indigo-400 font-bold">TheGreatAzizi</span>
+          <span class="text-slate-500">pushed commit to</span>
+          <span class="text-indigo-300">TheGreatAzizi/TheGreatAzizi</span>
+        </div>
       </div>
     </div>
+  </section>
 
-    <!-- Developer Grid (Sorted by Followers) -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+  <!-- Interactive Search, Filter & Live Sort Bar -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
+    <div class="p-4 sm:p-5 rounded-2xl bg-slate-900/80 border border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4">
+      
+      <!-- Search Input -->
+      <div class="relative w-full md:w-80">
+        <i class="fa-solid fa-magnifying-glass absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 text-xs"></i>
+        <input type="text" id="dev-search" placeholder="جستجوی نام، مهارت یا ریپازیتوری..." class="w-full bg-slate-950 border border-slate-800 rounded-xl pr-9 pl-3 py-2 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition">
+      </div>
 
-      <!-- Rank #1: Matin SenPai (1,656 Followers & 3,616 Stars) -->
-      <div class="p-6 rounded-2xl card-glass border-2 border-indigo-500 hover:border-indigo-400 transition flex flex-col justify-between group relative shadow-xl shadow-indigo-500/10">
-        <div class="absolute -top-3.5 right-6 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-500 text-slate-950 text-xs font-black px-3 py-1 rounded-full shadow-lg flex items-center gap-1">
+      <!-- Category Filter Pills -->
+      <div class="flex flex-wrap items-center gap-1.5 w-full md:w-auto">
+        <button class="filter-btn active px-3 py-1.5 rounded-lg bg-indigo-600 text-white text-xs font-medium transition" data-filter="all">همه دسته‌ها</button>
+        <button class="filter-btn px-3 py-1.5 rounded-lg bg-slate-950 text-slate-400 hover:text-white border border-slate-800 text-xs font-medium transition" data-filter="network">شبکه & تونل</button>
+        <button class="filter-btn px-3 py-1.5 rounded-lg bg-slate-950 text-slate-400 hover:text-white border border-slate-800 text-xs font-medium transition" data-filter="ai">هوش مصنوعی</button>
+        <button class="filter-btn px-3 py-1.5 rounded-lg bg-slate-950 text-slate-400 hover:text-white border border-slate-800 text-xs font-medium transition" data-filter="frontend">فرانت‌اند & UI</button>
+        <button class="filter-btn px-3 py-1.5 rounded-lg bg-slate-950 text-slate-400 hover:text-white border border-slate-800 text-xs font-medium transition" data-filter="devops">دواپس & لینوکس</button>
+      </div>
+
+      <!-- Sorting Dropdown/Pills -->
+      <div class="flex items-center gap-2 w-full md:w-auto justify-end">
+        <span class="text-xs text-slate-400 font-medium whitespace-nowrap">مرتب‌سازی:</span>
+        <select id="dev-sort" class="bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs text-indigo-300 font-semibold focus:outline-none focus:border-indigo-500 transition">
+          <option value="followers">👑 بیشترین دنبال‌کننده</option>
+          <option value="stars">⭐ بیشترین استار کل</option>
+          <option value="activity">🔥 فعال‌ترین در ۳۰ روز اخیر</option>
+          <option value="repos">📁 بیشترین پروژه</option>
+        </select>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Developers Section -->
+  <section id="developers" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    
+    <!-- Developer Grid (Interactive Bento with Spotlight) -->
+    <div id="dev-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- Dev 1: Matin SenPai -->
+      <div class="dev-card p-6 rounded-2xl card-spotlight flex flex-col justify-between group relative"
+           data-name="متین سنپای matin senpai"
+           data-followers="1656"
+           data-stars="3616"
+           data-repos="6"
+           data-activity="8"
+           data-category="network">
+        <div class="absolute -top-3.5 right-6 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-500 text-slate-950 text-xs font-black px-3 py-1 rounded-full shadow-lg flex items-center gap-1 z-10">
           <i class="fa-solid fa-crown text-amber-950"></i>
           <span>رتبه ۱</span>
         </div>
-        <div>
+        <div class="relative z-10">
           <div class="flex items-center justify-between mb-4 mt-2">
             <div class="flex items-center gap-3">
               <img src="https://avatars.githubusercontent.com/u/99926753?v=4" alt="Matin SenPai" class="w-14 h-14 rounded-2xl border-2 border-amber-400/60 object-cover shadow-md">
@@ -126,7 +239,6 @@
             <a href="https://github.com/MatinSenPai" target="_blank" class="text-slate-400 hover:text-white text-xl transition"><i class="fa-brands fa-github"></i></a>
           </div>
 
-          <!-- User Stats Badges -->
           <div class="grid grid-cols-3 gap-2 p-2.5 rounded-xl bg-slate-950/80 border border-slate-800/80 mb-3 text-center">
             <div>
               <div class="text-xs text-slate-400">دنبال‌کننده</div>
@@ -142,18 +254,16 @@
             </div>
           </div>
 
-          <!-- 30-Day Activity Bar -->
           <div class="p-2.5 rounded-xl bg-slate-900/90 border border-slate-800 mb-4 flex items-center justify-between text-xs">
             <div class="flex items-center gap-2">
               <span class="w-2 h-2 rounded-full bg-emerald-400 pulse-dot"></span>
               <span class="text-slate-300 font-medium">فعالیت ۳۰ روز اخیر:</span>
             </div>
             <div class="flex items-center gap-2">
-              <span class="font-bold text-emerald-400">کامیت روی SenPai-Rust-Journey & پایش هاب</span>
+              <span class="font-bold text-emerald-400">کامیت روی SenPai-Rust & پایش هاب</span>
             </div>
           </div>
 
-          <!-- Repositories -->
           <div class="space-y-2 mb-4">
             <div class="p-3 rounded-xl bg-slate-950/60 border border-slate-800/80 text-xs">
               <div class="flex items-center justify-between mb-1">
@@ -171,7 +281,7 @@
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400">
+        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400 relative z-10">
           <a href="https://github.com/MatinSenPai" target="_blank" class="text-amber-400 hover:underline flex items-center gap-1">
             <i class="fa-brands fa-github"></i>
             <span>MatinSenPai</span>
@@ -183,13 +293,19 @@
         </div>
       </div>
 
-      <!-- Rank #2: Ehsan Azizi (374 Followers) -->
-      <div class="p-6 rounded-2xl card-glass border border-slate-800 hover:border-indigo-400 transition flex flex-col justify-between group relative">
-        <div class="absolute -top-3.5 right-6 bg-gradient-to-r from-slate-300 to-slate-400 text-slate-950 text-xs font-black px-3 py-1 rounded-full shadow-lg flex items-center gap-1">
+      <!-- Dev 2: Ehsan Azizi -->
+      <div class="dev-card p-6 rounded-2xl card-spotlight flex flex-col justify-between group relative"
+           data-name="احسان عزیزی ehsan azizi thegreatazizi"
+           data-followers="374"
+           data-stars="55"
+           data-repos="22"
+           data-activity="4"
+           data-category="devops">
+        <div class="absolute -top-3.5 right-6 bg-gradient-to-r from-slate-300 to-slate-400 text-slate-950 text-xs font-black px-3 py-1 rounded-full shadow-lg flex items-center gap-1 z-10">
           <i class="fa-solid fa-medal"></i>
           <span>رتبه ۲</span>
         </div>
-        <div>
+        <div class="relative z-10">
           <div class="flex items-center justify-between mb-4 mt-2">
             <div class="flex items-center gap-3">
               <img src="https://avatars.githubusercontent.com/u/121211931?v=4" alt="Ehsan Azizi" class="w-14 h-14 rounded-2xl border-2 border-indigo-500/50 object-cover shadow-md">
@@ -201,7 +317,6 @@
             <a href="https://github.com/TheGreatAzizi" target="_blank" class="text-slate-400 hover:text-white text-xl transition"><i class="fa-brands fa-github"></i></a>
           </div>
 
-          <!-- User Stats Badges -->
           <div class="grid grid-cols-3 gap-2 p-2.5 rounded-xl bg-slate-950/80 border border-slate-800/80 mb-3 text-center">
             <div>
               <div class="text-xs text-slate-400">دنبال‌کننده</div>
@@ -217,7 +332,6 @@
             </div>
           </div>
 
-          <!-- 30-Day Activity Bar -->
           <div class="p-2.5 rounded-xl bg-slate-900/90 border border-slate-800 mb-4 flex items-center justify-between text-xs">
             <div class="flex items-center gap-2">
               <span class="w-2 h-2 rounded-full bg-amber-400"></span>
@@ -228,7 +342,6 @@
             </div>
           </div>
 
-          <!-- Repositories -->
           <div class="space-y-2 mb-4">
             <div class="p-3 rounded-xl bg-slate-950/60 border border-slate-800/80 text-xs">
               <div class="flex items-center justify-between mb-1">
@@ -246,7 +359,7 @@
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400">
+        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400 relative z-10">
           <a href="https://github.com/TheGreatAzizi" target="_blank" class="text-indigo-400 hover:underline flex items-center gap-1">
             <i class="fa-brands fa-github"></i>
             <span>TheGreatAzizi</span>
@@ -258,13 +371,19 @@
         </div>
       </div>
 
-      <!-- Rank #3: Rick Sanchez (334 Followers & 210+ Stars) -->
-      <div class="p-6 rounded-2xl card-glass border border-slate-800 hover:border-indigo-400 transition flex flex-col justify-between group relative">
-        <div class="absolute -top-3.5 right-6 bg-gradient-to-r from-amber-700 to-amber-600 text-white text-xs font-black px-3 py-1 rounded-full shadow-lg flex items-center gap-1">
+      <!-- Dev 3: Rick Sanchez -->
+      <div class="dev-card p-6 rounded-2xl card-spotlight flex flex-col justify-between group relative"
+           data-name="ریک سانچز متین بیگی rick sanchez m4tinbeigi-official"
+           data-followers="334"
+           data-stars="210"
+           data-repos="283"
+           data-activity="15"
+           data-category="ai">
+        <div class="absolute -top-3.5 right-6 bg-gradient-to-r from-amber-700 to-amber-600 text-white text-xs font-black px-3 py-1 rounded-full shadow-lg flex items-center gap-1 z-10">
           <i class="fa-solid fa-award"></i>
           <span>رتبه ۳</span>
         </div>
-        <div>
+        <div class="relative z-10">
           <div class="flex items-center justify-between mb-4 mt-2">
             <div class="flex items-center gap-3">
               <img src="https://avatars.githubusercontent.com/u/101627789?v=4" alt="Rick Sanchez" class="w-14 h-14 rounded-2xl border-2 border-indigo-500/50 object-cover shadow-md">
@@ -276,7 +395,6 @@
             <a href="https://github.com/m4tinbeigi-official" target="_blank" class="text-slate-400 hover:text-white text-xl transition"><i class="fa-brands fa-github"></i></a>
           </div>
 
-          <!-- User Stats Badges -->
           <div class="grid grid-cols-3 gap-2 p-2.5 rounded-xl bg-slate-950/80 border border-slate-800/80 mb-3 text-center">
             <div>
               <div class="text-xs text-slate-400">دنبال‌کننده</div>
@@ -292,7 +410,6 @@
             </div>
           </div>
 
-          <!-- 30-Day Activity Bar -->
           <div class="p-2.5 rounded-xl bg-slate-900/90 border border-slate-800 mb-4 flex items-center justify-between text-xs">
             <div class="flex items-center gap-2">
               <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
@@ -303,7 +420,6 @@
             </div>
           </div>
 
-          <!-- Repositories -->
           <div class="space-y-2 mb-4">
             <div class="p-3 rounded-xl bg-slate-950/60 border border-slate-800/80 text-xs">
               <div class="flex items-center justify-between mb-1">
@@ -321,7 +437,7 @@
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400">
+        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400 relative z-10">
           <a href="https://github.com/m4tinbeigi-official" target="_blank" class="text-indigo-400 hover:underline flex items-center gap-1">
             <i class="fa-brands fa-github"></i>
             <span>m4tinbeigi-official</span>
@@ -333,12 +449,18 @@
         </div>
       </div>
 
-      <!-- Rank #4: Bardia Kazemi (76 Followers) -->
-      <div class="p-6 rounded-2xl card-glass border border-slate-800 hover:border-pink-500/50 transition flex flex-col justify-between group relative">
-        <div class="absolute -top-3 right-6 bg-slate-800 text-slate-300 text-xs font-bold px-2.5 py-0.5 rounded-full border border-slate-700">
+      <!-- Dev 4: Bardia Kazemi -->
+      <div class="dev-card p-6 rounded-2xl card-spotlight flex flex-col justify-between group relative"
+           data-name="بردیا کاظمی bardia kazemi mrbardia72"
+           data-followers="76"
+           data-stars="25"
+           data-repos="10"
+           data-activity="11"
+           data-category="devops">
+        <div class="absolute -top-3 right-6 bg-slate-800 text-slate-300 text-xs font-bold px-2.5 py-0.5 rounded-full border border-slate-700 z-10">
           رتبه ۴
         </div>
-        <div>
+        <div class="relative z-10">
           <div class="flex items-center justify-between mb-4 mt-1">
             <div class="flex items-center gap-3">
               <img src="https://avatars.githubusercontent.com/u/8832241?v=4" alt="Bardia Kazemi" class="w-14 h-14 rounded-2xl border-2 border-pink-500/50 object-cover shadow-md">
@@ -350,7 +472,6 @@
             <a href="https://github.com/mrbardia72" target="_blank" class="text-slate-400 hover:text-white text-xl transition"><i class="fa-brands fa-github"></i></a>
           </div>
 
-          <!-- User Stats Badges -->
           <div class="grid grid-cols-3 gap-2 p-2.5 rounded-xl bg-slate-950/80 border border-slate-800/80 mb-3 text-center">
             <div>
               <div class="text-xs text-slate-400">دنبال‌کننده</div>
@@ -366,7 +487,6 @@
             </div>
           </div>
 
-          <!-- 30-Day Activity Bar -->
           <div class="p-2.5 rounded-xl bg-slate-900/90 border border-slate-800 mb-4 flex items-center justify-between text-xs">
             <div class="flex items-center gap-2">
               <span class="w-2 h-2 rounded-full bg-emerald-400 pulse-dot"></span>
@@ -377,7 +497,6 @@
             </div>
           </div>
 
-          <!-- Repositories -->
           <div class="space-y-2 mb-4">
             <div class="p-3 rounded-xl bg-slate-950/60 border border-slate-800/80 text-xs">
               <div class="flex items-center justify-between mb-1">
@@ -388,7 +507,7 @@
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400">
+        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400 relative z-10">
           <a href="https://github.com/mrbardia72" target="_blank" class="text-pink-400 hover:underline flex items-center gap-1">
             <i class="fa-brands fa-github"></i>
             <span>mrbardia72</span>
@@ -400,12 +519,18 @@
         </div>
       </div>
 
-      <!-- Rank #5: Amirali Beigi (60 Followers) -->
-      <div class="p-6 rounded-2xl card-glass border border-slate-800 hover:border-yellow-500/50 transition flex flex-col justify-between group relative">
-        <div class="absolute -top-3 right-6 bg-slate-800 text-slate-300 text-xs font-bold px-2.5 py-0.5 rounded-full border border-slate-700">
+      <!-- Dev 5: Amirali Beigi -->
+      <div class="dev-card p-6 rounded-2xl card-spotlight flex flex-col justify-between group relative"
+           data-name="امیرعلی بیگی amirali beigi amiralibg"
+           data-followers="60"
+           data-stars="80"
+           data-repos="34"
+           data-activity="5"
+           data-category="frontend">
+        <div class="absolute -top-3 right-6 bg-slate-800 text-slate-300 text-xs font-bold px-2.5 py-0.5 rounded-full border border-slate-700 z-10">
           رتبه ۵
         </div>
-        <div>
+        <div class="relative z-10">
           <div class="flex items-center justify-between mb-4 mt-1">
             <div class="flex items-center gap-3">
               <img src="https://avatars.githubusercontent.com/u/43336552?v=4" alt="Amirali Beigi" class="w-14 h-14 rounded-2xl border-2 border-yellow-500/40 object-cover shadow-md">
@@ -417,7 +542,6 @@
             <a href="https://github.com/amiralibg" target="_blank" class="text-slate-400 hover:text-white text-xl transition"><i class="fa-brands fa-github"></i></a>
           </div>
 
-          <!-- User Stats Badges -->
           <div class="grid grid-cols-3 gap-2 p-2.5 rounded-xl bg-slate-950/80 border border-slate-800/80 mb-3 text-center">
             <div>
               <div class="text-xs text-slate-400">دنبال‌کننده</div>
@@ -433,7 +557,6 @@
             </div>
           </div>
 
-          <!-- 30-Day Activity Bar -->
           <div class="p-2.5 rounded-xl bg-slate-900/90 border border-slate-800 mb-4 flex items-center justify-between text-xs">
             <div class="flex items-center gap-2">
               <span class="w-2 h-2 rounded-full bg-blue-400"></span>
@@ -444,7 +567,6 @@
             </div>
           </div>
 
-          <!-- Repositories -->
           <div class="space-y-2 mb-4">
             <div class="p-3 rounded-xl bg-slate-950/60 border border-slate-800/80 text-xs">
               <div class="flex items-center justify-between mb-1">
@@ -455,7 +577,7 @@
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400">
+        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400 relative z-10">
           <a href="https://github.com/amiralibg" target="_blank" class="text-yellow-400 hover:underline flex items-center gap-1">
             <i class="fa-brands fa-github"></i>
             <span>amiralibg</span>
@@ -467,12 +589,18 @@
         </div>
       </div>
 
-      <!-- Rank #6: Taymaz Akbari (48 Followers) -->
-      <div class="p-6 rounded-2xl card-glass border border-slate-800 hover:border-amber-500/50 transition flex flex-col justify-between group relative">
-        <div class="absolute -top-3 right-6 bg-slate-800 text-slate-300 text-xs font-bold px-2.5 py-0.5 rounded-full border border-slate-700">
+      <!-- Dev 6: Taymaz Akbari -->
+      <div class="dev-card p-6 rounded-2xl card-spotlight flex flex-col justify-between group relative"
+           data-name="تایماز اکبری taymaz akbari taymakz"
+           data-followers="48"
+           data-stars="75"
+           data-repos="14"
+           data-activity="6"
+           data-category="frontend">
+        <div class="absolute -top-3 right-6 bg-slate-800 text-slate-300 text-xs font-bold px-2.5 py-0.5 rounded-full border border-slate-700 z-10">
           رتبه ۶
         </div>
-        <div>
+        <div class="relative z-10">
           <div class="flex items-center justify-between mb-4 mt-1">
             <div class="flex items-center gap-3">
               <img src="https://avatars.githubusercontent.com/u/71381670?v=4" alt="Taymaz Akbari" class="w-14 h-14 rounded-2xl border-2 border-amber-500/40 object-cover shadow-md">
@@ -484,7 +612,6 @@
             <a href="https://github.com/taymakz" target="_blank" class="text-slate-400 hover:text-white text-xl transition"><i class="fa-brands fa-github"></i></a>
           </div>
 
-          <!-- User Stats Badges -->
           <div class="grid grid-cols-3 gap-2 p-2.5 rounded-xl bg-slate-950/80 border border-slate-800/80 mb-3 text-center">
             <div>
               <div class="text-xs text-slate-400">دنبال‌کننده</div>
@@ -500,7 +627,6 @@
             </div>
           </div>
 
-          <!-- 30-Day Activity Bar -->
           <div class="p-2.5 rounded-xl bg-slate-900/90 border border-slate-800 mb-4 flex items-center justify-between text-xs">
             <div class="flex items-center gap-2">
               <span class="w-2 h-2 rounded-full bg-emerald-400 pulse-dot"></span>
@@ -511,7 +637,6 @@
             </div>
           </div>
 
-          <!-- Repositories -->
           <div class="space-y-2 mb-4">
             <div class="p-3 rounded-xl bg-slate-950/60 border border-slate-800/80 text-xs">
               <div class="flex items-center justify-between mb-1">
@@ -526,7 +651,7 @@
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400">
+        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400 relative z-10">
           <a href="https://github.com/taymakz" target="_blank" class="text-amber-400 hover:underline flex items-center gap-1">
             <i class="fa-brands fa-github"></i>
             <span>taymakz</span>
@@ -538,12 +663,18 @@
         </div>
       </div>
 
-      <!-- Rank #7: Mahdi Mortazavi (45 Followers & Top Stars 255+) -->
-      <div class="p-6 rounded-2xl card-glass border border-slate-800 hover:border-emerald-500/50 transition flex flex-col justify-between group relative">
-        <div class="absolute -top-3 right-6 bg-slate-800 text-slate-300 text-xs font-bold px-2.5 py-0.5 rounded-full border border-slate-700">
+      <!-- Dev 7: Mahdi Mortazavi -->
+      <div class="dev-card p-6 rounded-2xl card-spotlight flex flex-col justify-between group relative"
+           data-name="محمد مهدی مرتضوی mahdi mortazavi"
+           data-followers="45"
+           data-stars="255"
+           data-repos="11"
+           data-activity="5"
+           data-category="network">
+        <div class="absolute -top-3 right-6 bg-slate-800 text-slate-300 text-xs font-bold px-2.5 py-0.5 rounded-full border border-slate-700 z-10">
           رتبه ۷
         </div>
-        <div>
+        <div class="relative z-10">
           <div class="flex items-center justify-between mb-4 mt-1">
             <div class="flex items-center gap-3">
               <img src="https://avatars.githubusercontent.com/u/127998145?v=4" alt="Mahdi Mortazavi" class="w-14 h-14 rounded-2xl border-2 border-emerald-500/40 object-cover shadow-md">
@@ -555,7 +686,6 @@
             <a href="https://github.com/Mahdi-mortazavi" target="_blank" class="text-slate-400 hover:text-white text-xl transition"><i class="fa-brands fa-github"></i></a>
           </div>
 
-          <!-- User Stats Badges -->
           <div class="grid grid-cols-3 gap-2 p-2.5 rounded-xl bg-slate-950/80 border border-slate-800/80 mb-3 text-center">
             <div>
               <div class="text-xs text-slate-400">دنبال‌کننده</div>
@@ -571,18 +701,16 @@
             </div>
           </div>
 
-          <!-- 30-Day Activity Bar -->
           <div class="p-2.5 rounded-xl bg-slate-900/90 border border-slate-800 mb-4 flex items-center justify-between text-xs">
             <div class="flex items-center gap-2">
               <span class="w-2 h-2 rounded-full bg-emerald-400 pulse-dot"></span>
               <span class="text-slate-300 font-medium">فعالیت ۳۰ روز اخیر:</span>
             </div>
             <div class="flex items-center gap-2">
-              <span class="font-bold text-emerald-400">۳ ریلیز و ساختار جدید روی Mahdi-mortazavi/relay</span>
+              <span class="font-bold text-emerald-400">۳ ریلیز و ساختار جدید روی Relay</span>
             </div>
           </div>
 
-          <!-- Repositories -->
           <div class="space-y-2 mb-4">
             <div class="p-3 rounded-xl bg-slate-950/60 border border-slate-800/80 text-xs">
               <div class="flex items-center justify-between mb-1">
@@ -600,7 +728,7 @@
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400">
+        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400 relative z-10">
           <a href="https://github.com/Mahdi-mortazavi" target="_blank" class="text-emerald-400 hover:underline flex items-center gap-1">
             <i class="fa-brands fa-github"></i>
             <span>Mahdi-mortazavi</span>
@@ -612,12 +740,18 @@
         </div>
       </div>
 
-      <!-- Rank #8: Ali Rashidi (18 Followers) -->
-      <div class="p-6 rounded-2xl card-glass border border-slate-800 hover:border-cyan-500/50 transition flex flex-col justify-between group relative">
-        <div class="absolute -top-3 right-6 bg-slate-800 text-slate-300 text-xs font-bold px-2.5 py-0.5 rounded-full border border-slate-700">
+      <!-- Dev 8: Ali Rashidi -->
+      <div class="dev-card p-6 rounded-2xl card-spotlight flex flex-col justify-between group relative"
+           data-name="علی رشیدی ali rashidi aliinreallife"
+           data-followers="18"
+           data-stars="25"
+           data-repos="17"
+           data-activity="3"
+           data-category="frontend">
+        <div class="absolute -top-3 right-6 bg-slate-800 text-slate-300 text-xs font-bold px-2.5 py-0.5 rounded-full border border-slate-700 z-10">
           رتبه ۸
         </div>
-        <div>
+        <div class="relative z-10">
           <div class="flex items-center justify-between mb-4 mt-1">
             <div class="flex items-center gap-3">
               <img src="https://avatars.githubusercontent.com/u/91134550?v=4" alt="Ali Rashidi" class="w-14 h-14 rounded-2xl border-2 border-cyan-500/40 object-cover shadow-md">
@@ -629,7 +763,6 @@
             <a href="https://github.com/aliinreallife" target="_blank" class="text-slate-400 hover:text-white text-xl transition"><i class="fa-brands fa-github"></i></a>
           </div>
 
-          <!-- User Stats Badges -->
           <div class="grid grid-cols-3 gap-2 p-2.5 rounded-xl bg-slate-950/80 border border-slate-800/80 mb-3 text-center">
             <div>
               <div class="text-xs text-slate-400">دنبال‌کننده</div>
@@ -645,18 +778,16 @@
             </div>
           </div>
 
-          <!-- 30-Day Activity Bar -->
           <div class="p-2.5 rounded-xl bg-slate-900/90 border border-slate-800 mb-4 flex items-center justify-between text-xs">
             <div class="flex items-center gap-2">
               <span class="w-2 h-2 rounded-full bg-cyan-400 pulse-dot"></span>
               <span class="text-slate-300 font-medium">فعالیت ۳۰ روز اخیر:</span>
             </div>
             <div class="flex items-center gap-2">
-              <span class="font-bold text-cyan-400">۳ رویداد و کامیت روی aliinreallife/metto</span>
+              <span class="font-bold text-cyan-400">۳ رویداد و کامیت روی Metto</span>
             </div>
           </div>
 
-          <!-- Repositories -->
           <div class="space-y-2 mb-4">
             <div class="p-3 rounded-xl bg-slate-950/60 border border-slate-800/80 text-xs">
               <div class="flex items-center justify-between mb-1">
@@ -667,7 +798,7 @@
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400">
+        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400 relative z-10">
           <a href="https://github.com/aliinreallife" target="_blank" class="text-cyan-400 hover:underline flex items-center gap-1">
             <i class="fa-brands fa-github"></i>
             <span>aliinreallife</span>
@@ -679,13 +810,19 @@
         </div>
       </div>
 
-      <!-- Rank #9: Ardalan Ketabchi (3 Followers & 60 Events / Super Active) -->
-      <div class="p-6 rounded-2xl card-glass border-2 border-emerald-500/60 hover:border-emerald-400 transition flex flex-col justify-between group relative">
-        <div class="absolute -top-3.5 right-6 bg-gradient-to-r from-emerald-600 to-teal-500 text-white text-xs font-black px-3 py-1 rounded-full shadow-lg flex items-center gap-1">
+      <!-- Dev 9: Ardalan Ketabchi -->
+      <div class="dev-card p-6 rounded-2xl card-spotlight flex flex-col justify-between group relative"
+           data-name="اردلان کتابچی ardalan ketabchi ketabchi-ar"
+           data-followers="3"
+           data-stars="10"
+           data-repos="13"
+           data-activity="60"
+           data-category="ai">
+        <div class="absolute -top-3.5 right-6 bg-gradient-to-r from-emerald-600 to-teal-500 text-white text-xs font-black px-3 py-1 rounded-full shadow-lg flex items-center gap-1 z-10">
           <i class="fa-solid fa-bolt"></i>
           <span>بسیار فعال (Super Active)</span>
         </div>
-        <div>
+        <div class="relative z-10">
           <div class="flex items-center justify-between mb-4 mt-2">
             <div class="flex items-center gap-3">
               <img src="https://avatars.githubusercontent.com/u/49709301?v=4" alt="Ardalan" class="w-14 h-14 rounded-2xl border-2 border-teal-500/50 object-cover shadow-md">
@@ -697,7 +834,6 @@
             <a href="https://github.com/ketabchi-ar" target="_blank" class="text-slate-400 hover:text-white text-xl transition"><i class="fa-brands fa-github"></i></a>
           </div>
 
-          <!-- User Stats Badges -->
           <div class="grid grid-cols-3 gap-2 p-2.5 rounded-xl bg-slate-950/80 border border-slate-800/80 mb-3 text-center">
             <div>
               <div class="text-xs text-slate-400">دنبال‌کننده</div>
@@ -713,7 +849,6 @@
             </div>
           </div>
 
-          <!-- 30-Day Activity Bar -->
           <div class="p-2.5 rounded-xl bg-emerald-950/40 border border-emerald-500/30 mb-4 flex items-center justify-between text-xs">
             <div class="flex items-center gap-2">
               <span class="w-2 h-2 rounded-full bg-emerald-400 pulse-dot"></span>
@@ -724,7 +859,6 @@
             </div>
           </div>
 
-          <!-- Repositories -->
           <div class="space-y-2 mb-4">
             <div class="p-3 rounded-xl bg-slate-950/60 border border-slate-800/80 text-xs">
               <div class="font-bold text-teal-400 mb-1">Trading Bot & Automation Engine</div>
@@ -732,7 +866,7 @@
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400">
+        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400 relative z-10">
           <a href="https://github.com/ketabchi-ar" target="_blank" class="text-teal-400 hover:underline flex items-center gap-1">
             <i class="fa-brands fa-github"></i>
             <span>ketabchi-ar</span>
@@ -747,7 +881,51 @@
     </div>
   </section>
 
-  <!-- Sponsorship Collaboration Models Section (6-Month and 1-Year Periods, Individual vs Hub-wide) -->
+  <!-- Interactive Live Badge Generator Section -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t border-slate-800/80">
+    <div class="p-8 sm:p-10 rounded-3xl bg-gradient-to-tr from-slate-900 via-indigo-950/30 to-slate-900 border border-slate-800 relative">
+      <div class="max-w-3xl mb-8">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-bold mb-3">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          سازنده آنی بج رسمی برای README پروژه شما
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-black text-white">دریافت نشان رسمی عضویت در DevSponsors</h2>
+        <p class="text-slate-400 text-xs sm:text-sm mt-1">با قرار دادن این بج در README پروژه، اسپانسرها و کاربران با یک کلیک به صفحه حامیان شما هدایت می‌شوند.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div class="space-y-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-300 mb-1">نوع نشان رسمی:</label>
+            <select id="badge-style-select" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2.5 text-xs text-white focus:outline-none focus:border-indigo-500 transition">
+              <option value="verified">عضو تاییدشده (Verified OSS Member)</option>
+              <option value="sponsor">دعوت به اسپانسرشیپ (Sponsor Welcome)</option>
+              <option value="cloud">زیرساخت ابری (Infrastructure Ready)</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-300 mb-1">پیش‌نمایش زنده بج:</label>
+            <div id="badge-preview-box" class="p-4 rounded-xl bg-slate-950 border border-slate-800 flex items-center justify-center min-h-[60px]">
+              <img id="badge-preview-img" src="https://img.shields.io/badge/DevSponsors-Verified_OSS-6366f1?style=for-the-badge&logo=github" alt="Preview Badge" class="h-8">
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-3">
+          <div class="flex items-center justify-between">
+            <label class="text-xs font-bold text-slate-300">کد آماده Markdown برای README:</label>
+            <button id="copy-badge-btn" class="px-3 py-1 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition flex items-center gap-1.5 shadow">
+              <i class="fa-solid fa-copy"></i>
+              <span id="copy-text">کپی کد</span>
+            </button>
+          </div>
+          <textarea id="badge-markdown-code" readonly rows="4" class="w-full bg-slate-950 p-3 rounded-xl text-xs text-indigo-300 font-mono border border-slate-800 focus:outline-none resize-none" dir="ltr">[![DevSponsors](https://img.shields.io/badge/DevSponsors-Verified_OSS-6366f1?style=for-the-badge&logo=github)](https://devsponsors.github.io)</textarea>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sponsorship Collaboration Models Section (6-Month and 1-Year Periods) -->
   <section id="packages" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t border-slate-800">
     <div class="text-center mb-12">
       <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-bold mb-3">
@@ -761,19 +939,19 @@
     <!-- Period & Scope Selection Cards -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
 
-      <!-- Model A: Individual Developer / Single Project Sponsor -->
-      <div class="rounded-3xl card-glass border-2 border-indigo-500/50 p-8 flex flex-col justify-between hover:border-indigo-400 transition relative">
-        <div class="absolute -top-3.5 right-8 bg-indigo-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">
+      <!-- Model A: Individual Developer Sponsor -->
+      <div class="rounded-3xl card-spotlight p-8 flex flex-col justify-between hover:border-indigo-400 transition relative">
+        <div class="absolute -top-3.5 right-8 bg-indigo-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow z-10">
           اسپانسر تک‌نفره / تک‌پروژه
         </div>
-        <div>
+        <div class="relative z-10">
           <div class="flex items-center gap-3 mb-4">
             <div class="w-12 h-12 rounded-2xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center text-xl">
               <i class="fa-solid fa-user-astronaut"></i>
             </div>
             <div>
               <h3 class="text-xl font-bold text-white">حمایت اختصاصی از یک توسعه‌دهنده</h3>
-              <p class="text-slate-400 text-xs mt-0.5">مناسب برای تمرکز روی یک پروژه خاص با مخاطب هدف مشخص (مثلاً فقط ابزارهای شبکه یا فقط فلاتر)</p>
+              <p class="text-slate-400 text-xs mt-0.5">مناسب برای تمرکز روی یک پروژه خاص با مخاطب هدف مشخص (مثلاً ابزارهای شبکه یا تقویم و UI)</p>
             </div>
           </div>
 
@@ -804,18 +982,18 @@
           </div>
         </div>
 
-        <a href="mailto:m4tinbeigi@gmail.com?subject=درخواست اسپانسری اختصاصی یک برنامه‌نویس" class="w-full py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-bold text-center text-xs transition flex items-center justify-center gap-2">
+        <a href="mailto:m4tinbeigi@gmail.com?subject=درخواست اسپانسری اختصاصی یک برنامه‌نویس" class="w-full py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-bold text-center text-xs transition flex items-center justify-center gap-2 relative z-10">
           <i class="fa-solid fa-envelope"></i>
           <span>درخواست اسپانسر تک‌نفره (ارسال ایمیل)</span>
         </a>
       </div>
 
       <!-- Model B: All-Hub Sponsor (Network Wide) -->
-      <div class="rounded-3xl card-glass border-2 border-emerald-500/60 p-8 flex flex-col justify-between hover:border-emerald-400 transition relative shadow-2xl shadow-emerald-500/10">
-        <div class="absolute -top-3.5 right-8 bg-gradient-to-r from-emerald-600 to-teal-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow">
+      <div class="rounded-3xl card-spotlight p-8 flex flex-col justify-between hover:border-emerald-400 transition relative shadow-2xl shadow-emerald-500/10 border-emerald-500/50">
+        <div class="absolute -top-3.5 right-8 bg-gradient-to-r from-emerald-600 to-teal-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow z-10">
           اسپانسرشیپ جامع کل اعضا (All-in-One)
         </div>
-        <div>
+        <div class="relative z-10">
           <div class="flex items-center gap-3 mb-4">
             <div class="w-12 h-12 rounded-2xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl">
               <i class="fa-solid fa-network-wired"></i>
@@ -853,7 +1031,7 @@
           </div>
         </div>
 
-        <a href="mailto:m4tinbeigi@gmail.com?subject=درخواست اسپانسرشیپ جامع کل هاب متن‌باز" class="w-full py-3 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-center text-xs shadow-lg shadow-emerald-600/30 transition flex items-center justify-center gap-2">
+        <a href="mailto:m4tinbeigi@gmail.com?subject=درخواست اسپانسرشیپ جامع کل هاب متن‌باز" class="w-full py-3 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-center text-xs shadow-lg shadow-emerald-600/30 transition flex items-center justify-center gap-2 relative z-10">
           <i class="fa-solid fa-envelope"></i>
           <span>درخواست اسپانسرشیپ کل هاب (ارسال ایمیل)</span>
         </a>
@@ -877,6 +1055,142 @@
       <div class="text-xs text-slate-500 mt-10">© ۲۰۲۶ DevSponsors (Persian OSS Sponsors Hub) | کلیه حقوق محفوظ است.</div>
     </div>
   </footer>
+
+  <!-- Interactive JavaScript Engine -->
+  <script>
+    // 1. Mouse Spotlight Glow on Bento Cards
+    document.querySelectorAll('.card-spotlight').forEach(card => {
+      card.addEventListener('mousemove', e => {
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        card.style.setProperty('--mouse-x', `${x}px`);
+        card.style.setProperty('--mouse-y', `${y}px`);
+      });
+    });
+
+    // 2. Animated Number Counters
+    const counters = document.querySelectorAll('.counter');
+    const animateCounters = () => {
+      counters.forEach(counter => {
+        const target = +counter.getAttribute('data-target');
+        let count = 0;
+        const speed = target / 50;
+        const updateCount = () => {
+          count += speed;
+          if (count < target) {
+            counter.innerText = Math.ceil(count).toLocaleString('fa-IR');
+            setTimeout(updateCount, 25);
+          } else {
+            counter.innerText = target.toLocaleString('fa-IR');
+          }
+        };
+        updateCount();
+      });
+    };
+    animateCounters();
+
+    // 3. Live Search & Category Filter & Dynamic Sorting
+    const searchInput = document.getElementById('dev-search');
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const sortSelect = document.getElementById('dev-sort');
+    const devContainer = document.getElementById('dev-container');
+    let cards = Array.from(document.querySelectorAll('.dev-card'));
+
+    let activeFilter = 'all';
+    let searchQuery = '';
+
+    function filterAndSortCards() {
+      // Filter logic
+      cards.forEach(card => {
+        const name = card.getAttribute('data-name').toLowerCase();
+        const cat = card.getAttribute('data-category');
+        const matchesCat = (activeFilter === 'all' || cat === activeFilter);
+        const matchesSearch = name.includes(searchQuery);
+
+        if (matchesCat && matchesSearch) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      // Sort logic
+      const sortType = sortSelect.value;
+      const visibleCards = cards.filter(c => c.style.display !== 'none');
+
+      visibleCards.sort((a, b) => {
+        const valA = parseInt(a.getAttribute(`data-${sortType}`) || 0, 10);
+        const valB = parseInt(b.getAttribute(`data-${sortType}`) || 0, 10);
+        return valB - valA;
+      });
+
+      visibleCards.forEach(card => devContainer.appendChild(card));
+    }
+
+    searchInput.addEventListener('input', e => {
+      searchQuery = e.target.value.toLowerCase().trim();
+      filterAndSortCards();
+    });
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => {
+          b.classList.remove('bg-indigo-600', 'text-white');
+          b.classList.add('bg-slate-950', 'text-slate-400', 'border', 'border-slate-800');
+        });
+        btn.classList.remove('bg-slate-950', 'text-slate-400', 'border', 'border-slate-800');
+        btn.classList.add('bg-indigo-600', 'text-white');
+        activeFilter = btn.getAttribute('data-filter');
+        filterAndSortCards();
+      });
+    });
+
+    sortSelect.addEventListener('change', () => {
+      filterAndSortCards();
+    });
+
+    // 4. Interactive Live Badge Generator
+    const badgeSelect = document.getElementById('badge-style-select');
+    const badgeImg = document.getElementById('badge-preview-img');
+    const badgeTextarea = document.getElementById('badge-markdown-code');
+    const copyBtn = document.getElementById('copy-badge-btn');
+    const copyText = document.getElementById('copy-text');
+
+    const badgeTemplates = {
+      verified: {
+        img: "https://img.shields.io/badge/DevSponsors-Verified_OSS-6366f1?style=for-the-badge&logo=github",
+        code: "[![DevSponsors](https://img.shields.io/badge/DevSponsors-Verified_OSS-6366f1?style=for-the-badge&logo=github)](https://devsponsors.github.io)"
+      },
+      sponsor: {
+        img: "https://img.shields.io/badge/Sponsor-DevSponsors_Hub-emerald?style=for-the-badge&logo=github-sponsors",
+        code: "[![Sponsor](https://img.shields.io/badge/Sponsor-DevSponsors_Hub-emerald?style=for-the-badge&logo=github-sponsors)](https://devsponsors.github.io)"
+      },
+      cloud: {
+        img: "https://img.shields.io/badge/Infrastructure-DevSponsors_Cloud-ec4899?style=for-the-badge&logo=server",
+        code: "[![Cloud](https://img.shields.io/badge/Infrastructure-DevSponsors_Cloud-ec4899?style=for-the-badge&logo=server)](https://devsponsors.github.io/mediakit.html)"
+      }
+    };
+
+    badgeSelect.addEventListener('change', () => {
+      const selected = badgeTemplates[badgeSelect.value];
+      badgeImg.src = selected.img;
+      badgeTextarea.value = selected.code;
+    });
+
+    copyBtn.addEventListener('click', () => {
+      navigator.clipboard.writeText(badgeTextarea.value).then(() => {
+        copyText.innerText = "کپی شد! ✓";
+        copyBtn.classList.remove('bg-indigo-600');
+        copyBtn.classList.add('bg-emerald-600');
+        setTimeout(() => {
+          copyText.innerText = "کپی کد";
+          copyBtn.classList.remove('bg-emerald-600');
+          copyBtn.classList.add('bg-indigo-600');
+        }, 2000);
+      });
+    });
+  </script>
 
 </body>
 </html>
