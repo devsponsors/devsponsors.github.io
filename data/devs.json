@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T05:58:06.318294+00:00",
+  "updated_at": "2026-09-13T07:30:23.901696+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
@@ -42,19 +42,24 @@
     {
       "username": "m4tinbeigi-official",
       "name_fa": "ریک سانچز (Rick Sanchez)",
-      "role_fa": "معمار ایجنت‌های خودمختار & Vibe Coding",
+      "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 334,
+      "followers": 335,
       "public_repos": 283,
-      "total_stars": 210,
+      "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 76,
-        "pushes_count": 76
+        "commits_count": 79,
+        "pushes_count": 79
       },
       "featured_repos": [
-        "m4tinbeigi-official/freemovieir.github.io",
-        "m4tinbeigi-official/antigravity-account-switcher"
+        "FreeMovieIR/freemovieir.github.io",
+        "FontWoW/FontWoW.github.io",
+        "Antigravity-Community",
+        "HermesAgent-Community",
+        "RepoFA/RepoFA.github.io",
+        "BookBloger",
+        "techblogger-ir"
       ],
       "rank": 3
     },
@@ -86,8 +91,8 @@
       "total_stars": 350,
       "activity_30d": {
         "events_count": 98,
-        "commits_count": 53,
-        "pushes_count": 53
+        "commits_count": 54,
+        "pushes_count": 54
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -142,8 +147,8 @@
       "total_stars": 28,
       "activity_30d": {
         "events_count": 99,
-        "commits_count": 30,
-        "pushes_count": 30
+        "commits_count": 31,
+        "pushes_count": 31
       },
       "featured_repos": [
         "aliinreallife/metto"

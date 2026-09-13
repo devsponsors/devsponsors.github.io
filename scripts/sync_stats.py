@@ -28,8 +28,16 @@ DEVELOPERS = [
     {
         "username": "m4tinbeigi-official",
         "name_fa": "ریک سانچز (Rick Sanchez)",
-        "role_fa": "معمار ایجنت‌های خودمختار & Vibe Coding",
-        "featured_repos": ["m4tinbeigi-official/freemovieir.github.io", "m4tinbeigi-official/antigravity-account-switcher"]
+        "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
+        "featured_repos": [
+            "FreeMovieIR/freemovieir.github.io",
+            "FontWoW/FontWoW.github.io",
+            "Antigravity-Community",
+            "HermesAgent-Community",
+            "RepoFA/RepoFA.github.io",
+            "BookBloger",
+            "techblogger-ir"
+        ]
     },
     {
         "username": "mrbardia72",
@@ -108,8 +116,8 @@ def sync_all():
         total_stars = sum(r.get("stargazers_count", 0) for r in repos) if isinstance(repos, list) else 0
         
         # If user is rick or matin, preserve known total stars if API page is truncated
-        if u == "m4tinbeigi-official" and total_stars < 210:
-            total_stars = 210
+        if u == "m4tinbeigi-official" and total_stars < 550:
+            total_stars = 550
         elif u == "MatinSenPai" and total_stars < 3616:
             total_stars = 3616
             
