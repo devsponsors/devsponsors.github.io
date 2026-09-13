@@ -40,6 +40,17 @@ DEVELOPERS = [
         ]
     },
     {
+        "username": "ZethRise",
+        "name_fa": "زث (Zeth)",
+        "role_fa": "توسعه کلاینت‌های شبکه، Rust, C# & Kotlin",
+        "featured_repos": [
+            "ZethRise/SpoofGUI",
+            "ZethRise/Aethery",
+            "ZethRise/FelFelChat",
+            "ZethRise/Ronami"
+        ]
+    },
+    {
         "username": "mrbardia72",
         "name_fa": "بردیا کاظمی (Bardia Kazemi)",
         "role_fa": "آموزش تخصصی گیت و Golang",
