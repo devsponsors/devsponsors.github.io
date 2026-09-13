@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevSponsors | هاب اسپانسرشیپ توسعه‌دهندگان و پروژه‌های متن‌باز ایران</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;900&display=swap');
+    body { font-family: 'Vazirmatn', sans-serif; }
+    .gradient-glow {
+      background: radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.15), transparent 70%);
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen gradient-glow">
+
+  <!-- Navigation -->
+  <nav class="border-b border-slate-800/80 bg-slate-900/80 backdrop-blur-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-purple-600 flex items-center justify-center text-white text-xl shadow-lg shadow-indigo-500/20">
+          <i class="fa-brands fa-github"></i>
+        </div>
+        <div>
+          <span class="font-black text-lg text-white block leading-tight">DevSponsors</span>
+          <span class="text-[11px] text-slate-400">هاب حامیان مالی و اسپانسرشیپ متن‌باز ایران</span>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="#developers" class="hidden sm:inline-block px-3 py-2 text-xs font-medium text-slate-300 hover:text-white transition">توسعه‌دهندگان</a>
+        <a href="#packages" class="hidden sm:inline-block px-3 py-2 text-xs font-medium text-slate-300 hover:text-white transition">پلن‌های اسپانسری</a>
+        <a href="https://t.me/M4tinBeigiPV" target="_blank" class="px-4 py-2 text-xs sm:text-sm font-semibold rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white transition flex items-center gap-2 shadow-lg shadow-indigo-600/30">
+          <i class="fa-solid fa-handshake"></i>
+          <span>ثبت درخواست اسپانسری</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="py-16 px-4 text-center max-w-4xl mx-auto">
+    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-medium mb-6">
+      <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
+      کانال رسمی ارتباط برندها و شرکت‌های ابری با برنامه‌نویسان پیشرو متن‌باز ایران
+    </div>
+    <h1 class="text-3xl sm:text-5xl font-extrabold text-white leading-tight mb-6">
+      حمایت هدفمند از <span class="bg-gradient-to-r from-blue-400 via-indigo-300 to-pink-400 bg-clip-text text-transparent">سازندگان تکنولوژی</span> و پروژه‌های متن‌باز ایران
+    </h1>
+    <p class="text-slate-400 text-base sm:text-lg leading-relaxed mb-8">
+      برند، سرورهای ابری، زیرساخت و خدمات هوش مصنوعی خود را در صفحه اول محبوب‌ترین ریپازیتوری‌های گیت‌هاب، مستندات فارسی و رسانه‌های تخصصی توسعه‌دهندگان پربازدید ایران نمایش دهید.
+    </p>
+
+    <!-- Stats Counter -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-3xl mx-auto pt-4 border-t border-slate-800/80">
+      <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+        <div class="text-2xl font-black text-blue-400">۵۰+</div>
+        <div class="text-xs text-slate-400 mt-1">پروژه پرمخاطب گیت‌هاب</div>
+      </div>
+      <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+        <div class="text-2xl font-black text-indigo-400">۲۵۰k+</div>
+        <div class="text-xs text-slate-400 mt-1">ایمپرشن ماهانه دولوپری</div>
+      </div>
+      <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+        <div class="text-2xl font-black text-pink-400">۱۰۰٪</div>
+        <div class="text-xs text-slate-400 mt-1">مخاطب مهندس و برنامه‌نویس</div>
+      </div>
+      <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+        <div class="text-2xl font-black text-emerald-400">ROI بالا</div>
+        <div class="text-xs text-slate-400 mt-1">جذب لید و کاربر وفادار سازمانی</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sponsorship Packages Grid -->
+  <section id="packages" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="text-center mb-12">
+      <h2 class="text-2xl sm:text-3xl font-bold text-white mb-3">پکیج‌های اسپانسرینگ سازمانی و ابری</h2>
+      <p class="text-slate-400 text-sm">پلن‌های منعطف برای هاستینگ‌ها، سرویس‌های ابری، صرافی‌ها و پلتفرم‌های هوش مصنوعی</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Package 1: Tier Starter -->
+      <div class="rounded-2xl bg-slate-900/90 border border-slate-800 p-6 flex flex-col justify-between hover:border-slate-700 transition">
+        <div>
+          <div class="text-xs font-bold text-blue-400 tracking-wider uppercase mb-2">پلن ابری و استارتاپی</div>
+          <h3 class="text-xl font-bold text-white mb-4">اسپانسر برنزی ریپازیتوری‌ها</h3>
+          <div class="text-3xl font-extrabold text-white mb-6">۱۰ <span class="text-sm font-normal text-slate-400">م.ت / ماهانه</span></div>
+          <ul class="space-y-3 text-sm text-slate-300 mb-8">
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-blue-500"></i> درج لوگو و لینک فالو در انتهای README ۵ ریپازیتوری پرمخاطب</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-blue-500"></i> منشن ماهانه در کانال تلگرام توسعه‌دهندگان</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-blue-500"></i> گزارش تحلیلی کلیک و ترافیک ورودی</li>
+          </ul>
+        </div>
+        <a href="https://t.me/M4tinBeigiPV?text=درخواست_اسپانسر_برنزی_گیت‌هاب" target="_blank" class="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-medium text-center text-sm transition">انتخاب این پلن</a>
+      </div>
+
+      <!-- Package 2: Tier Featured (Golden) -->
+      <div class="rounded-2xl bg-slate-900 border-2 border-indigo-500 p-6 flex flex-col justify-between relative shadow-xl shadow-indigo-500/10 md:scale-105">
+        <div class="absolute -top-3 right-6 bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-[11px] font-bold px-3 py-1 rounded-full shadow">پیشنهاد طلایی زیرساخت</div>
+        <div>
+          <div class="text-xs font-bold text-indigo-400 tracking-wider uppercase mb-2">پلن اختصاصی هاستینگ و هوش مصنوعی</div>
+          <h3 class="text-xl font-bold text-white mb-4">اسپانسر طلایی (Powered By)</h3>
+          <div class="text-3xl font-extrabold text-white mb-6">۲۵ <span class="text-sm font-normal text-slate-400">م.ت / ماهانه</span></div>
+          <ul class="space-y-3 text-sm text-slate-300 mb-8">
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-400"></i> لوگوی بزرگ بالای عنوان پروژه (Header Sponsor) در ۱۵ ریپازیتوری برتر</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-400"></i> درج تگ رسمی: "Powered by [برند شما]" در داکیومنت‌ها</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-400"></i> ۱ رپرتاژ اختصاصی ماهانه در لینکدین ۲۵k کانکشن</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-400"></i> معرفی در کانال‌ها و توییت‌های متین سنپای و ریک</li>
+          </ul>
+        </div>
+        <a href="https://t.me/M4tinBeigiPV?text=درخواست_اسپانسر_طلایی_گیت‌هاب" target="_blank" class="w-full py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold text-center text-sm shadow-lg shadow-indigo-500/30 transition">بستن قرارداد طلایی</a>
+      </div>
+
+      <!-- Package 3: Tier 360 Full Stack -->
+      <div class="rounded-2xl bg-slate-900/90 border border-slate-800 p-6 flex flex-col justify-between hover:border-slate-700 transition">
+        <div>
+          <div class="text-xs font-bold text-pink-400 tracking-wider uppercase mb-2">پکیج ۳۶۰ درجه رسانه + گیت‌هاب</div>
+          <h3 class="text-xl font-bold text-white mb-4">کمپین همه‌جانبه دولوپری</h3>
+          <div class="text-3xl font-extrabold text-white mb-6">۵۰ <span class="text-sm font-normal text-slate-400">م.ت / ماهانه</span></div>
+          <ul class="space-y-3 text-sm text-slate-300 mb-8">
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-pink-500"></i> اسپانسرشیپ کامل گیت‌هاب فارسی و کل ریپازیتوری‌ها</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-pink-500"></i> سناریو و ویدیوی اختصاصی در کانال یوتیوب متین سنپای</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-pink-500"></i> ۲ پست رپرتاژ لینکدین + توییت‌های زنجیره‌ای پربازدید</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-pink-500"></i> ستاپ بریف‌های کدنویسی و نمونه‌کد رسمی محصول شما</li>
+          </ul>
+        </div>
+        <a href="https://t.me/M4tinBeigiPV?text=درخواست_کمپین_۳۶۰_دولوپری" target="_blank" class="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-medium text-center text-sm transition">مشاوره و رزرو کمپین</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Developers and Repos Section -->
+  <section id="developers" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-slate-800">
+    <div class="flex flex-col sm:flex-row items-center justify-between mb-8 gap-4">
+      <div>
+        <h2 class="text-2xl font-bold text-white">توسعه‌دهندگان و پروژه‌های عضو هاب</h2>
+        <p class="text-slate-400 text-sm mt-1">پروژه‌های آماده درج نشان، بنر تجاری و حمایت برندهای پیشرو</p>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="px-3 py-1 rounded-lg bg-slate-800 text-xs text-slate-300 border border-slate-700">شبکه & تونل</span>
+        <span class="px-3 py-1 rounded-lg bg-slate-800 text-xs text-slate-300 border border-slate-700">هوش مصنوعی & ایجنت</span>
+        <span class="px-3 py-1 rounded-lg bg-slate-800 text-xs text-slate-300 border border-slate-700">فرانت‌اند & ابزارها</span>
+      </div>
+    </div>
+
+    <!-- Developer Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- Dev 1: Rick Sanchez -->
+      <div class="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-indigo-500/50 transition flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-indigo-600 to-purple-600 flex items-center justify-center text-white font-black text-lg">
+                RS
+              </div>
+              <div>
+                <h3 class="font-bold text-white text-base">ریک سانچز</h3>
+                <p class="text-xs text-slate-400">معمار سیستم‌های خودمختار & Vibe Coding</p>
+              </div>
+            </div>
+            <a href="https://github.com/m4tinbeigi-official" target="_blank" class="text-slate-400 hover:text-white text-lg"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div class="space-y-2 mb-4">
+            <div class="p-2.5 rounded-lg bg-slate-950/60 border border-slate-800/80 text-xs">
+              <a href="https://github.com/m4tinbeigi-official/antigravity-account-switcher" target="_blank" class="font-semibold text-indigo-400 hover:underline flex items-center justify-between">
+                <span>antigravity-account-switcher</span>
+                <span class="text-[10px] text-slate-500">⭐ 227</span>
+              </a>
+              <p class="text-slate-400 text-[11px] mt-1">سوئیچ سریع اکانت‌ها در پلتفرم Antigravity</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400">
+          <span>۲۵k لینکدین & رسانه</span>
+          <span class="text-emerald-400 font-medium">آماده اسپانسر</span>
+        </div>
+      </div>
+
+      <!-- Dev 2: Matin SenPai -->
+      <div class="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-blue-500/50 transition flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-blue-600 to-cyan-600 flex items-center justify-center text-white font-black text-lg">
+                MS
+              </div>
+              <div>
+                <h3 class="font-bold text-white text-base">متین سنپای</h3>
+                <p class="text-xs text-slate-400">توسعه هوش مصنوعی & ابزارهای تخصصی تک</p>
+              </div>
+            </div>
+            <a href="https://github.com/m4tinbeigi-official" target="_blank" class="text-slate-400 hover:text-white text-lg"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div class="space-y-2 mb-4">
+            <div class="p-2.5 rounded-lg bg-slate-950/60 border border-slate-800/80 text-xs">
+              <div class="font-semibold text-blue-400">پروژه‌های کامیونیتی و تولید محتوای فنی</div>
+              <p class="text-slate-400 text-[11px] mt-1">آموزش ابزارهای AI، بررسی سرویس‌های ابری و ویدیوهای مهندسی</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400">
+          <span>کامیونیتی یوتیوب و تلگرام</span>
+          <span class="text-emerald-400 font-medium">آماده اسپانسر</span>
+        </div>
+      </div>
+
+      <!-- Dev 3: Mahdi Mortazavi -->
+      <div class="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-emerald-500/50 transition flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-600 flex items-center justify-center text-white font-black text-lg">
+                MM
+              </div>
+              <div>
+                <h3 class="font-bold text-white text-base">محمد مهدی مرتضوی</h3>
+                <p class="text-xs text-slate-400">کاتلین، وایرگارد و سیستم‌های کلاینت</p>
+              </div>
+            </div>
+            <a href="https://github.com/Mahdi-mortazavi" target="_blank" class="text-slate-400 hover:text-white text-lg"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div class="space-y-2 mb-4">
+            <div class="p-2.5 rounded-lg bg-slate-950/60 border border-slate-800/80 text-xs">
+              <a href="https://github.com/Mahdi-mortazavi/relay" target="_blank" class="font-semibold text-emerald-400 hover:underline flex items-center justify-between">
+                <span>Mahdi-mortazavi/relay</span>
+                <span class="text-[10px] text-slate-500">⭐ 467</span>
+              </a>
+              <p class="text-slate-400 text-[11px] mt-1">اتصال لوکال اندروید به ویندوز با پروتکل WireGuard</p>
+            </div>
+            <div class="p-2.5 rounded-lg bg-slate-950/60 border border-slate-800/80 text-xs">
+              <a href="https://github.com/Mahdi-mortazavi/flow" target="_blank" class="font-semibold text-emerald-400 hover:underline flex items-center justify-between">
+                <span>Mahdi-mortazavi/flow</span>
+                <span class="text-[10px] text-slate-500">Flutter</span>
+              </a>
+              <p class="text-slate-400 text-[11px] mt-1">اپلیکیشن آفلاین تمرکز و عادت با فلاتر و RTL کامل</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400">
+          <span>@Mahdi_mortazavi1</span>
+          <span class="text-emerald-400 font-medium">پروژه‌های تایید شده</span>
+        </div>
+      </div>
+
+      <!-- Dev 4: Taymaz Akbari -->
+      <div class="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-amber-500/50 transition flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-amber-600 to-orange-600 flex items-center justify-center text-white font-black text-lg">
+                TA
+              </div>
+              <div>
+                <h3 class="font-bold text-white text-base">تایماز اکبری</h3>
+                <p class="text-xs text-slate-400">ناوبری شهری، فرانت‌اند و کامپوننت‌های فارسی</p>
+              </div>
+            </div>
+            <a href="https://github.com/taymakz" target="_blank" class="text-slate-400 hover:text-white text-lg"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div class="space-y-2 mb-4">
+            <div class="p-2.5 rounded-lg bg-slate-950/60 border border-slate-800/80 text-xs">
+              <a href="https://github.com/taymakz/tehgo" target="_blank" class="font-semibold text-amber-400 hover:underline flex items-center justify-between">
+                <span>taymakz/tehgo</span>
+                <span class="text-[10px] text-slate-500">⭐ 160</span>
+              </a>
+              <p class="text-slate-400 text-[11px] mt-1">مسیریاب تعاملی و آفلاین مترو تهران و کرج</p>
+            </div>
+            <div class="p-2.5 rounded-lg bg-slate-950/60 border border-slate-800/80 text-xs">
+              <span class="font-semibold text-amber-400">Persian Labs UI & Icons</span>
+              <p class="text-slate-400 text-[11px] mt-1">مجموعه آیکون‌های برندهای ایرانی و کامپوننت‌های RTL</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400">
+          <span>@Taymakz</span>
+          <span class="text-emerald-400 font-medium">پروژه‌های تایید شده</span>
+        </div>
+      </div>
+
+      <!-- Dev 5: Ehsan Azizi -->
+      <div class="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-violet-500/50 transition flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-violet-600 to-indigo-600 flex items-center justify-center text-white font-black text-lg">
+                EA
+              </div>
+              <div>
+                <h3 class="font-bold text-white text-base">احسان عزیزی</h3>
+                <p class="text-xs text-slate-400">زیرساخت ابری و ابزارهای سلف‌هاستد</p>
+              </div>
+            </div>
+            <a href="https://github.com/TheGreatAzizi" target="_blank" class="text-slate-400 hover:text-white text-lg"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div class="space-y-2 mb-4">
+            <div class="p-2.5 rounded-lg bg-slate-950/60 border border-slate-800/80 text-xs">
+              <a href="https://github.com/TheGreatAzizi/MeetAzi-Stack" target="_blank" class="font-semibold text-violet-400 hover:underline flex items-center justify-between">
+                <span>TheGreatAzizi/MeetAzi-Stack</span>
+                <span class="text-[10px] text-slate-500">DevOps</span>
+              </a>
+              <p class="text-slate-400 text-[11px] mt-1">استک خودکار و زیرساخت توسعه اپلیکیشن</p>
+            </div>
+            <div class="p-2.5 rounded-lg bg-slate-950/60 border border-slate-800/80 text-xs">
+              <a href="https://github.com/TheGreatAzizi/Secure-Pastebin-Self-Hosted" target="_blank" class="font-semibold text-violet-400 hover:underline flex items-center justify-between">
+                <span>Secure-Pastebin-Self-Hosted</span>
+                <span class="text-[10px] text-slate-500">Security</span>
+              </a>
+              <p class="text-slate-400 text-[11px] mt-1">سرویس امن و خصوصی نگهداری و اشتراک‌گذاری متن</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400">
+          <span>@the_azizi</span>
+          <span class="text-emerald-400 font-medium">پروژه‌های تایید شده</span>
+        </div>
+      </div>
+
+      <!-- Dev 6: Bardia -->
+      <div class="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-pink-500/50 transition flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-pink-600 to-rose-600 flex items-center justify-center text-white font-black text-lg">
+                BA
+              </div>
+              <div>
+                <h3 class="font-bold text-white text-base">بردیا (mrbardia72)</h3>
+                <p class="text-xs text-slate-400">آموزش تخصصی گیت و سوالات مصاحبه مهندسی</p>
+              </div>
+            </div>
+            <a href="https://github.com/mrbardia72" target="_blank" class="text-slate-400 hover:text-white text-lg"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div class="space-y-2 mb-4">
+            <div class="p-2.5 rounded-lg bg-slate-950/60 border border-slate-800/80 text-xs">
+              <a href="https://github.com/mrbardia72/git-Interview-Questions-And-Answers" target="_blank" class="font-semibold text-pink-400 hover:underline flex items-center justify-between">
+                <span>git-Interview-Questions-And-Answers</span>
+                <span class="text-[10px] text-slate-500">⭐ 210</span>
+              </a>
+              <p class="text-slate-400 text-[11px] mt-1">مرجع کامل و محبوب نمونه سوالات مصاحبه شغلی گیت</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400">
+          <span>@mrbardia72</span>
+          <span class="text-emerald-400 font-medium">پروژه‌های تایید شده</span>
+        </div>
+      </div>
+
+      <!-- Dev 7: Ali Rashidi -->
+      <div class="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-cyan-500/50 transition flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-cyan-600 to-blue-600 flex items-center justify-center text-white font-black text-lg">
+                AR
+              </div>
+              <div>
+                <h3 class="font-bold text-white text-base">علی رشیدی</h3>
+                <p class="text-xs text-slate-400">توسعه پلتفرم‌های تعاملی و وب‌اپلیکیشن</p>
+              </div>
+            </div>
+            <a href="https://github.com/aliinreallife" target="_blank" class="text-slate-400 hover:text-white text-lg"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div class="space-y-2 mb-4">
+            <div class="p-2.5 rounded-lg bg-slate-950/60 border border-slate-800/80 text-xs">
+              <a href="https://github.com/aliinreallife/metto" target="_blank" class="font-semibold text-cyan-400 hover:underline flex items-center justify-between">
+                <span>aliinreallife/metto</span>
+                <span class="text-[10px] text-slate-500">⭐ 19</span>
+              </a>
+              <p class="text-slate-400 text-[11px] mt-1">وب‌اپ رایگان و دوزبانه برای ارتباط و خدمات محلی</p>
+            </div>
+            <div class="p-2.5 rounded-lg bg-slate-950/60 border border-slate-800/80 text-xs">
+              <span class="font-semibold text-cyan-400">Novus Platform</span>
+              <p class="text-slate-400 text-[11px] mt-1">پلتفرم مدرن تحت وب با معماری مقیاس‌پذیر</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400">
+          <span>@AliInRealLife</span>
+          <span class="text-emerald-400 font-medium">پروژه‌های تایید شده</span>
+        </div>
+      </div>
+
+      <!-- Dev 8: Amirali Beigi -->
+      <div class="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-yellow-500/50 transition flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-yellow-600 to-amber-600 flex items-center justify-center text-white font-black text-lg">
+                AB
+              </div>
+              <div>
+                <h3 class="font-bold text-white text-base">امیرعلی بیگی</h3>
+                <p class="text-xs text-slate-400">توسعه ابزارهای مدرن و تقویم فارسی</p>
+              </div>
+            </div>
+            <a href="https://github.com/amiralibg" target="_blank" class="text-slate-400 hover:text-white text-lg"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div class="space-y-2 mb-4">
+            <div class="p-2.5 rounded-lg bg-slate-950/60 border border-slate-800/80 text-xs">
+              <a href="https://github.com/amiralibg/Doran" target="_blank" class="font-semibold text-yellow-400 hover:underline flex items-center justify-between">
+                <span>amiralibg/Doran</span>
+                <span class="text-[10px] text-slate-500">⭐ 385</span>
+              </a>
+              <p class="text-slate-400 text-[11px] mt-1">تقویم مدرن شمسی با رابط کاربری مینیمال</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400">
+          <span>@Amiralibgi</span>
+          <span class="text-emerald-400 font-medium">پروژه‌های تایید شده</span>
+        </div>
+      </div>
+
+      <!-- Dev 9: Ardalan Ketabchi -->
+      <div class="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-teal-500/50 transition flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-teal-600 to-emerald-600 flex items-center justify-center text-white font-black text-lg">
+                AK
+              </div>
+              <div>
+                <h3 class="font-bold text-white text-base">اردلان کتابچی</h3>
+                <p class="text-xs text-slate-400">ربات‌های تریدینگ، الگوریتمیک و اتوماسیون داده</p>
+              </div>
+            </div>
+            <a href="https://github.com/ketabchi-ar" target="_blank" class="text-slate-400 hover:text-white text-lg"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div class="space-y-2 mb-4">
+            <div class="p-2.5 rounded-lg bg-slate-950/60 border border-slate-800/80 text-xs">
+              <span class="font-semibold text-teal-400">Trading Bot Engine</span>
+              <p class="text-slate-400 text-[11px] mt-1">موتور تحلیل و معامله خودکار مبتنی بر داده‌های آنچین</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs text-slate-400">
+          <span>@Ketabchi0</span>
+          <span class="text-emerald-400 font-medium">همکار هاب</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA Footer -->
+  <footer class="border-t border-slate-800 py-16 bg-slate-950 text-center">
+    <div class="max-w-2xl mx-auto px-4">
+      <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white text-2xl mx-auto mb-4 shadow-lg shadow-indigo-500/30">
+        <i class="fa-solid fa-rocket"></i>
+      </div>
+      <h3 class="text-2xl font-bold text-white mb-2">آماده نمایش برند خود به جامعه توسعه‌دهندگان هستید؟</h3>
+      <p class="text-slate-400 text-sm mb-6">برای دریافت مدیاکیت کامل، لیست ریپازیتوری‌ها و عقد قرارداد اسپانسرشیپ با ما در ارتباط باشید.</p>
+      <a href="https://t.me/M4tinBeigiPV" target="_blank" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold text-sm shadow-lg shadow-indigo-600/30 transition">
+        <i class="fa-brands fa-telegram text-lg"></i>
+        <span>شروع گفتگو در تلگرام (@M4tinBeigiPV)</span>
+      </a>
+      <div class="text-xs text-slate-500 mt-10">© ۲۰۲۶ DevSponsors (Persian OSS Sponsors Hub) | کلیه حقوق محفوظ است.</div>
+    </div>
+  </footer>
+
+</body>
+</html>
