@@ -21,7 +21,7 @@ DEVELOPERS = [
     },
     {
         "username": "TheGreatAzizi",
-        "name_fa": "احسان عزیزی",
+        "name_fa": "محمد مهدی عزیزی (TheGreatAzizi)",
         "role_fa": "زیرساخت ابری، لینوکس و سلف‌هاستد",
         "featured_repos": ["TheGreatAzizi/Secure-Pastebin-Self-Hosted", "TheGreatAzizi/MeetAzi-Stack"]
     },
@@ -41,9 +41,14 @@ DEVELOPERS = [
     },
     {
         "username": "mrbardia72",
-        "name_fa": "بردیا کاظمی",
+        "name_fa": "بردیا کاظمی (Bardia Kazemi)",
         "role_fa": "آموزش تخصصی گیت و Golang",
-        "featured_repos": ["mrbardia72/git-Interview-Questions-And-Answers"]
+        "featured_repos": [
+            "mrbardia72/Go-Interview-Questions-And-Answers",
+            "mrbardia72/docker-Interview-Questions-and-Answers",
+            "mrbardia72/db-Interview-Questions-and-Answers",
+            "mrbardia72/git-Interview-Questions-And-Answers"
+        ]
     },
     {
         "username": "amiralibg",

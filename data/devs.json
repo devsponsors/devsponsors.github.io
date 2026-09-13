@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T07:30:23.901696+00:00",
+  "updated_at": "2026-09-13T08:23:26.203016+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
@@ -22,10 +22,10 @@
     },
     {
       "username": "TheGreatAzizi",
-      "name_fa": "احسان عزیزی",
+      "name_fa": "محمد مهدی عزیزی (TheGreatAzizi)",
       "role_fa": "زیرساخت ابری، لینوکس و سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
-      "followers": 374,
+      "followers": 375,
       "public_repos": 22,
       "total_stars": 1048,
       "activity_30d": {
@@ -44,7 +44,7 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 335,
+      "followers": 336,
       "public_repos": 283,
       "total_stars": 550,
       "activity_30d": {
@@ -65,10 +65,10 @@
     },
     {
       "username": "mrbardia72",
-      "name_fa": "بردیا کاظمی",
+      "name_fa": "بردیا کاظمی (Bardia Kazemi)",
       "role_fa": "آموزش تخصصی گیت و Golang",
       "avatar_url": "https://avatars.githubusercontent.com/u/8832241?v=4",
-      "followers": 76,
+      "followers": 77,
       "public_repos": 10,
       "total_stars": 220,
       "activity_30d": {
@@ -77,6 +77,9 @@
         "pushes_count": 8
       },
       "featured_repos": [
+        "mrbardia72/Go-Interview-Questions-And-Answers",
+        "mrbardia72/docker-Interview-Questions-and-Answers",
+        "mrbardia72/db-Interview-Questions-and-Answers",
         "mrbardia72/git-Interview-Questions-And-Answers"
       ],
       "rank": 4
@@ -86,13 +89,13 @@
       "name_fa": "امیرعلی بیگی",
       "role_fa": "توسعه ابزارهای مدرن & تقویم فارسی",
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
-      "followers": 60,
+      "followers": 61,
       "public_repos": 34,
-      "total_stars": 350,
+      "total_stars": 351,
       "activity_30d": {
         "events_count": 98,
-        "commits_count": 54,
-        "pushes_count": 54
+        "commits_count": 55,
+        "pushes_count": 55
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -105,7 +108,7 @@
       "name_fa": "تایماز اکبری",
       "role_fa": "فرانت‌اند، کامپوننت‌های فارسی و ناوبری",
       "avatar_url": "https://avatars.githubusercontent.com/u/71381670?v=4",
-      "followers": 48,
+      "followers": 49,
       "public_repos": 14,
       "total_stars": 101,
       "activity_30d": {
@@ -142,7 +145,7 @@
       "name_fa": "علی رشیدی",
       "role_fa": "توسعه پلتفرم‌های تعاملی و فول‌استک",
       "avatar_url": "https://avatars.githubusercontent.com/u/91134550?v=4",
-      "followers": 18,
+      "followers": 19,
       "public_repos": 17,
       "total_stars": 28,
       "activity_30d": {
