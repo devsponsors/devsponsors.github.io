@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevSponsors | بج‌های رسمی و نشان‌های عضویت در هاب گیت‌هاب</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap');
+    body { font-family: 'Vazirmatn', sans-serif; }
+    .hero-glow {
+      background: radial-gradient(circle at 50% -20%, rgba(99, 102, 241, 0.18), transparent 70%);
+    }
+    .card-glass {
+      background: rgba(15, 23, 42, 0.75);
+      backdrop-filter: blur(12px);
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen hero-glow selection:bg-indigo-500 selection:text-white">
+
+  <!-- Navigation -->
+  <nav class="border-b border-slate-800/80 bg-slate-950/80 backdrop-blur-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <a href="index.html" class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-purple-600 flex items-center justify-center text-white text-xl shadow-lg shadow-indigo-500/20">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <div>
+          <a href="index.html" class="font-black text-lg text-white block leading-tight">DevSponsors</a>
+          <span class="text-[11px] text-slate-400 font-medium">بج‌ها و کدهای رسمی README</span>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="index.html" class="px-3 py-2 text-xs font-medium text-slate-300 hover:text-white transition">صفحه اصلی</a>
+        <a href="projects.html" class="px-3 py-2 text-xs font-medium text-slate-300 hover:text-white transition">بانک پروژه‌ها</a>
+        <a href="mediakit.html" class="px-3 py-2 text-xs font-medium text-slate-300 hover:text-white transition">مدیاکیت B2B</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Header -->
+  <header class="py-14 px-4 text-center max-w-4xl mx-auto">
+    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-bold mb-5">
+      <i class="fa-solid fa-shield-halved"></i>
+      نشان رسمی عضویت در هاب اسپانسرشیپ متن‌باز ایران
+    </div>
+    <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight mb-4">
+      بج‌های رسمی <span class="bg-gradient-to-r from-blue-400 via-indigo-300 to-pink-400 bg-clip-text text-transparent">README پروژه‌ها</span>
+    </h1>
+    <p class="text-slate-400 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto">
+      کدهای مارک‌داون آماده زیر را در بالای فایل README.md ریپازیتوری خود قرار دهید تا هویت رسمی عضویت در DevSponsors و هدایت اسپانسرها به پروژه شما فعال شود.
+    </p>
+  </header>
+
+  <!-- Badges Collection -->
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 space-y-8">
+
+    <!-- Badge 1: Verified OSS -->
+    <div class="p-6 sm:p-8 rounded-3xl card-glass border border-slate-800 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+      <div class="space-y-2">
+        <span class="text-xs font-bold text-indigo-400 uppercase tracking-wider">نشان رسمی شماره ۱ (Verified Member)</span>
+        <h3 class="text-lg font-bold text-white">بج عضویت تاییدشده در DevSponsors</h3>
+        <p class="text-slate-400 text-xs">نشان رسمی برای بالای README پروژه‌های فعال عضو هاب</p>
+        <div class="pt-2">
+          <img src="https://img.shields.io/badge/DevSponsors-Verified_OSS-6366f1?style=for-the-badge&logo=github" alt="DevSponsors Badge" class="h-8">
+        </div>
+      </div>
+      <div class="w-full md:w-1/2">
+        <div class="relative">
+          <pre class="bg-slate-950 p-4 rounded-xl text-xs text-indigo-300 overflow-x-auto border border-slate-800 font-mono" dir="ltr"><code>[![DevSponsors](https://img.shields.io/badge/DevSponsors-Verified_OSS-6366f1?style=for-the-badge&logo=github)](https://devsponsors.github.io)</code></pre>
+        </div>
+      </div>
+    </div>
+
+    <!-- Badge 2: Seeking Sponsors -->
+    <div class="p-6 sm:p-8 rounded-3xl card-glass border border-slate-800 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+      <div class="space-y-2">
+        <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">نشان رسمی شماره ۲ (Sponsor Welcome)</span>
+        <h3 class="text-lg font-bold text-white">بج دعوت به اسپانسرشیپ و حمایت</h3>
+        <p class="text-slate-400 text-xs">هدایت مستقیم شرکت‌های حامی به صفحه درخواست اسپانسری</p>
+        <div class="pt-2">
+          <img src="https://img.shields.io/badge/Sponsor-DevSponsors_Hub-emerald?style=for-the-badge&logo=github-sponsors" alt="Sponsor Badge" class="h-8">
+        </div>
+      </div>
+      <div class="w-full md:w-1/2">
+        <div class="relative">
+          <pre class="bg-slate-950 p-4 rounded-xl text-xs text-emerald-300 overflow-x-auto border border-slate-800 font-mono" dir="ltr"><code>[![Sponsor](https://img.shields.io/badge/Sponsor-DevSponsors_Hub-emerald?style=for-the-badge&logo=github-sponsors)](https://devsponsors.github.io)</code></pre>
+        </div>
+      </div>
+    </div>
+
+    <!-- Badge 3: Powered by DevSponsors -->
+    <div class="p-6 sm:p-8 rounded-3xl card-glass border border-slate-800 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+      <div class="space-y-2">
+        <span class="text-xs font-bold text-pink-400 uppercase tracking-wider">نشان رسمی شماره ۳ (Infrastructure Ready)</span>
+        <h3 class="text-lg font-bold text-white">بج گرنت و زیرساخت ابری</h3>
+        <p class="text-slate-400 text-xs">برای پروژه‌هایی که از زیرساخت‌های سرور هاب استفاده می‌کنند</p>
+        <div class="pt-2">
+          <img src="https://img.shields.io/badge/Infrastructure-DevSponsors_Cloud-ec4899?style=for-the-badge&logo=server" alt="Cloud Badge" class="h-8">
+        </div>
+      </div>
+      <div class="w-full md:w-1/2">
+        <div class="relative">
+          <pre class="bg-slate-950 p-4 rounded-xl text-xs text-pink-300 overflow-x-auto border border-slate-800 font-mono" dir="ltr"><code>[![Cloud](https://img.shields.io/badge/Infrastructure-DevSponsors_Cloud-ec4899?style=for-the-badge&logo=server)](https://devsponsors.github.io/mediakit.html)</code></pre>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- CTA Footer -->
+  <footer class="border-t border-slate-800 py-12 bg-slate-950 text-center">
+    <div class="max-w-2xl mx-auto px-4">
+      <h3 class="text-xl font-bold text-white mb-2">هنوز پروژه خود را در هاب ثبت نکرده‌اید؟</h3>
+      <p class="text-slate-400 text-xs mb-6">از طریق ایشیو تمپلیت رسمی گیت‌هاب در کمتر از ۲ دقیقه پروژه خود را برای جذب اسپانسر ثبت کنید.</p>
+      <a href="https://github.com/devsponsors/devsponsors.github.io/issues/new?template=register_project.yml" target="_blank" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold text-xs shadow-lg shadow-indigo-600/30 transition">
+        <i class="fa-solid fa-plus"></i>
+        <span>ثبت مستقیم پروژه در گیت‌هاب (Issue Template)</span>
+      </a>
+      <div class="text-xs text-slate-500 mt-8">© ۲۰۲۶ DevSponsors | نشان‌ها و استانداردهای متن‌باز ایران</div>
+    </div>
+  </footer>
+
+</body>
+</html>

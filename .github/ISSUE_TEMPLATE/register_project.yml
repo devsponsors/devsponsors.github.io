@@ -1,0 +1,65 @@
+name: 🚀 ثبت پروژه متن‌باز در DevSponsors
+description: اگر توسعه‌دهنده پروژه متن‌باز هستید، پروژه خود را برای جذب اسپانسر ثبت کنید.
+title: "[ثبت پروژه]: <نام ریپازیتوری شما>"
+labels: ["project-submission", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### خوش آمدید به DevSponsors! 🌟
+        با ثبت پروژه، ریپازیتوری شما در رتبه‌بندی، بانک پروژه‌ها و پکیج‌های پیشنهادی به شرکت‌های اسپانسر قرار خواهد گرفت.
+
+  - type: input
+    id: github_username
+    attributes:
+      label: نام کاربری گیت‌هاب (GitHub Username)
+      placeholder: "e.g. your-github-id"
+    validations:
+      required: true
+
+  - type: input
+    id: repo_url
+    attributes:
+      label: آدرس ریپازیتوری اصلی
+      placeholder: "https://github.com/username/repository"
+    validations:
+      required: true
+
+  - type: textarea
+    id: project_desc
+    attributes:
+      label: معرفی کوتاه پروژه و ارزش کاربردی آن
+      placeholder: "توضیح دهید پروژه چه کاری انجام می‌دهد و مخاطبان آن چه کسانی هستند..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: دسته‌بندی تخصصی پروژه
+      options:
+        - ابزارهای شبکه و تونل (Network & Proxy)
+        - هوش مصنوعی و ایجنت‌ها (AI & LLM)
+        - فرانت‌اند و کتابخانه‌های UI (Frontend & RTL)
+        - دواپس و زیرساخت (DevOps & Cloud)
+        - اپلیکیشن موبایل (Flutter & Android)
+        - امنیت و ابزارهای سلف‌هاستد (Security)
+        - آموزش و منابع برنامه‌نویسی (Educational)
+    validations:
+      required: true
+
+  - type: input
+    id: contact_email
+    attributes:
+      label: ایمیل کاری جهت ارتباط و تسویه اسپانسری
+      placeholder: "your-email@domain.com"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: شرایط و توافق
+      options:
+        - label: "پروژه من متن‌باز و فعال است و با قرارگیری در هاب DevSponsors موافقم."
+          required: true
