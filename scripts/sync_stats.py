@@ -77,7 +77,13 @@ DEVELOPERS = [
         "username": "Mahdi-mortazavi",
         "name_fa": "محمد مهدی مرتضوی",
         "role_fa": "کاتلین، وایرگارد و فلاتر",
-        "featured_repos": ["Mahdi-mortazavi/relay", "Mahdi-mortazavi/flow"]
+        "featured_repos": ["Mahdi-mortazavi/relay", "Mahdi-mortazavi/flow", "Mahdi-mortazavi/sooda"]
+    },
+    {
+        "username": "bllackbull",
+        "name_fa": "پویا خلیلی (Pouya Khalili)",
+        "role_fa": "توسعه فول‌استک، Node.js & پیام‌رسان سلف‌هاستد",
+        "featured_repos": ["bllackbull/Songbird"]
     },
     {
         "username": "aliinreallife",

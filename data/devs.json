@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T03:39:59.886104+00:00",
+  "updated_at": "2026-09-14T03:57:27.118888+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
@@ -149,7 +149,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
       "followers": 46,
       "public_repos": 11,
-      "total_stars": 314,
+      "total_stars": 315,
       "activity_30d": {
         "events_count": 100,
         "commits_count": 20,
@@ -157,9 +157,28 @@
       },
       "featured_repos": [
         "Mahdi-mortazavi/relay",
-        "Mahdi-mortazavi/flow"
+        "Mahdi-mortazavi/flow",
+        "Mahdi-mortazavi/sooda"
       ],
       "rank": 8
+    },
+    {
+      "username": "bllackbull",
+      "name_fa": "پویا خلیلی (Pouya Khalili)",
+      "role_fa": "توسعه فول‌استک، Node.js & پیام‌رسان سلف‌هاستد",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112873489?v=4",
+      "followers": 23,
+      "public_repos": 13,
+      "total_stars": 109,
+      "activity_30d": {
+        "events_count": 94,
+        "commits_count": 43,
+        "pushes_count": 43
+      },
+      "featured_repos": [
+        "bllackbull/Songbird"
+      ],
+      "rank": 9
     },
     {
       "username": "aliinreallife",
@@ -177,7 +196,7 @@
       "featured_repos": [
         "aliinreallife/metto"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "username": "ketabchi-ar",
@@ -193,7 +212,7 @@
         "pushes_count": 75
       },
       "featured_repos": [],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
