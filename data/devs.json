@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-13T08:23:26.203016+00:00",
+  "updated_at": "2026-09-14T03:39:59.886104+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1656,
+      "followers": 1659,
       "public_repos": 6,
-      "total_stars": 3616,
+      "total_stars": 3618,
       "activity_30d": {
-        "events_count": 41,
+        "events_count": 40,
         "commits_count": 22,
         "pushes_count": 22
       },
@@ -44,13 +44,13 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 336,
-      "public_repos": 283,
+      "followers": 344,
+      "public_repos": 289,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 79,
-        "pushes_count": 79
+        "commits_count": 98,
+        "pushes_count": 98
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -64,11 +64,32 @@
       "rank": 3
     },
     {
+      "username": "ZethRise",
+      "name_fa": "زث (Zeth)",
+      "role_fa": "توسعه کلاینت‌های شبکه، Rust, C# & Kotlin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
+      "followers": 123,
+      "public_repos": 11,
+      "total_stars": 680,
+      "activity_30d": {
+        "events_count": 72,
+        "commits_count": 27,
+        "pushes_count": 27
+      },
+      "featured_repos": [
+        "ZethRise/SpoofGUI",
+        "ZethRise/Aethery",
+        "ZethRise/FelFelChat",
+        "ZethRise/Ronami"
+      ],
+      "rank": 4
+    },
+    {
       "username": "mrbardia72",
       "name_fa": "بردیا کاظمی (Bardia Kazemi)",
       "role_fa": "آموزش تخصصی گیت و Golang",
       "avatar_url": "https://avatars.githubusercontent.com/u/8832241?v=4",
-      "followers": 77,
+      "followers": 79,
       "public_repos": 10,
       "total_stars": 220,
       "activity_30d": {
@@ -82,7 +103,7 @@
         "mrbardia72/db-Interview-Questions-and-Answers",
         "mrbardia72/git-Interview-Questions-And-Answers"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "username": "amiralibg",
@@ -91,17 +112,17 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
       "followers": 61,
       "public_repos": 34,
-      "total_stars": 351,
+      "total_stars": 353,
       "activity_30d": {
         "events_count": 98,
-        "commits_count": 55,
-        "pushes_count": 55
+        "commits_count": 60,
+        "pushes_count": 60
       },
       "featured_repos": [
         "amiralibg/Doran",
         "amiralibg/marky"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "username": "taymakz",
@@ -112,23 +133,23 @@
       "public_repos": 14,
       "total_stars": 101,
       "activity_30d": {
-        "events_count": 98,
-        "commits_count": 31,
-        "pushes_count": 31
+        "events_count": 94,
+        "commits_count": 26,
+        "pushes_count": 26
       },
       "featured_repos": [
         "taymakz/tehgo"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "username": "Mahdi-mortazavi",
       "name_fa": "محمد مهدی مرتضوی",
       "role_fa": "کاتلین، وایرگارد و فلاتر",
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
-      "followers": 45,
+      "followers": 46,
       "public_repos": 11,
-      "total_stars": 312,
+      "total_stars": 314,
       "activity_30d": {
         "events_count": 100,
         "commits_count": 20,
@@ -138,25 +159,25 @@
         "Mahdi-mortazavi/relay",
         "Mahdi-mortazavi/flow"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "username": "aliinreallife",
       "name_fa": "علی رشیدی",
       "role_fa": "توسعه پلتفرم‌های تعاملی و فول‌استک",
       "avatar_url": "https://avatars.githubusercontent.com/u/91134550?v=4",
-      "followers": 19,
+      "followers": 20,
       "public_repos": 17,
-      "total_stars": 28,
+      "total_stars": 30,
       "activity_30d": {
         "events_count": 99,
-        "commits_count": 31,
-        "pushes_count": 31
+        "commits_count": 29,
+        "pushes_count": 29
       },
       "featured_repos": [
         "aliinreallife/metto"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "username": "ketabchi-ar",
@@ -164,15 +185,15 @@
       "role_fa": "الگوریتم‌های مالی و اتوماسیون داده",
       "avatar_url": "https://avatars.githubusercontent.com/u/49709301?v=4",
       "followers": 3,
-      "public_repos": 13,
+      "public_repos": 16,
       "total_stars": 7,
       "activity_30d": {
-        "events_count": 60,
-        "commits_count": 35,
-        "pushes_count": 35
+        "events_count": 100,
+        "commits_count": 75,
+        "pushes_count": 75
       },
       "featured_repos": [],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
