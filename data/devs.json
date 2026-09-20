@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-09-19T03:25:17.313285+00:00",
+  "updated_at": "2026-09-20T03:42:21.550469+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1675,
+      "followers": 1680,
       "public_repos": 6,
-      "total_stars": 3627,
+      "total_stars": 3632,
       "activity_30d": {
         "events_count": 34,
         "commits_count": 22,
@@ -25,13 +25,13 @@
       "name_fa": "محمد مهدی عزیزی (TheGreatAzizi)",
       "role_fa": "زیرساخت ابری، لینوکس و سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
-      "followers": 377,
+      "followers": 376,
       "public_repos": 25,
-      "total_stars": 1074,
+      "total_stars": 1086,
       "activity_30d": {
-        "events_count": 28,
-        "commits_count": 16,
-        "pushes_count": 16
+        "events_count": 29,
+        "commits_count": 17,
+        "pushes_count": 17
       },
       "featured_repos": [
         "TheGreatAzizi/Secure-Pastebin-Self-Hosted",
@@ -44,13 +44,13 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 366,
+      "followers": 367,
       "public_repos": 291,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 87,
-        "pushes_count": 87
+        "commits_count": 85,
+        "pushes_count": 85
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -68,9 +68,9 @@
       "name_fa": "زث (Zeth)",
       "role_fa": "توسعه کلاینت‌های شبکه، Rust, C# & Kotlin",
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
-      "followers": 128,
+      "followers": 130,
       "public_repos": 11,
-      "total_stars": 693,
+      "total_stars": 697,
       "activity_30d": {
         "events_count": 68,
         "commits_count": 32,
@@ -91,9 +91,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/8832241?v=4",
       "followers": 79,
       "public_repos": 10,
-      "total_stars": 221,
+      "total_stars": 222,
       "activity_30d": {
-        "events_count": 10,
+        "events_count": 11,
         "commits_count": 8,
         "pushes_count": 8
       },
@@ -134,8 +134,8 @@
       "total_stars": 104,
       "activity_30d": {
         "events_count": 96,
-        "commits_count": 23,
-        "pushes_count": 23
+        "commits_count": 22,
+        "pushes_count": 22
       },
       "featured_repos": [
         "taymakz/tehgo"
@@ -152,8 +152,8 @@
       "total_stars": 320,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 32,
-        "pushes_count": 32
+        "commits_count": 37,
+        "pushes_count": 37
       },
       "featured_repos": [
         "Mahdi-mortazavi/relay",
@@ -171,9 +171,9 @@
       "public_repos": 13,
       "total_stars": 109,
       "activity_30d": {
-        "events_count": 94,
-        "commits_count": 40,
-        "pushes_count": 40
+        "events_count": 100,
+        "commits_count": 43,
+        "pushes_count": 43
       },
       "featured_repos": [
         "bllackbull/Songbird"
@@ -190,8 +190,8 @@
       "total_stars": 32,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 33,
-        "pushes_count": 33
+        "commits_count": 32,
+        "pushes_count": 32
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -203,9 +203,9 @@
       "name_fa": "اردلان کتابچی",
       "role_fa": "الگوریتم‌های مالی و اتوماسیون داده",
       "avatar_url": "https://avatars.githubusercontent.com/u/49709301?v=4",
-      "followers": 6,
+      "followers": 7,
       "public_repos": 16,
-      "total_stars": 12,
+      "total_stars": 13,
       "activity_30d": {
         "events_count": 100,
         "commits_count": 81,
