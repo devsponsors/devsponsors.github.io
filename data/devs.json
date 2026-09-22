@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-21T03:37:17.296351+00:00",
+  "updated_at": "2026-09-22T03:35:45.576392+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1683,
+      "followers": 1686,
       "public_repos": 6,
-      "total_stars": 3634,
+      "total_stars": 3641,
       "activity_30d": {
-        "events_count": 32,
+        "events_count": 34,
         "commits_count": 19,
         "pushes_count": 19
       },
@@ -25,13 +25,13 @@
       "name_fa": "محمد مهدی عزیزی (TheGreatAzizi)",
       "role_fa": "زیرساخت ابری، لینوکس و سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
-      "followers": 375,
+      "followers": 377,
       "public_repos": 25,
-      "total_stars": 1087,
+      "total_stars": 1096,
       "activity_30d": {
-        "events_count": 30,
-        "commits_count": 17,
-        "pushes_count": 17
+        "events_count": 38,
+        "commits_count": 21,
+        "pushes_count": 21
       },
       "featured_repos": [
         "TheGreatAzizi/Secure-Pastebin-Self-Hosted",
@@ -44,13 +44,13 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 370,
-      "public_repos": 292,
+      "followers": 372,
+      "public_repos": 294,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 81,
-        "pushes_count": 81
+        "commits_count": 77,
+        "pushes_count": 77
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -72,7 +72,7 @@
       "public_repos": 11,
       "total_stars": 698,
       "activity_30d": {
-        "events_count": 69,
+        "events_count": 67,
         "commits_count": 33,
         "pushes_count": 33
       },
@@ -91,7 +91,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/8832241?v=4",
       "followers": 79,
       "public_repos": 10,
-      "total_stars": 222,
+      "total_stars": 223,
       "activity_30d": {
         "events_count": 11,
         "commits_count": 8,
@@ -112,7 +112,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
       "followers": 62,
       "public_repos": 34,
-      "total_stars": 372,
+      "total_stars": 373,
       "activity_30d": {
         "events_count": 99,
         "commits_count": 72,
@@ -147,7 +147,7 @@
       "name_fa": "محمد مهدی مرتضوی",
       "role_fa": "کاتلین، وایرگارد و فلاتر",
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
-      "followers": 51,
+      "followers": 50,
       "public_repos": 11,
       "total_stars": 321,
       "activity_30d": {
@@ -187,11 +187,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/91134550?v=4",
       "followers": 20,
       "public_repos": 18,
-      "total_stars": 32,
+      "total_stars": 33,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 32,
-        "pushes_count": 32
+        "commits_count": 30,
+        "pushes_count": 30
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -204,12 +204,12 @@
       "role_fa": "الگوریتم‌های مالی و اتوماسیون داده",
       "avatar_url": "https://avatars.githubusercontent.com/u/49709301?v=4",
       "followers": 7,
-      "public_repos": 16,
-      "total_stars": 14,
+      "public_repos": 21,
+      "total_stars": 18,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 81,
-        "pushes_count": 81
+        "commits_count": 83,
+        "pushes_count": 83
       },
       "featured_repos": [],
       "rank": 11
