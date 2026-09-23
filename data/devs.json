@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-22T03:35:45.576392+00:00",
+  "updated_at": "2026-09-23T03:35:35.596460+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1686,
+      "followers": 1691,
       "public_repos": 6,
-      "total_stars": 3641,
+      "total_stars": 3649,
       "activity_30d": {
-        "events_count": 34,
+        "events_count": 36,
         "commits_count": 19,
         "pushes_count": 19
       },
@@ -25,9 +25,9 @@
       "name_fa": "محمد مهدی عزیزی (TheGreatAzizi)",
       "role_fa": "زیرساخت ابری، لینوکس و سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
-      "followers": 377,
+      "followers": 378,
       "public_repos": 25,
-      "total_stars": 1096,
+      "total_stars": 1099,
       "activity_30d": {
         "events_count": 38,
         "commits_count": 21,
@@ -44,13 +44,13 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 372,
-      "public_repos": 294,
+      "followers": 373,
+      "public_repos": 296,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 77,
-        "pushes_count": 77
+        "commits_count": 72,
+        "pushes_count": 72
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -72,7 +72,7 @@
       "public_repos": 11,
       "total_stars": 698,
       "activity_30d": {
-        "events_count": 67,
+        "events_count": 70,
         "commits_count": 33,
         "pushes_count": 33
       },
@@ -133,9 +133,9 @@
       "public_repos": 14,
       "total_stars": 105,
       "activity_30d": {
-        "events_count": 96,
-        "commits_count": 22,
-        "pushes_count": 22
+        "events_count": 98,
+        "commits_count": 23,
+        "pushes_count": 23
       },
       "featured_repos": [
         "taymakz/tehgo"
@@ -149,7 +149,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
       "followers": 50,
       "public_repos": 11,
-      "total_stars": 321,
+      "total_stars": 322,
       "activity_30d": {
         "events_count": 100,
         "commits_count": 39,
@@ -172,8 +172,8 @@
       "total_stars": 109,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 44,
-        "pushes_count": 44
+        "commits_count": 47,
+        "pushes_count": 47
       },
       "featured_repos": [
         "bllackbull/Songbird"
@@ -187,11 +187,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/91134550?v=4",
       "followers": 20,
       "public_repos": 18,
-      "total_stars": 33,
+      "total_stars": 34,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 30,
-        "pushes_count": 30
+        "commits_count": 27,
+        "pushes_count": 27
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -203,13 +203,13 @@
       "name_fa": "اردلان کتابچی",
       "role_fa": "الگوریتم‌های مالی و اتوماسیون داده",
       "avatar_url": "https://avatars.githubusercontent.com/u/49709301?v=4",
-      "followers": 7,
+      "followers": 6,
       "public_repos": 21,
-      "total_stars": 18,
+      "total_stars": 20,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 83,
-        "pushes_count": 83
+        "commits_count": 78,
+        "pushes_count": 78
       },
       "featured_repos": [],
       "rank": 11
