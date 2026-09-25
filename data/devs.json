@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-09-24T03:26:17.777921+00:00",
+  "updated_at": "2026-09-25T03:43:24.929250+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1696,
+      "followers": 1695,
       "public_repos": 6,
-      "total_stars": 3654,
+      "total_stars": 3655,
       "activity_30d": {
-        "events_count": 36,
-        "commits_count": 19,
-        "pushes_count": 19
+        "events_count": 42,
+        "commits_count": 21,
+        "pushes_count": 21
       },
       "featured_repos": [
         "MatinSenPai/SenPaiScanner",
@@ -44,13 +44,13 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 375,
+      "followers": 377,
       "public_repos": 297,
       "total_stars": 550,
       "activity_30d": {
-        "events_count": 100,
-        "commits_count": 68,
-        "pushes_count": 68
+        "events_count": 98,
+        "commits_count": 59,
+        "pushes_count": 59
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -70,7 +70,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
       "followers": 130,
       "public_repos": 11,
-      "total_stars": 700,
+      "total_stars": 699,
       "activity_30d": {
         "events_count": 70,
         "commits_count": 33,
@@ -112,11 +112,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
       "followers": 62,
       "public_repos": 34,
-      "total_stars": 373,
+      "total_stars": 374,
       "activity_30d": {
-        "events_count": 99,
-        "commits_count": 74,
-        "pushes_count": 74
+        "events_count": 100,
+        "commits_count": 84,
+        "pushes_count": 84
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -129,7 +129,7 @@
       "name_fa": "تایماز اکبری",
       "role_fa": "فرانت‌اند، کامپوننت‌های فارسی و ناوبری",
       "avatar_url": "https://avatars.githubusercontent.com/u/71381670?v=4",
-      "followers": 52,
+      "followers": 53,
       "public_repos": 14,
       "total_stars": 105,
       "activity_30d": {
@@ -149,7 +149,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
       "followers": 50,
       "public_repos": 11,
-      "total_stars": 322,
+      "total_stars": 327,
       "activity_30d": {
         "events_count": 100,
         "commits_count": 39,
@@ -167,13 +167,13 @@
       "name_fa": "پویا خلیلی (Pouya Khalili)",
       "role_fa": "توسعه فول‌استک، Node.js & پیام‌رسان سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/112873489?v=4",
-      "followers": 23,
+      "followers": 24,
       "public_repos": 13,
       "total_stars": 109,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 47,
-        "pushes_count": 47
+        "commits_count": 50,
+        "pushes_count": 50
       },
       "featured_repos": [
         "bllackbull/Songbird"
