@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-09-25T03:43:24.929250+00:00",
+  "updated_at": "2026-09-26T03:49:37.422373+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1695,
+      "followers": 1702,
       "public_repos": 6,
-      "total_stars": 3655,
+      "total_stars": 3656,
       "activity_30d": {
         "events_count": 42,
         "commits_count": 21,
@@ -19,6 +19,30 @@
         "MatinSenPai/Aether-GUI"
       ],
       "rank": 1
+    },
+    {
+      "username": "m4tinbeigi-official",
+      "name_fa": "ریک سانچز (Rick Sanchez)",
+      "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
+      "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
+      "followers": 383,
+      "public_repos": 297,
+      "total_stars": 550,
+      "activity_30d": {
+        "events_count": 100,
+        "commits_count": 76,
+        "pushes_count": 76
+      },
+      "featured_repos": [
+        "FreeMovieIR/freemovieir.github.io",
+        "FontWoW/FontWoW.github.io",
+        "Antigravity-Community",
+        "HermesAgent-Community",
+        "RepoFA/RepoFA.github.io",
+        "BookBloger",
+        "techblogger-ir"
+      ],
+      "rank": 2
     },
     {
       "username": "TheGreatAzizi",
@@ -37,30 +61,6 @@
         "TheGreatAzizi/Secure-Pastebin-Self-Hosted",
         "TheGreatAzizi/MeetAzi-Stack"
       ],
-      "rank": 2
-    },
-    {
-      "username": "m4tinbeigi-official",
-      "name_fa": "ریک سانچز (Rick Sanchez)",
-      "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
-      "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 377,
-      "public_repos": 297,
-      "total_stars": 550,
-      "activity_30d": {
-        "events_count": 98,
-        "commits_count": 59,
-        "pushes_count": 59
-      },
-      "featured_repos": [
-        "FreeMovieIR/freemovieir.github.io",
-        "FontWoW/FontWoW.github.io",
-        "Antigravity-Community",
-        "HermesAgent-Community",
-        "RepoFA/RepoFA.github.io",
-        "BookBloger",
-        "techblogger-ir"
-      ],
       "rank": 3
     },
     {
@@ -68,11 +68,11 @@
       "name_fa": "زث (Zeth)",
       "role_fa": "توسعه کلاینت‌های شبکه، Rust, C# & Kotlin",
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
-      "followers": 130,
+      "followers": 131,
       "public_repos": 11,
-      "total_stars": 699,
+      "total_stars": 700,
       "activity_30d": {
-        "events_count": 70,
+        "events_count": 69,
         "commits_count": 33,
         "pushes_count": 33
       },
@@ -111,12 +111,12 @@
       "role_fa": "توسعه ابزارهای مدرن & تقویم فارسی",
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
       "followers": 62,
-      "public_repos": 34,
+      "public_repos": 35,
       "total_stars": 374,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 84,
-        "pushes_count": 84
+        "commits_count": 85,
+        "pushes_count": 85
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -129,9 +129,9 @@
       "name_fa": "تایماز اکبری",
       "role_fa": "فرانت‌اند، کامپوننت‌های فارسی و ناوبری",
       "avatar_url": "https://avatars.githubusercontent.com/u/71381670?v=4",
-      "followers": 53,
+      "followers": 54,
       "public_repos": 14,
-      "total_stars": 105,
+      "total_stars": 104,
       "activity_30d": {
         "events_count": 98,
         "commits_count": 23,
@@ -147,9 +147,9 @@
       "name_fa": "محمد مهدی مرتضوی",
       "role_fa": "کاتلین، وایرگارد و فلاتر",
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
-      "followers": 50,
+      "followers": 53,
       "public_repos": 11,
-      "total_stars": 327,
+      "total_stars": 332,
       "activity_30d": {
         "events_count": 100,
         "commits_count": 39,
@@ -172,8 +172,8 @@
       "total_stars": 109,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 50,
-        "pushes_count": 50
+        "commits_count": 53,
+        "pushes_count": 53
       },
       "featured_repos": [
         "bllackbull/Songbird"
@@ -187,7 +187,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/91134550?v=4",
       "followers": 20,
       "public_repos": 18,
-      "total_stars": 34,
+      "total_stars": 35,
       "activity_30d": {
         "events_count": 100,
         "commits_count": 18,
