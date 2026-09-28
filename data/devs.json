@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-09-27T03:58:58.866825+00:00",
+  "updated_at": "2026-09-28T03:59:11.542701+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1710,
+      "followers": 1716,
       "public_repos": 6,
       "total_stars": 3660,
       "activity_30d": {
-        "events_count": 44,
-        "commits_count": 21,
-        "pushes_count": 21
+        "events_count": 30,
+        "commits_count": 10,
+        "pushes_count": 10
       },
       "featured_repos": [
         "MatinSenPai/SenPaiScanner",
@@ -25,13 +25,13 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 388,
-      "public_repos": 297,
+      "followers": 389,
+      "public_repos": 302,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 76,
-        "pushes_count": 76
+        "commits_count": 77,
+        "pushes_count": 77
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -49,9 +49,9 @@
       "name_fa": "محمد مهدی عزیزی (TheGreatAzizi)",
       "role_fa": "زیرساخت ابری، لینوکس و سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
-      "followers": 378,
+      "followers": 380,
       "public_repos": 25,
-      "total_stars": 1101,
+      "total_stars": 1103,
       "activity_30d": {
         "events_count": 38,
         "commits_count": 21,
@@ -69,12 +69,12 @@
       "role_fa": "توسعه کلاینت‌های شبکه، Rust, C# & Kotlin",
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
       "followers": 131,
-      "public_repos": 11,
-      "total_stars": 700,
+      "public_repos": 10,
+      "total_stars": 699,
       "activity_30d": {
-        "events_count": 69,
-        "commits_count": 33,
-        "pushes_count": 33
+        "events_count": 63,
+        "commits_count": 28,
+        "pushes_count": 28
       },
       "featured_repos": [
         "ZethRise/SpoofGUI",
@@ -93,9 +93,9 @@
       "public_repos": 10,
       "total_stars": 222,
       "activity_30d": {
-        "events_count": 10,
-        "commits_count": 8,
-        "pushes_count": 8
+        "events_count": 2,
+        "commits_count": 1,
+        "pushes_count": 1
       },
       "featured_repos": [
         "mrbardia72/Go-Interview-Questions-And-Answers",
@@ -110,13 +110,13 @@
       "name_fa": "امیرعلی بیگی",
       "role_fa": "توسعه ابزارهای مدرن & تقویم فارسی",
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
-      "followers": 62,
-      "public_repos": 35,
-      "total_stars": 384,
+      "followers": 68,
+      "public_repos": 36,
+      "total_stars": 412,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 86,
-        "pushes_count": 86
+        "commits_count": 83,
+        "pushes_count": 83
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -131,7 +131,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/71381670?v=4",
       "followers": 55,
       "public_repos": 14,
-      "total_stars": 104,
+      "total_stars": 106,
       "activity_30d": {
         "events_count": 98,
         "commits_count": 23,
@@ -149,7 +149,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
       "followers": 53,
       "public_repos": 11,
-      "total_stars": 334,
+      "total_stars": 335,
       "activity_30d": {
         "events_count": 100,
         "commits_count": 39,
@@ -208,8 +208,8 @@
       "total_stars": 44,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 67,
-        "pushes_count": 67
+        "commits_count": 63,
+        "pushes_count": 63
       },
       "featured_repos": [],
       "rank": 11
