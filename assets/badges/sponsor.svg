@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="28" viewBox="0 0 230 28" role="img" aria-label="DevSponsors: Official Sponsor">
+  <title>DevSponsors Official Sponsor</title>
+  <linearGradient id="s" x2="0" y2="100%">
+    <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <clipPath id="r">
+    <rect width="230" height="28" rx="5" fill="#fff"/>
+  </clipPath>
+  <g clip-path="url(#r)">
+    <rect width="105" height="28" fill="#1e1b4b"/>
+    <rect x="105" width="125" height="28" fill="#10b981"/>
+    <rect width="230" height="28" fill="url(#s)"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(10, 5) scale(0.75)">
+      <!-- GitHub / DevSponsors Star Icon -->
+      <path fill="#818cf8" d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+    </g>
+    <text aria-hidden="true" x="620" y="185" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="650">DevSponsors</text>
+    <text x="620" y="175" transform="scale(.1)" fill="#fff" textLength="650">DevSponsors</text>
+    <text aria-hidden="true" x="1650" y="185" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="1050">Official Sponsor</text>
+    <text x="1650" y="175" transform="scale(.1)" fill="#fff" font-weight="bold" textLength="1050">Official Sponsor</text>
+  </g>
+</svg>

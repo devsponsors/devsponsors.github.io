@@ -54,32 +54,10 @@
         if (targetType === 'repos') c.setAttribute('data-target', totalRepos);
       });
 
-      // Fetch live telemetry from DevSponsors Badge Worker
-      fetch('https://badge.ricksanchez.ir/api/stats')
-        .then(res => res.json())
-        .then(stats => {
-          if (!stats || !stats.success) return;
-
-          const totalViews = stats.total_views || 0;
-          const totalBadgeRepos = stats.total_repos || 0;
-
-          document.querySelectorAll('[data-dynamic="badge-views"]').forEach(el => {
-            el.innerText = toFa(totalViews.toLocaleString('en-US')) + '+';
-          });
-
-          document.querySelectorAll('[data-dynamic="badge-repos"]').forEach(el => {
-            el.innerText = toFa(totalBadgeRepos.toLocaleString('en-US'));
-          });
-
-          // If counter elements exist
-          document.querySelectorAll('.counter').forEach(c => {
-            const targetType = c.getAttribute('data-stat');
-            if (targetType === 'badge-views') c.setAttribute('data-target', totalViews);
-            if (targetType === 'badge-repos') c.setAttribute('data-target', totalBadgeRepos);
-          });
-        })
-        .catch(e => console.warn('Badge telemetry fetch error:', e));
-
+      // Badge repos count based on active developers repos
+      document.querySelectorAll('[data-dynamic="badge-repos"]').forEach(el => {
+        el.innerText = toFa(totalRepos.toLocaleString('en-US'));
+      });
     })
     .catch(err => {
       console.warn('DevSponsors dynamic loader:', err);
