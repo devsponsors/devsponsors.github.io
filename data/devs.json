@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-29T04:33:00.751354+00:00",
+  "updated_at": "2026-09-30T04:16:39.868088+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1721,
+      "followers": 1724,
       "public_repos": 6,
       "total_stars": 3666,
       "activity_30d": {
@@ -25,8 +25,8 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 391,
-      "public_repos": 301,
+      "followers": 392,
+      "public_repos": 302,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
@@ -51,7 +51,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
       "followers": 381,
       "public_repos": 25,
-      "total_stars": 1105,
+      "total_stars": 1106,
       "activity_30d": {
         "events_count": 38,
         "commits_count": 21,
@@ -70,7 +70,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
       "followers": 131,
       "public_repos": 10,
-      "total_stars": 699,
+      "total_stars": 700,
       "activity_30d": {
         "events_count": 62,
         "commits_count": 28,
@@ -112,11 +112,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
       "followers": 69,
       "public_repos": 36,
-      "total_stars": 416,
+      "total_stars": 417,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 83,
-        "pushes_count": 83
+        "commits_count": 68,
+        "pushes_count": 68
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -129,7 +129,7 @@
       "name_fa": "تایماز اکبری",
       "role_fa": "فرانت‌اند، کامپوننت‌های فارسی و ناوبری",
       "avatar_url": "https://avatars.githubusercontent.com/u/71381670?v=4",
-      "followers": 55,
+      "followers": 54,
       "public_repos": 14,
       "total_stars": 106,
       "activity_30d": {
@@ -149,7 +149,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
       "followers": 53,
       "public_repos": 11,
-      "total_stars": 335,
+      "total_stars": 336,
       "activity_30d": {
         "events_count": 100,
         "commits_count": 39,
@@ -185,13 +185,13 @@
       "name_fa": "علی رشیدی",
       "role_fa": "توسعه پلتفرم‌های تعاملی و فول‌استک",
       "avatar_url": "https://avatars.githubusercontent.com/u/91134550?v=4",
-      "followers": 22,
+      "followers": 21,
       "public_repos": 18,
       "total_stars": 36,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 19,
-        "pushes_count": 19
+        "commits_count": 20,
+        "pushes_count": 20
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -204,12 +204,12 @@
       "role_fa": "الگوریتم‌های مالی و اتوماسیون داده",
       "avatar_url": "https://avatars.githubusercontent.com/u/49709301?v=4",
       "followers": 7,
-      "public_repos": 25,
+      "public_repos": 26,
       "total_stars": 45,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 62,
-        "pushes_count": 62
+        "commits_count": 61,
+        "pushes_count": 61
       },
       "featured_repos": [],
       "rank": 11
