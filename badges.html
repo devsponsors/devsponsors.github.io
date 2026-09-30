@@ -44,18 +44,80 @@
   <header class="py-14 px-4 text-center max-w-4xl mx-auto">
     <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-bold mb-5">
       <i class="fa-solid fa-shield-halved"></i>
-      نشان رسمی عضویت در هاب اسپانسرشیپ متن‌باز ایران
+      نشان رسمی عضویت و تلمتری در هاب اسپانسرشیپ متن‌باز ایران
     </div>
     <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight mb-4">
-      بج‌های رسمی <span class="bg-gradient-to-r from-blue-400 via-indigo-300 to-pink-400 bg-clip-text text-transparent">README پروژه‌ها</span>
+      بج‌های رسمی و <span class="bg-gradient-to-r from-blue-400 via-indigo-300 to-pink-400 bg-clip-text text-transparent">پویای README پروژه‌ها</span>
     </h1>
-    <p class="text-slate-400 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto">
-      کدهای مارک‌داون آماده زیر را در بالای فایل README.md ریپازیتوری خود قرار دهید تا هویت رسمی عضویت در DevSponsors و هدایت اسپانسرها به پروژه شما فعال شود.
+    <p class="text-slate-400 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto mb-8">
+      کدهای مارک‌داون زیر را در بالای فایل README.md ریپازیتوری خود قرار دهید. با نشان پویا، آمار ایمپرشن پروژه شما ثبت شده و اسپانسرها بدون نیاز به کامیت مجدد روی ریپوی شما نمایش داده می‌شوند.
     </p>
+
+    <!-- Real-time Badge Telemetry Bar -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 max-w-2xl mx-auto p-4 rounded-2xl bg-slate-900/80 border border-slate-800">
+      <div class="text-center">
+        <div class="text-2xl font-black text-indigo-400" data-dynamic="badge-views">۰+</div>
+        <div class="text-[11px] text-slate-400 mt-1">نمایش کل بج در گیت‌هاب</div>
+      </div>
+      <div class="text-center border-s border-e border-slate-800/80">
+        <div class="text-2xl font-black text-emerald-400" data-dynamic="badge-repos">۰</div>
+        <div class="text-[11px] text-slate-400 mt-1">ریپازیتوری‌های مجهز به بج</div>
+      </div>
+      <div class="text-center col-span-2 sm:col-span-1">
+        <div class="text-sm font-bold text-amber-300 flex items-center justify-center gap-1.5 pt-1">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span>آنلاین و لحظه‌ای</span>
+        </div>
+        <div class="text-[11px] text-slate-400 mt-1.5">وضعیت سرور تلمتری بج</div>
+      </div>
+    </div>
   </header>
 
   <!-- Badges Collection -->
   <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 space-y-8">
+
+    <!-- Priority 1: Dynamic Smart Sponsor Badge -->
+    <div class="p-6 sm:p-8 rounded-3xl card-glass border-2 border-indigo-500/40 shadow-2xl shadow-indigo-500/10 flex flex-col gap-6">
+      <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 border-b border-slate-800/80 pb-5">
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-black mb-2">
+            <i class="fa-solid fa-bolt"></i>
+            <span>توصیه‌شده برای همه پروژه‌ها: نشان پویای شبکه (Dynamic Hub Badge)</span>
+          </div>
+          <h2 class="text-xl sm:text-2xl font-black text-white">بج هوشمند تلمتری و جذب اسپانسر</h2>
+          <p class="text-slate-400 text-xs sm:text-sm mt-1">
+            با قرار دادن این بج، تعداد نمایش ریپازیتوری شما در هاب DevSponsors ثبت شده و به محض اختصاص اسپانسر، نشان حامی بدون نیاز به تغییر README روی پروژه شما ظاهر می‌شود.
+          </p>
+        </div>
+        <div class="shrink-0">
+          <img id="dynamic-badge-preview" src="https://badge.ricksanchez.ir/badge.svg" alt="Dynamic DevSponsors Badge" class="h-8 shadow">
+        </div>
+      </div>
+
+      <div class="space-y-4">
+        <div>
+          <label class="block text-xs font-bold text-slate-300 mb-2">آدرس مخزن شما در گیت‌هاب (برای تفکیک دقیق آمار):</label>
+          <div class="flex flex-col sm:flex-row gap-3">
+            <input type="text" id="repo-input" dir="ltr" placeholder="TheGreatAzizi/Secure-Pastebin-Self-Hosted" class="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-4 py-2.5 text-xs text-indigo-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500 font-mono">
+            <button id="update-badge-btn" class="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs transition flex items-center justify-center gap-2">
+              <i class="fa-solid fa-arrows-rotate"></i>
+              <span>تولید کد اختصاصی</span>
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs text-slate-400 font-medium">کد مارک‌داون اختصاصی برای قرار دادن در صدر README.md:</span>
+            <button id="copy-dynamic-btn" class="text-xs font-bold text-indigo-400 hover:text-indigo-300 flex items-center gap-1.5 transition">
+              <i class="fa-regular fa-copy"></i>
+              <span id="copy-dynamic-text">کپی کد</span>
+            </button>
+          </div>
+          <pre class="bg-slate-950 p-4 rounded-xl text-xs text-indigo-300 overflow-x-auto border border-slate-800 font-mono" dir="ltr"><code id="dynamic-code-display">[![DevSponsors](https://badge.ricksanchez.ir/badge.svg)](https://devsponsors.github.io)</code></pre>
+        </div>
+      </div>
+    </div>
 
     <!-- Badge 1: Verified OSS -->
     <div class="p-6 sm:p-8 rounded-3xl card-glass border border-slate-800 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
@@ -125,5 +187,35 @@
 
   <!-- Dynamic Stats Auto-Loader -->
   <script src="js/stats_loader.js"></script>
+  <script>
+    const repoInput = document.getElementById('repo-input');
+    const updateBtn = document.getElementById('update-badge-btn');
+    const previewImg = document.getElementById('dynamic-badge-preview');
+    const codeDisplay = document.getElementById('dynamic-code-display');
+    const copyBtn = document.getElementById('copy-dynamic-btn');
+    const copyText = document.getElementById('copy-dynamic-text');
+
+    function updateBadgeCode() {
+      let repo = (repoInput.value || '').trim();
+      let badgeUrl = 'https://badge.ricksanchez.ir/badge.svg';
+      if (repo) {
+        badgeUrl += '?repo=' + encodeURIComponent(repo);
+      }
+      previewImg.src = badgeUrl;
+      codeDisplay.innerText = '[![DevSponsors](' + badgeUrl + ')](https://devsponsors.github.io)';
+    }
+
+    if (updateBtn) updateBtn.addEventListener('click', updateBadgeCode);
+    if (repoInput) repoInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') updateBadgeCode(); });
+
+    if (copyBtn) {
+      copyBtn.addEventListener('click', () => {
+        navigator.clipboard.writeText(codeDisplay.innerText).then(() => {
+          copyText.innerText = 'کپی شد! ✓';
+          setTimeout(() => { copyText.innerText = 'کپی کد'; }, 2000);
+        });
+      });
+    }
+  </script>
 </body>
 </html>
