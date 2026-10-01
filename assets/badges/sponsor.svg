@@ -1,25 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="230" height="28" viewBox="0 0 230 28" role="img" aria-label="DevSponsors: Official Sponsor">
-  <title>DevSponsors Official Sponsor</title>
-  <linearGradient id="s" x2="0" y2="100%">
-    <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
-    <stop offset="1" stop-opacity=".1"/>
-  </linearGradient>
-  <clipPath id="r">
-    <rect width="230" height="28" rx="5" fill="#fff"/>
-  </clipPath>
-  <g clip-path="url(#r)">
-    <rect width="105" height="28" fill="#1e1b4b"/>
-    <rect x="105" width="125" height="28" fill="#10b981"/>
-    <rect width="230" height="28" fill="url(#s)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="28" role="img" aria-label="DEVSPONSORS: OFFICIAL SPONSOR">
+  <title>DEVSPONSORS: OFFICIAL SPONSOR</title>
+  <g shape-rendering="crispEdges">
+    <rect width="132" height="28" fill="#0f172a"/>
+    <rect x="132" width="156" height="28" fill="#10b981"/>
   </g>
-  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
-    <g transform="translate(10, 5) scale(0.75)">
-      <!-- GitHub / DevSponsors Star Icon -->
-      <path fill="#818cf8" d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
-    </g>
-    <text aria-hidden="true" x="620" y="185" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="650">DevSponsors</text>
-    <text x="620" y="175" transform="scale(.1)" fill="#fff" textLength="650">DevSponsors</text>
-    <text aria-hidden="true" x="1650" y="185" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="1050">Official Sponsor</text>
-    <text x="1650" y="175" transform="scale(.1)" fill="#fff" font-weight="bold" textLength="1050">Official Sponsor</text>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100">
+    <image x="9" y="7" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRUE0QUFBIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R2l0SHViIFNwb25zb3JzPC90aXRsZT48cGF0aCBkPSJNMTcuNjI1IDEuNDk5Yy0yLjMyIDAtNC4zNTQgMS4yMDMtNS42MjUgMy4wMy0xLjI3MS0xLjgyNy0zLjMwNS0zLjAzLTUuNjI1LTMuMDNDMy4xMjkgMS40OTkgMCA0LjI1MyAwIDguMjQ5YzAgNC4yNzUgMy4wNjggNy44NDcgNS44MjggMTAuMjI3YTMzLjE0IDMzLjE0IDAgMCAwIDUuNjE2IDMuODc2bC4wMjguMDE3LjAwOC4wMDMtLjAwMS4wMDNjLjE2My4wODUuMzQyLjEyNi41MjEuMTI1LjE3OS4wMDEuMzU4LS4wNDEuNTIxLS4xMjVsLS4wMDEtLjAwMy4wMDgtLjAwMy4wMjgtLjAxN2EzMy4xNCAzMy4xNCAwIDAgMCA1LjYxNi0zLjg3NkMyMC45MzIgMTYuMDk2IDI0IDEyLjUyNCAyNCA4LjI0OWMwLTMuOTk2LTMuMTI5LTYuNzUtNi4zNzUtNi43NXptLS45MTkgMTUuMjc1YTMwLjc2NiAzMC43NjYgMCAwIDEtNC43MDMgMy4zMTZsLS4wMDQtLjAwMi0uMDA0LjAwMmEzMC45NTUgMzAuOTU1IDAgMCAxLTQuNzAzLTMuMzE2Yy0yLjY3Ny0yLjMwNy01LjA0Ny01LjI5OC01LjA0Ny04LjUyMyAwLTIuNzU0IDIuMTIxLTQuNSA0LjEyNS00LjUgMi4wNiAwIDMuOTE0IDEuNDc5IDQuNTQ0IDMuNjg0LjE0My40OTUuNTk2Ljc5NyAxLjA4Ni43OTYuNDkuMDAxLjk0My0uMzAyIDEuMDg1LS43OTYuNjMtMi4yMDUgMi40ODQtMy42ODQgNC41NDQtMy42ODQgMi4wMDQgMCA0LjEyNSAxLjc0NiA0LjEyNSA0LjUgMCAzLjIyNS0yLjM3IDYuMjE2LTUuMDQ4IDguNTIzeiIvPjwvc3ZnPg=="/>
+    <text transform="scale(.1)" x="745" y="175" textLength="907.5">DEVSPONSORS</text>
+    <text transform="scale(.1)" x="2100" y="175" textLength="1320" font-weight="bold">OFFICIAL SPONSOR</text>
   </g>
 </svg>

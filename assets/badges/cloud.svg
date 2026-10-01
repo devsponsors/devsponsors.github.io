@@ -1,24 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="235" height="28" viewBox="0 0 235 28" role="img" aria-label="Infrastructure: DevSponsors Cloud">
-  <title>DevSponsors Cloud Infrastructure</title>
-  <linearGradient id="s" x2="0" y2="100%">
-    <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
-    <stop offset="1" stop-opacity=".1"/>
-  </linearGradient>
-  <clipPath id="r">
-    <rect width="235" height="28" rx="5" fill="#fff"/>
-  </clipPath>
-  <g clip-path="url(#r)">
-    <rect width="105" height="28" fill="#0f172a"/>
-    <rect x="105" width="130" height="28" fill="#ec4899"/>
-    <rect width="235" height="28" fill="url(#s)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="305" height="28" role="img" aria-label="INFRASTRUCTURE: DEVSPONSORS CLOUD">
+  <title>INFRASTRUCTURE: DEVSPONSORS CLOUD</title>
+  <g shape-rendering="crispEdges">
+    <rect width="134" height="28" fill="#0f172a"/>
+    <rect x="134" width="171" height="28" fill="#ec4899"/>
   </g>
-  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
-    <g transform="translate(10, 5) scale(0.75)">
-      <path fill="#f472b6" d="M19.35 10.04C18.67 6.59 15.64 4 12 4C9.11 4 6.6 5.64 5.35 8.04C2.34 8.36 0 10.91 0 14C0 17.31 2.69 20 6 20H19C21.76 20 24 17.76 24 15C24 12.36 21.95 10.22 19.35 10.04Z"/>
-    </g>
-    <text aria-hidden="true" x="620" y="185" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="650">DevSponsors</text>
-    <text x="620" y="175" transform="scale(.1)" fill="#fff" textLength="650">DevSponsors</text>
-    <text aria-hidden="true" x="1680" y="185" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="1100">Cloud Partner</text>
-    <text x="1680" y="175" transform="scale(.1)" fill="#fff" font-weight="bold" textLength="1100">Cloud Partner</text>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100">
+    <image x="9" y="7" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZWRmMmY3IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMkgzYTEgMSAwIDAgMC0xIDF2NGExIDEgMCAwIDAgMSAxaDE4YTEgMSAwIDAgMCAxLTFWM2ExIDEgMCAwIDAtMS0xem0tMSA1SDRWNGgxNnptMSA3SDNhMSAxIDAgMCAwLTEgMXY0YTEgMSAwIDAgMCAxIDFoMThhMSAxIDAgMCAwIDEtMVYxNWExIDEgMCAwIDAtMS0xem0tMSA1SDR2LTJoMTZ6TTUgNmgxdjFINTZ6bTAgOGgxdjFINTZ6Ii8+PC9zdmc+"/>
+    <text transform="scale(.1)" x="720" y="175" textLength="990">INFRASTRUCTURE</text>
+    <text transform="scale(.1)" x="2195" y="175" textLength="1470" font-weight="bold">DEVSPONSORS CLOUD</text>
   </g>
 </svg>
