@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-09-30T04:16:39.868088+00:00",
+  "updated_at": "2026-10-01T04:28:31.071197+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1724,
+      "followers": 1728,
       "public_repos": 6,
-      "total_stars": 3666,
+      "total_stars": 3667,
       "activity_30d": {
-        "events_count": 31,
-        "commits_count": 10,
-        "pushes_count": 10
+        "events_count": 16,
+        "commits_count": 2,
+        "pushes_count": 2
       },
       "featured_repos": [
         "MatinSenPai/SenPaiScanner",
@@ -25,13 +25,13 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 392,
-      "public_repos": 302,
+      "followers": 396,
+      "public_repos": 304,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 74,
-        "pushes_count": 74
+        "commits_count": 91,
+        "pushes_count": 91
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -49,11 +49,11 @@
       "name_fa": "محمد مهدی عزیزی (TheGreatAzizi)",
       "role_fa": "زیرساخت ابری، لینوکس و سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
-      "followers": 381,
-      "public_repos": 25,
+      "followers": 382,
+      "public_repos": 26,
       "total_stars": 1106,
       "activity_30d": {
-        "events_count": 38,
+        "events_count": 41,
         "commits_count": 21,
         "pushes_count": 21
       },
@@ -69,10 +69,10 @@
       "role_fa": "توسعه کلاینت‌های شبکه، Rust, C# & Kotlin",
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
       "followers": 131,
-      "public_repos": 10,
-      "total_stars": 700,
+      "public_repos": 11,
+      "total_stars": 701,
       "activity_30d": {
-        "events_count": 62,
+        "events_count": 60,
         "commits_count": 28,
         "pushes_count": 28
       },
@@ -115,8 +115,8 @@
       "total_stars": 417,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 68,
-        "pushes_count": 68
+        "commits_count": 67,
+        "pushes_count": 67
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -130,12 +130,12 @@
       "role_fa": "فرانت‌اند، کامپوننت‌های فارسی و ناوبری",
       "avatar_url": "https://avatars.githubusercontent.com/u/71381670?v=4",
       "followers": 54,
-      "public_repos": 14,
+      "public_repos": 13,
       "total_stars": 106,
       "activity_30d": {
-        "events_count": 98,
-        "commits_count": 23,
-        "pushes_count": 23
+        "events_count": 96,
+        "commits_count": 22,
+        "pushes_count": 22
       },
       "featured_repos": [
         "taymakz/tehgo"
@@ -147,9 +147,9 @@
       "name_fa": "محمد مهدی مرتضوی",
       "role_fa": "کاتلین، وایرگارد و فلاتر",
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
-      "followers": 53,
+      "followers": 54,
       "public_repos": 11,
-      "total_stars": 336,
+      "total_stars": 340,
       "activity_30d": {
         "events_count": 100,
         "commits_count": 39,
@@ -187,7 +187,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/91134550?v=4",
       "followers": 21,
       "public_repos": 18,
-      "total_stars": 36,
+      "total_stars": 37,
       "activity_30d": {
         "events_count": 100,
         "commits_count": 20,
@@ -203,13 +203,13 @@
       "name_fa": "اردلان کتابچی",
       "role_fa": "الگوریتم‌های مالی و اتوماسیون داده",
       "avatar_url": "https://avatars.githubusercontent.com/u/49709301?v=4",
-      "followers": 7,
+      "followers": 8,
       "public_repos": 26,
       "total_stars": 45,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 61,
-        "pushes_count": 61
+        "commits_count": 74,
+        "pushes_count": 74
       },
       "featured_repos": [],
       "rank": 11
