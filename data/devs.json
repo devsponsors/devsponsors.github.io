@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-05T04:22:30.714942+00:00",
+  "updated_at": "2026-10-06T05:10:00.890186+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1762,
+      "followers": 1771,
       "public_repos": 7,
-      "total_stars": 3777,
+      "total_stars": 3806,
       "activity_30d": {
         "events_count": 89,
-        "commits_count": 7,
-        "pushes_count": 7
+        "commits_count": 10,
+        "pushes_count": 10
       },
       "featured_repos": [
         "MatinSenPai/SenPaiScanner",
@@ -26,12 +26,12 @@
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
       "followers": 399,
-      "public_repos": 306,
+      "public_repos": 307,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 93,
-        "pushes_count": 93
+        "commits_count": 92,
+        "pushes_count": 92
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -68,13 +68,13 @@
       "name_fa": "زث (Zeth)",
       "role_fa": "توسعه کلاینت‌های شبکه، Rust, C# & Kotlin",
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
-      "followers": 131,
+      "followers": 133,
       "public_repos": 12,
-      "total_stars": 705,
+      "total_stars": 709,
       "activity_30d": {
-        "events_count": 60,
-        "commits_count": 27,
-        "pushes_count": 27
+        "events_count": 57,
+        "commits_count": 26,
+        "pushes_count": 26
       },
       "featured_repos": [
         "ZethRise/SpoofGUI",
@@ -93,9 +93,9 @@
       "public_repos": 10,
       "total_stars": 223,
       "activity_30d": {
-        "events_count": 3,
-        "commits_count": 2,
-        "pushes_count": 2
+        "events_count": 2,
+        "commits_count": 1,
+        "pushes_count": 1
       },
       "featured_repos": [
         "mrbardia72/Go-Interview-Questions-And-Answers",
@@ -110,7 +110,7 @@
       "name_fa": "امیرعلی بیگی",
       "role_fa": "توسعه ابزارهای مدرن & تقویم فارسی",
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
-      "followers": 70,
+      "followers": 69,
       "public_repos": 36,
       "total_stars": 423,
       "activity_30d": {
@@ -172,8 +172,8 @@
       "total_stars": 111,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 49,
-        "pushes_count": 49
+        "commits_count": 47,
+        "pushes_count": 47
       },
       "featured_repos": [
         "bllackbull/Songbird"
@@ -190,8 +190,8 @@
       "total_stars": 37,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 26,
-        "pushes_count": 26
+        "commits_count": 28,
+        "pushes_count": 28
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -205,9 +205,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/49709301?v=4",
       "followers": 9,
       "public_repos": 29,
-      "total_stars": 45,
+      "total_stars": 47,
       "activity_30d": {
-        "events_count": 100,
+        "events_count": 99,
         "commits_count": 84,
         "pushes_count": 84
       },
