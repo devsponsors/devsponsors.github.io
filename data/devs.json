@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-06T05:10:00.890186+00:00",
+  "updated_at": "2026-10-07T04:37:03.138341+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1771,
+      "followers": 1779,
       "public_repos": 7,
-      "total_stars": 3806,
+      "total_stars": 3840,
       "activity_30d": {
         "events_count": 89,
         "commits_count": 10,
@@ -25,13 +25,13 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 399,
+      "followers": 400,
       "public_repos": 307,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 92,
-        "pushes_count": 92
+        "commits_count": 91,
+        "pushes_count": 91
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -49,7 +49,7 @@
       "name_fa": "محمد مهدی عزیزی (TheGreatAzizi)",
       "role_fa": "زیرساخت ابری، لینوکس و سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
-      "followers": 385,
+      "followers": 386,
       "public_repos": 25,
       "total_stars": 1112,
       "activity_30d": {
@@ -68,11 +68,11 @@
       "name_fa": "زث (Zeth)",
       "role_fa": "توسعه کلاینت‌های شبکه، Rust, C# & Kotlin",
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
-      "followers": 133,
+      "followers": 134,
       "public_repos": 12,
-      "total_stars": 709,
+      "total_stars": 711,
       "activity_30d": {
-        "events_count": 57,
+        "events_count": 56,
         "commits_count": 26,
         "pushes_count": 26
       },
@@ -112,11 +112,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
       "followers": 69,
       "public_repos": 36,
-      "total_stars": 423,
+      "total_stars": 422,
       "activity_30d": {
-        "events_count": 100,
-        "commits_count": 65,
-        "pushes_count": 65
+        "events_count": 26,
+        "commits_count": 1,
+        "pushes_count": 1
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -131,11 +131,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
       "followers": 55,
       "public_repos": 11,
-      "total_stars": 344,
+      "total_stars": 345,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 30,
-        "pushes_count": 30
+        "commits_count": 20,
+        "pushes_count": 20
       },
       "featured_repos": [
         "Mahdi-mortazavi/relay",
@@ -190,8 +190,8 @@
       "total_stars": 37,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 28,
-        "pushes_count": 28
+        "commits_count": 30,
+        "pushes_count": 30
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -208,8 +208,8 @@
       "total_stars": 47,
       "activity_30d": {
         "events_count": 99,
-        "commits_count": 84,
-        "pushes_count": 84
+        "commits_count": 83,
+        "pushes_count": 83
       },
       "featured_repos": [],
       "rank": 11
