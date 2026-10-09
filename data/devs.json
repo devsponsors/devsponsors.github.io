@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-08T04:47:47.295070+00:00",
+  "updated_at": "2026-10-09T04:50:44.746842+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1785,
+      "followers": 1790,
       "public_repos": 7,
-      "total_stars": 3856,
+      "total_stars": 3869,
       "activity_30d": {
         "events_count": 89,
         "commits_count": 10,
@@ -30,8 +30,8 @@
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 92,
-        "pushes_count": 92
+        "commits_count": 90,
+        "pushes_count": 90
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -51,7 +51,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
       "followers": 387,
       "public_repos": 25,
-      "total_stars": 1112,
+      "total_stars": 1113,
       "activity_30d": {
         "events_count": 65,
         "commits_count": 46,
@@ -114,7 +114,7 @@
       "public_repos": 36,
       "total_stars": 422,
       "activity_30d": {
-        "events_count": 25,
+        "events_count": 24,
         "commits_count": 1,
         "pushes_count": 1
       },
@@ -125,11 +125,29 @@
       "rank": 6
     },
     {
+      "username": "taymakz",
+      "name_fa": "تایماز اکبری",
+      "role_fa": "فرانت‌اند، کامپوننت‌های فارسی و ناوبری",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71381670?v=4",
+      "followers": 54,
+      "public_repos": 13,
+      "total_stars": 105,
+      "activity_30d": {
+        "events_count": 81,
+        "commits_count": 0,
+        "pushes_count": 0
+      },
+      "featured_repos": [
+        "taymakz/tehgo"
+      ],
+      "rank": 7
+    },
+    {
       "username": "Mahdi-mortazavi",
       "name_fa": "محمد مهدی مرتضوی",
       "role_fa": "کاتلین، وایرگارد و فلاتر",
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
-      "followers": 55,
+      "followers": 54,
       "public_repos": 11,
       "total_stars": 345,
       "activity_30d": {
@@ -141,24 +159,6 @@
         "Mahdi-mortazavi/relay",
         "Mahdi-mortazavi/flow",
         "Mahdi-mortazavi/sooda"
-      ],
-      "rank": 7
-    },
-    {
-      "username": "taymakz",
-      "name_fa": "تایماز اکبری",
-      "role_fa": "فرانت‌اند، کامپوننت‌های فارسی و ناوبری",
-      "avatar_url": "https://avatars.githubusercontent.com/u/71381670?v=4",
-      "followers": 54,
-      "public_repos": 13,
-      "total_stars": 105,
-      "activity_30d": {
-        "events_count": 94,
-        "commits_count": 1,
-        "pushes_count": 1
-      },
-      "featured_repos": [
-        "taymakz/tehgo"
       ],
       "rank": 8
     },
@@ -187,11 +187,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/91134550?v=4",
       "followers": 21,
       "public_repos": 18,
-      "total_stars": 38,
+      "total_stars": 40,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 30,
-        "pushes_count": 30
+        "commits_count": 37,
+        "pushes_count": 37
       },
       "featured_repos": [
         "aliinreallife/metto"
