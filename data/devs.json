@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-09T04:50:44.746842+00:00",
+  "updated_at": "2026-10-10T04:36:17.972495+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1790,
+      "followers": 1793,
       "public_repos": 7,
-      "total_stars": 3869,
+      "total_stars": 3878,
       "activity_30d": {
         "events_count": 89,
         "commits_count": 10,
@@ -25,7 +25,7 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 401,
+      "followers": 402,
       "public_repos": 307,
       "total_stars": 550,
       "activity_30d": {
@@ -53,7 +53,7 @@
       "public_repos": 25,
       "total_stars": 1113,
       "activity_30d": {
-        "events_count": 65,
+        "events_count": 64,
         "commits_count": 46,
         "pushes_count": 46
       },
@@ -70,7 +70,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
       "followers": 134,
       "public_repos": 12,
-      "total_stars": 712,
+      "total_stars": 714,
       "activity_30d": {
         "events_count": 55,
         "commits_count": 26,
@@ -110,13 +110,13 @@
       "name_fa": "امیرعلی بیگی",
       "role_fa": "توسعه ابزارهای مدرن & تقویم فارسی",
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
-      "followers": 70,
+      "followers": 71,
       "public_repos": 36,
-      "total_stars": 422,
+      "total_stars": 425,
       "activity_30d": {
         "events_count": 24,
-        "commits_count": 1,
-        "pushes_count": 1
+        "commits_count": 2,
+        "pushes_count": 2
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -133,7 +133,7 @@
       "public_repos": 13,
       "total_stars": 105,
       "activity_30d": {
-        "events_count": 81,
+        "events_count": 77,
         "commits_count": 0,
         "pushes_count": 0
       },
@@ -190,8 +190,8 @@
       "total_stars": 40,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 37,
-        "pushes_count": 37
+        "commits_count": 30,
+        "pushes_count": 30
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -204,12 +204,12 @@
       "role_fa": "الگوریتم‌های مالی و اتوماسیون داده",
       "avatar_url": "https://avatars.githubusercontent.com/u/49709301?v=4",
       "followers": 10,
-      "public_repos": 29,
-      "total_stars": 47,
+      "public_repos": 30,
+      "total_stars": 48,
       "activity_30d": {
         "events_count": 99,
-        "commits_count": 83,
-        "pushes_count": 83
+        "commits_count": 85,
+        "pushes_count": 85
       },
       "featured_repos": [],
       "rank": 11
