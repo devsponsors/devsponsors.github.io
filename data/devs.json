@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-13T05:43:07.807134+00:00",
+  "updated_at": "2026-10-14T03:46:31.366430+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1800,
+      "followers": 1801,
       "public_repos": 7,
-      "total_stars": 3902,
+      "total_stars": 3910,
       "activity_30d": {
         "events_count": 89,
         "commits_count": 10,
@@ -25,13 +25,13 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 406,
+      "followers": 405,
       "public_repos": 310,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 62,
-        "pushes_count": 62
+        "commits_count": 60,
+        "pushes_count": 60
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -51,7 +51,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
       "followers": 386,
       "public_repos": 25,
-      "total_stars": 1115,
+      "total_stars": 1116,
       "activity_30d": {
         "events_count": 63,
         "commits_count": 45,
@@ -70,11 +70,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
       "followers": 135,
       "public_repos": 12,
-      "total_stars": 715,
+      "total_stars": 716,
       "activity_30d": {
-        "events_count": 46,
-        "commits_count": 22,
-        "pushes_count": 22
+        "events_count": 25,
+        "commits_count": 4,
+        "pushes_count": 4
       },
       "featured_repos": [
         "ZethRise/SpoofGUI",
@@ -133,7 +133,7 @@
       "public_repos": 13,
       "total_stars": 106,
       "activity_30d": {
-        "events_count": 76,
+        "events_count": 60,
         "commits_count": 2,
         "pushes_count": 2
       },
@@ -151,7 +151,7 @@
       "public_repos": 11,
       "total_stars": 346,
       "activity_30d": {
-        "events_count": 69,
+        "events_count": 70,
         "commits_count": 0,
         "pushes_count": 0
       },
@@ -190,8 +190,8 @@
       "total_stars": 40,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 43,
-        "pushes_count": 43
+        "commits_count": 50,
+        "pushes_count": 50
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -205,11 +205,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/49709301?v=4",
       "followers": 10,
       "public_repos": 30,
-      "total_stars": 50,
+      "total_stars": 52,
       "activity_30d": {
         "events_count": 99,
-        "commits_count": 85,
-        "pushes_count": 85
+        "commits_count": 84,
+        "pushes_count": 84
       },
       "featured_repos": [],
       "rank": 11
