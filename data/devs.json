@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-14T03:46:31.366430+00:00",
+  "updated_at": "2026-10-15T03:28:00.620987+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1801,
+      "followers": 1803,
       "public_repos": 7,
-      "total_stars": 3910,
+      "total_stars": 3914,
       "activity_30d": {
         "events_count": 89,
         "commits_count": 10,
@@ -25,13 +25,13 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 405,
-      "public_repos": 310,
+      "followers": 406,
+      "public_repos": 311,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 60,
-        "pushes_count": 60
+        "commits_count": 57,
+        "pushes_count": 57
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -49,7 +49,7 @@
       "name_fa": "محمد مهدی عزیزی (TheGreatAzizi)",
       "role_fa": "زیرساخت ابری، لینوکس و سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
-      "followers": 386,
+      "followers": 387,
       "public_repos": 25,
       "total_stars": 1116,
       "activity_30d": {
@@ -72,7 +72,7 @@
       "public_repos": 12,
       "total_stars": 716,
       "activity_30d": {
-        "events_count": 25,
+        "events_count": 24,
         "commits_count": 4,
         "pushes_count": 4
       },
@@ -93,9 +93,9 @@
       "public_repos": 10,
       "total_stars": 223,
       "activity_30d": {
-        "events_count": 3,
-        "commits_count": 1,
-        "pushes_count": 1
+        "events_count": 4,
+        "commits_count": 2,
+        "pushes_count": 2
       },
       "featured_repos": [
         "mrbardia72/Go-Interview-Questions-And-Answers",
@@ -133,9 +133,9 @@
       "public_repos": 13,
       "total_stars": 106,
       "activity_30d": {
-        "events_count": 60,
-        "commits_count": 2,
-        "pushes_count": 2
+        "events_count": 65,
+        "commits_count": 5,
+        "pushes_count": 5
       },
       "featured_repos": [
         "taymakz/tehgo"
@@ -147,9 +147,9 @@
       "name_fa": "محمد مهدی مرتضوی",
       "role_fa": "کاتلین، وایرگارد و فلاتر",
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
-      "followers": 54,
+      "followers": 55,
       "public_repos": 11,
-      "total_stars": 346,
+      "total_stars": 347,
       "activity_30d": {
         "events_count": 70,
         "commits_count": 0,
@@ -190,8 +190,8 @@
       "total_stars": 40,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 50,
-        "pushes_count": 50
+        "commits_count": 70,
+        "pushes_count": 70
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -205,11 +205,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/49709301?v=4",
       "followers": 10,
       "public_repos": 30,
-      "total_stars": 52,
+      "total_stars": 53,
       "activity_30d": {
         "events_count": 99,
-        "commits_count": 84,
-        "pushes_count": 84
+        "commits_count": 80,
+        "pushes_count": 80
       },
       "featured_repos": [],
       "rank": 11
