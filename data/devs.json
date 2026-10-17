@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-16T03:23:51.306012+00:00",
+  "updated_at": "2026-10-17T03:13:58.156554+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1809,
+      "followers": 1810,
       "public_repos": 7,
-      "total_stars": 3919,
+      "total_stars": 3931,
       "activity_30d": {
         "events_count": 89,
         "commits_count": 10,
@@ -30,8 +30,8 @@
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 59,
-        "pushes_count": 59
+        "commits_count": 62,
+        "pushes_count": 62
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -68,11 +68,11 @@
       "name_fa": "زث (Zeth)",
       "role_fa": "توسعه کلاینت‌های شبکه، Rust, C# & Kotlin",
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
-      "followers": 136,
+      "followers": 138,
       "public_repos": 12,
       "total_stars": 716,
       "activity_30d": {
-        "events_count": 23,
+        "events_count": 24,
         "commits_count": 3,
         "pushes_count": 3
       },
@@ -112,11 +112,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
       "followers": 70,
       "public_repos": 36,
-      "total_stars": 427,
+      "total_stars": 426,
       "activity_30d": {
-        "events_count": 25,
-        "commits_count": 2,
-        "pushes_count": 2
+        "events_count": 23,
+        "commits_count": 1,
+        "pushes_count": 1
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -134,8 +134,8 @@
       "total_stars": 106,
       "activity_30d": {
         "events_count": 53,
-        "commits_count": 5,
-        "pushes_count": 5
+        "commits_count": 6,
+        "pushes_count": 6
       },
       "featured_repos": [
         "taymakz/tehgo"
@@ -149,9 +149,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
       "followers": 55,
       "public_repos": 11,
-      "total_stars": 349,
+      "total_stars": 350,
       "activity_30d": {
-        "events_count": 62,
+        "events_count": 34,
         "commits_count": 0,
         "pushes_count": 0
       },
@@ -171,7 +171,7 @@
       "public_repos": 13,
       "total_stars": 113,
       "activity_30d": {
-        "events_count": 97,
+        "events_count": 95,
         "commits_count": 52,
         "pushes_count": 52
       },
@@ -190,8 +190,8 @@
       "total_stars": 41,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 71,
-        "pushes_count": 71
+        "commits_count": 77,
+        "pushes_count": 77
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -204,12 +204,12 @@
       "role_fa": "الگوریتم‌های مالی و اتوماسیون داده",
       "avatar_url": "https://avatars.githubusercontent.com/u/49709301?v=4",
       "followers": 10,
-      "public_repos": 30,
+      "public_repos": 31,
       "total_stars": 53,
       "activity_30d": {
         "events_count": 99,
-        "commits_count": 80,
-        "pushes_count": 80
+        "commits_count": 79,
+        "pushes_count": 79
       },
       "featured_repos": [],
       "rank": 11
