@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-17T03:13:58.156554+00:00",
+  "updated_at": "2026-10-18T03:18:03.789904+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1810,
+      "followers": 1815,
       "public_repos": 7,
-      "total_stars": 3931,
+      "total_stars": 3936,
       "activity_30d": {
         "events_count": 89,
         "commits_count": 10,
@@ -25,7 +25,7 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 405,
+      "followers": 408,
       "public_repos": 311,
       "total_stars": 550,
       "activity_30d": {
@@ -53,9 +53,9 @@
       "public_repos": 25,
       "total_stars": 1116,
       "activity_30d": {
-        "events_count": 50,
-        "commits_count": 36,
-        "pushes_count": 36
+        "events_count": 44,
+        "commits_count": 33,
+        "pushes_count": 33
       },
       "featured_repos": [
         "TheGreatAzizi/Secure-Pastebin-Self-Hosted",
@@ -68,13 +68,13 @@
       "name_fa": "زث (Zeth)",
       "role_fa": "توسعه کلاینت‌های شبکه، Rust, C# & Kotlin",
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
-      "followers": 138,
+      "followers": 140,
       "public_repos": 12,
-      "total_stars": 716,
+      "total_stars": 719,
       "activity_30d": {
-        "events_count": 24,
-        "commits_count": 3,
-        "pushes_count": 3
+        "events_count": 23,
+        "commits_count": 4,
+        "pushes_count": 4
       },
       "featured_repos": [
         "ZethRise/SpoofGUI",
@@ -93,7 +93,7 @@
       "public_repos": 10,
       "total_stars": 222,
       "activity_30d": {
-        "events_count": 4,
+        "events_count": 6,
         "commits_count": 2,
         "pushes_count": 2
       },
@@ -110,13 +110,13 @@
       "name_fa": "امیرعلی بیگی",
       "role_fa": "توسعه ابزارهای مدرن & تقویم فارسی",
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
-      "followers": 70,
+      "followers": 71,
       "public_repos": 36,
-      "total_stars": 426,
+      "total_stars": 428,
       "activity_30d": {
-        "events_count": 23,
-        "commits_count": 1,
-        "pushes_count": 1
+        "events_count": 27,
+        "commits_count": 3,
+        "pushes_count": 3
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -133,7 +133,7 @@
       "public_repos": 13,
       "total_stars": 106,
       "activity_30d": {
-        "events_count": 53,
+        "events_count": 54,
         "commits_count": 6,
         "pushes_count": 6
       },
@@ -147,11 +147,11 @@
       "name_fa": "محمد مهدی مرتضوی",
       "role_fa": "کاتلین، وایرگارد و فلاتر",
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
-      "followers": 55,
+      "followers": 56,
       "public_repos": 11,
-      "total_stars": 350,
+      "total_stars": 352,
       "activity_30d": {
-        "events_count": 34,
+        "events_count": 29,
         "commits_count": 0,
         "pushes_count": 0
       },
@@ -171,9 +171,9 @@
       "public_repos": 13,
       "total_stars": 113,
       "activity_30d": {
-        "events_count": 95,
-        "commits_count": 52,
-        "pushes_count": 52
+        "events_count": 92,
+        "commits_count": 50,
+        "pushes_count": 50
       },
       "featured_repos": [
         "bllackbull/Songbird"
@@ -190,8 +190,8 @@
       "total_stars": 41,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 77,
-        "pushes_count": 77
+        "commits_count": 58,
+        "pushes_count": 58
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -208,8 +208,8 @@
       "total_stars": 53,
       "activity_30d": {
         "events_count": 99,
-        "commits_count": 79,
-        "pushes_count": 79
+        "commits_count": 78,
+        "pushes_count": 78
       },
       "featured_repos": [],
       "rank": 11
