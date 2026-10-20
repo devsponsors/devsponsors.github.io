@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T03:30:37.311282+00:00",
+  "updated_at": "2026-10-20T03:40:44.719973+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
@@ -51,11 +51,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
       "followers": 389,
       "public_repos": 26,
-      "total_stars": 1117,
+      "total_stars": 1118,
       "activity_30d": {
-        "events_count": 45,
-        "commits_count": 33,
-        "pushes_count": 33
+        "events_count": 48,
+        "commits_count": 36,
+        "pushes_count": 36
       },
       "featured_repos": [
         "TheGreatAzizi/Secure-Pastebin-Self-Hosted",
@@ -72,7 +72,7 @@
       "public_repos": 12,
       "total_stars": 720,
       "activity_30d": {
-        "events_count": 23,
+        "events_count": 22,
         "commits_count": 4,
         "pushes_count": 4
       },
@@ -93,7 +93,7 @@
       "public_repos": 10,
       "total_stars": 222,
       "activity_30d": {
-        "events_count": 6,
+        "events_count": 5,
         "commits_count": 2,
         "pushes_count": 2
       },
@@ -114,9 +114,9 @@
       "public_repos": 36,
       "total_stars": 429,
       "activity_30d": {
-        "events_count": 31,
-        "commits_count": 5,
-        "pushes_count": 5
+        "events_count": 49,
+        "commits_count": 16,
+        "pushes_count": 16
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -133,7 +133,7 @@
       "public_repos": 13,
       "total_stars": 106,
       "activity_30d": {
-        "events_count": 52,
+        "events_count": 50,
         "commits_count": 6,
         "pushes_count": 6
       },
@@ -149,9 +149,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
       "followers": 56,
       "public_repos": 11,
-      "total_stars": 354,
+      "total_stars": 355,
       "activity_30d": {
-        "events_count": 30,
+        "events_count": 15,
         "commits_count": 0,
         "pushes_count": 0
       },
@@ -171,9 +171,9 @@
       "public_repos": 13,
       "total_stars": 113,
       "activity_30d": {
-        "events_count": 83,
-        "commits_count": 44,
-        "pushes_count": 44
+        "events_count": 69,
+        "commits_count": 39,
+        "pushes_count": 39
       },
       "featured_repos": [
         "bllackbull/Songbird"
@@ -190,8 +190,8 @@
       "total_stars": 41,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 51,
-        "pushes_count": 51
+        "commits_count": 61,
+        "pushes_count": 61
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -204,7 +204,7 @@
       "role_fa": "الگوریتم‌های مالی و اتوماسیون داده",
       "avatar_url": "https://avatars.githubusercontent.com/u/49709301?v=4",
       "followers": 10,
-      "public_repos": 31,
+      "public_repos": 32,
       "total_stars": 53,
       "activity_30d": {
         "events_count": 99,
