@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-22T03:32:15.427177+00:00",
+  "updated_at": "2026-10-23T03:37:26.999701+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1822,
+      "followers": 1824,
       "public_repos": 7,
-      "total_stars": 3948,
+      "total_stars": 3954,
       "activity_30d": {
         "events_count": 89,
         "commits_count": 10,
@@ -25,13 +25,13 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 411,
-      "public_repos": 312,
+      "followers": 410,
+      "public_repos": 313,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 73,
-        "pushes_count": 73
+        "commits_count": 77,
+        "pushes_count": 77
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -50,12 +50,12 @@
       "role_fa": "زیرساخت ابری، لینوکس و سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
       "followers": 389,
-      "public_repos": 26,
+      "public_repos": 27,
       "total_stars": 1125,
       "activity_30d": {
-        "events_count": 50,
-        "commits_count": 42,
-        "pushes_count": 42
+        "events_count": 57,
+        "commits_count": 48,
+        "pushes_count": 48
       },
       "featured_repos": [
         "TheGreatAzizi/Secure-Pastebin-Self-Hosted",
@@ -70,9 +70,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
       "followers": 141,
       "public_repos": 12,
-      "total_stars": 724,
+      "total_stars": 727,
       "activity_30d": {
-        "events_count": 20,
+        "events_count": 17,
         "commits_count": 3,
         "pushes_count": 3
       },
@@ -91,7 +91,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/8832241?v=4",
       "followers": 79,
       "public_repos": 10,
-      "total_stars": 222,
+      "total_stars": 223,
       "activity_30d": {
         "events_count": 5,
         "commits_count": 2,
@@ -112,11 +112,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
       "followers": 71,
       "public_repos": 36,
-      "total_stars": 430,
+      "total_stars": 431,
       "activity_30d": {
-        "events_count": 57,
-        "commits_count": 24,
-        "pushes_count": 24
+        "events_count": 62,
+        "commits_count": 27,
+        "pushes_count": 27
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -133,7 +133,7 @@
       "public_repos": 13,
       "total_stars": 113,
       "activity_30d": {
-        "events_count": 47,
+        "events_count": 44,
         "commits_count": 6,
         "pushes_count": 6
       },
@@ -151,9 +151,9 @@
       "public_repos": 11,
       "total_stars": 358,
       "activity_30d": {
-        "events_count": 45,
-        "commits_count": 6,
-        "pushes_count": 6
+        "events_count": 51,
+        "commits_count": 11,
+        "pushes_count": 11
       },
       "featured_repos": [
         "Mahdi-mortazavi/relay",
@@ -171,7 +171,7 @@
       "public_repos": 13,
       "total_stars": 113,
       "activity_30d": {
-        "events_count": 71,
+        "events_count": 73,
         "commits_count": 41,
         "pushes_count": 41
       },
@@ -190,8 +190,8 @@
       "total_stars": 42,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 62,
-        "pushes_count": 62
+        "commits_count": 63,
+        "pushes_count": 63
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -208,8 +208,8 @@
       "total_stars": 53,
       "activity_30d": {
         "events_count": 99,
-        "commits_count": 77,
-        "pushes_count": 77
+        "commits_count": 76,
+        "pushes_count": 76
       },
       "featured_repos": [],
       "rank": 11
