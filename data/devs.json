@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-23T03:37:26.999701+00:00",
+  "updated_at": "2026-10-24T03:31:20.578627+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1824,
+      "followers": 1827,
       "public_repos": 7,
-      "total_stars": 3954,
+      "total_stars": 3963,
       "activity_30d": {
         "events_count": 89,
         "commits_count": 10,
@@ -25,13 +25,13 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 410,
-      "public_repos": 313,
+      "followers": 413,
+      "public_repos": 314,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 77,
-        "pushes_count": 77
+        "commits_count": 81,
+        "pushes_count": 81
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -49,13 +49,13 @@
       "name_fa": "محمد مهدی عزیزی (TheGreatAzizi)",
       "role_fa": "زیرساخت ابری، لینوکس و سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
-      "followers": 389,
+      "followers": 391,
       "public_repos": 27,
-      "total_stars": 1125,
+      "total_stars": 1129,
       "activity_30d": {
-        "events_count": 57,
-        "commits_count": 48,
-        "pushes_count": 48
+        "events_count": 60,
+        "commits_count": 51,
+        "pushes_count": 51
       },
       "featured_repos": [
         "TheGreatAzizi/Secure-Pastebin-Self-Hosted",
@@ -70,9 +70,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
       "followers": 141,
       "public_repos": 12,
-      "total_stars": 727,
+      "total_stars": 728,
       "activity_30d": {
-        "events_count": 17,
+        "events_count": 18,
         "commits_count": 3,
         "pushes_count": 3
       },
@@ -89,13 +89,13 @@
       "name_fa": "بردیا کاظمی (Bardia Kazemi)",
       "role_fa": "آموزش تخصصی گیت و Golang",
       "avatar_url": "https://avatars.githubusercontent.com/u/8832241?v=4",
-      "followers": 79,
+      "followers": 80,
       "public_repos": 10,
-      "total_stars": 223,
+      "total_stars": 224,
       "activity_30d": {
-        "events_count": 5,
-        "commits_count": 2,
-        "pushes_count": 2
+        "events_count": 10,
+        "commits_count": 5,
+        "pushes_count": 5
       },
       "featured_repos": [
         "mrbardia72/Go-Interview-Questions-And-Answers",
@@ -114,9 +114,9 @@
       "public_repos": 36,
       "total_stars": 431,
       "activity_30d": {
-        "events_count": 62,
-        "commits_count": 27,
-        "pushes_count": 27
+        "events_count": 65,
+        "commits_count": 28,
+        "pushes_count": 28
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -148,12 +148,12 @@
       "role_fa": "کاتلین، وایرگارد و فلاتر",
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
       "followers": 56,
-      "public_repos": 11,
+      "public_repos": 12,
       "total_stars": 358,
       "activity_30d": {
-        "events_count": 51,
-        "commits_count": 11,
-        "pushes_count": 11
+        "events_count": 65,
+        "commits_count": 12,
+        "pushes_count": 12
       },
       "featured_repos": [
         "Mahdi-mortazavi/relay",
@@ -169,11 +169,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/112873489?v=4",
       "followers": 25,
       "public_repos": 13,
-      "total_stars": 113,
+      "total_stars": 119,
       "activity_30d": {
-        "events_count": 73,
-        "commits_count": 41,
-        "pushes_count": 41
+        "events_count": 100,
+        "commits_count": 45,
+        "pushes_count": 45
       },
       "featured_repos": [
         "bllackbull/Songbird"
@@ -190,8 +190,8 @@
       "total_stars": 42,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 63,
-        "pushes_count": 63
+        "commits_count": 54,
+        "pushes_count": 54
       },
       "featured_repos": [
         "aliinreallife/metto"
