@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-25T03:27:45.439011+00:00",
+  "updated_at": "2026-10-26T03:30:01.916857+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1829,
+      "followers": 1832,
       "public_repos": 7,
-      "total_stars": 3966,
+      "total_stars": 3988,
       "activity_30d": {
         "events_count": 89,
         "commits_count": 10,
@@ -25,7 +25,7 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 415,
+      "followers": 418,
       "public_repos": 314,
       "total_stars": 550,
       "activity_30d": {
@@ -70,7 +70,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
       "followers": 141,
       "public_repos": 12,
-      "total_stars": 728,
+      "total_stars": 731,
       "activity_30d": {
         "events_count": 18,
         "commits_count": 3,
@@ -90,12 +90,12 @@
       "role_fa": "آموزش تخصصی گیت و Golang",
       "avatar_url": "https://avatars.githubusercontent.com/u/8832241?v=4",
       "followers": 80,
-      "public_repos": 11,
+      "public_repos": 10,
       "total_stars": 224,
       "activity_30d": {
-        "events_count": 12,
-        "commits_count": 7,
-        "pushes_count": 7
+        "events_count": 37,
+        "commits_count": 16,
+        "pushes_count": 16
       },
       "featured_repos": [
         "mrbardia72/Go-Interview-Questions-And-Answers",
@@ -112,9 +112,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
       "followers": 71,
       "public_repos": 36,
-      "total_stars": 431,
+      "total_stars": 432,
       "activity_30d": {
-        "events_count": 64,
+        "events_count": 63,
         "commits_count": 28,
         "pushes_count": 28
       },
@@ -133,7 +133,7 @@
       "public_repos": 13,
       "total_stars": 113,
       "activity_30d": {
-        "events_count": 44,
+        "events_count": 42,
         "commits_count": 6,
         "pushes_count": 6
       },
@@ -149,11 +149,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
       "followers": 56,
       "public_repos": 12,
-      "total_stars": 356,
+      "total_stars": 359,
       "activity_30d": {
-        "events_count": 72,
-        "commits_count": 14,
-        "pushes_count": 14
+        "events_count": 74,
+        "commits_count": 16,
+        "pushes_count": 16
       },
       "featured_repos": [
         "Mahdi-mortazavi/relay",
@@ -167,13 +167,13 @@
       "name_fa": "پویا خلیلی (Pouya Khalili)",
       "role_fa": "توسعه فول‌استک، Node.js & پیام‌رسان سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/112873489?v=4",
-      "followers": 25,
+      "followers": 28,
       "public_repos": 13,
-      "total_stars": 121,
+      "total_stars": 130,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 45,
-        "pushes_count": 45
+        "commits_count": 46,
+        "pushes_count": 46
       },
       "featured_repos": [
         "bllackbull/Songbird"
@@ -190,8 +190,8 @@
       "total_stars": 42,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 53,
-        "pushes_count": 53
+        "commits_count": 56,
+        "pushes_count": 56
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -207,9 +207,9 @@
       "public_repos": 32,
       "total_stars": 53,
       "activity_30d": {
-        "events_count": 99,
-        "commits_count": 75,
-        "pushes_count": 75
+        "events_count": 96,
+        "commits_count": 62,
+        "pushes_count": 62
       },
       "featured_repos": [],
       "rank": 11
