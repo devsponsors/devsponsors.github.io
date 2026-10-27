@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-26T03:30:01.916857+00:00",
+  "updated_at": "2026-10-27T03:56:07.439080+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1832,
+      "followers": 1837,
       "public_repos": 7,
-      "total_stars": 3988,
+      "total_stars": 3996,
       "activity_30d": {
         "events_count": 89,
         "commits_count": 10,
@@ -30,8 +30,8 @@
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 80,
-        "pushes_count": 80
+        "commits_count": 81,
+        "pushes_count": 81
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -93,9 +93,9 @@
       "public_repos": 10,
       "total_stars": 224,
       "activity_30d": {
-        "events_count": 37,
-        "commits_count": 16,
-        "pushes_count": 16
+        "events_count": 41,
+        "commits_count": 19,
+        "pushes_count": 19
       },
       "featured_repos": [
         "mrbardia72/Go-Interview-Questions-And-Answers",
@@ -112,7 +112,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
       "followers": 71,
       "public_repos": 36,
-      "total_stars": 432,
+      "total_stars": 433,
       "activity_30d": {
         "events_count": 63,
         "commits_count": 28,
@@ -147,9 +147,9 @@
       "name_fa": "محمد مهدی مرتضوی",
       "role_fa": "کاتلین، وایرگارد و فلاتر",
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
-      "followers": 56,
+      "followers": 57,
       "public_repos": 12,
-      "total_stars": 359,
+      "total_stars": 361,
       "activity_30d": {
         "events_count": 74,
         "commits_count": 16,
@@ -169,11 +169,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/112873489?v=4",
       "followers": 28,
       "public_repos": 13,
-      "total_stars": 130,
+      "total_stars": 134,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 46,
-        "pushes_count": 46
+        "commits_count": 47,
+        "pushes_count": 47
       },
       "featured_repos": [
         "bllackbull/Songbird"
@@ -190,8 +190,8 @@
       "total_stars": 42,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 56,
-        "pushes_count": 56
+        "commits_count": 52,
+        "pushes_count": 52
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -207,9 +207,9 @@
       "public_repos": 32,
       "total_stars": 53,
       "activity_30d": {
-        "events_count": 96,
-        "commits_count": 62,
-        "pushes_count": 62
+        "events_count": 92,
+        "commits_count": 61,
+        "pushes_count": 61
       },
       "featured_repos": [],
       "rank": 11
