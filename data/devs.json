@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-31T04:22:46.098124+00:00",
+  "updated_at": "2026-11-01T04:41:14.132198+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1839,
+      "followers": 1840,
       "public_repos": 7,
       "total_stars": 4004,
       "activity_30d": {
@@ -25,13 +25,13 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 426,
+      "followers": 424,
       "public_repos": 315,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 78,
-        "pushes_count": 78
+        "commits_count": 77,
+        "pushes_count": 77
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -49,13 +49,13 @@
       "name_fa": "محمد مهدی عزیزی (TheGreatAzizi)",
       "role_fa": "زیرساخت ابری، لینوکس و سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
-      "followers": 391,
+      "followers": 392,
       "public_repos": 28,
-      "total_stars": 1132,
+      "total_stars": 1133,
       "activity_30d": {
-        "events_count": 62,
-        "commits_count": 53,
-        "pushes_count": 53
+        "events_count": 40,
+        "commits_count": 31,
+        "pushes_count": 31
       },
       "featured_repos": [
         "TheGreatAzizi/Secure-Pastebin-Self-Hosted",
@@ -70,9 +70,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
       "followers": 145,
       "public_repos": 12,
-      "total_stars": 759,
+      "total_stars": 760,
       "activity_30d": {
-        "events_count": 28,
+        "events_count": 26,
         "commits_count": 7,
         "pushes_count": 7
       },
@@ -89,13 +89,13 @@
       "name_fa": "بردیا کاظمی (Bardia Kazemi)",
       "role_fa": "آموزش تخصصی گیت و Golang",
       "avatar_url": "https://avatars.githubusercontent.com/u/8832241?v=4",
-      "followers": 80,
+      "followers": 79,
       "public_repos": 10,
       "total_stars": 224,
       "activity_30d": {
-        "events_count": 42,
-        "commits_count": 19,
-        "pushes_count": 19
+        "events_count": 41,
+        "commits_count": 18,
+        "pushes_count": 18
       },
       "featured_repos": [
         "mrbardia72/Go-Interview-Questions-And-Answers",
@@ -114,7 +114,7 @@
       "public_repos": 38,
       "total_stars": 432,
       "activity_30d": {
-        "events_count": 74,
+        "events_count": 73,
         "commits_count": 42,
         "pushes_count": 42
       },
@@ -125,31 +125,13 @@
       "rank": 6
     },
     {
-      "username": "taymakz",
-      "name_fa": "تایماز اکبری",
-      "role_fa": "فرانت‌اند، کامپوننت‌های فارسی و ناوبری",
-      "avatar_url": "https://avatars.githubusercontent.com/u/71381670?v=4",
-      "followers": 59,
-      "public_repos": 13,
-      "total_stars": 113,
-      "activity_30d": {
-        "events_count": 39,
-        "commits_count": 6,
-        "pushes_count": 6
-      },
-      "featured_repos": [
-        "taymakz/tehgo"
-      ],
-      "rank": 7
-    },
-    {
       "username": "Mahdi-mortazavi",
       "name_fa": "محمد مهدی مرتضوی",
       "role_fa": "کاتلین، وایرگارد و فلاتر",
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
-      "followers": 59,
+      "followers": 60,
       "public_repos": 12,
-      "total_stars": 372,
+      "total_stars": 373,
       "activity_30d": {
         "events_count": 76,
         "commits_count": 17,
@@ -159,6 +141,24 @@
         "Mahdi-mortazavi/relay",
         "Mahdi-mortazavi/flow",
         "Mahdi-mortazavi/sooda"
+      ],
+      "rank": 7
+    },
+    {
+      "username": "taymakz",
+      "name_fa": "تایماز اکبری",
+      "role_fa": "فرانت‌اند، کامپوننت‌های فارسی و ناوبری",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71381670?v=4",
+      "followers": 59,
+      "public_repos": 13,
+      "total_stars": 113,
+      "activity_30d": {
+        "events_count": 38,
+        "commits_count": 6,
+        "pushes_count": 6
+      },
+      "featured_repos": [
+        "taymakz/tehgo"
       ],
       "rank": 8
     },
@@ -190,8 +190,8 @@
       "total_stars": 43,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 49,
-        "pushes_count": 49
+        "commits_count": 48,
+        "pushes_count": 48
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -205,11 +205,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/49709301?v=4",
       "followers": 10,
       "public_repos": 32,
-      "total_stars": 54,
+      "total_stars": 56,
       "activity_30d": {
-        "events_count": 85,
-        "commits_count": 55,
-        "pushes_count": 55
+        "events_count": 80,
+        "commits_count": 51,
+        "pushes_count": 51
       },
       "featured_repos": [],
       "rank": 11
