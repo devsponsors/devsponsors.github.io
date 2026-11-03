@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T04:43:17.573342+00:00",
+  "updated_at": "2026-11-03T05:34:44.435601+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
@@ -8,9 +8,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
       "followers": 1843,
       "public_repos": 7,
-      "total_stars": 4007,
+      "total_stars": 4009,
       "activity_30d": {
-        "events_count": 87,
+        "events_count": 86,
         "commits_count": 10,
         "pushes_count": 10
       },
@@ -26,12 +26,12 @@
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
       "followers": 424,
-      "public_repos": 316,
+      "public_repos": 317,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 66,
-        "pushes_count": 66
+        "commits_count": 45,
+        "pushes_count": 45
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -49,13 +49,13 @@
       "name_fa": "محمد مهدی عزیزی (TheGreatAzizi)",
       "role_fa": "زیرساخت ابری، لینوکس و سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
-      "followers": 392,
+      "followers": 394,
       "public_repos": 28,
-      "total_stars": 1133,
+      "total_stars": 1136,
       "activity_30d": {
-        "events_count": 40,
-        "commits_count": 31,
-        "pushes_count": 31
+        "events_count": 41,
+        "commits_count": 32,
+        "pushes_count": 32
       },
       "featured_repos": [
         "TheGreatAzizi/Secure-Pastebin-Self-Hosted",
@@ -72,7 +72,7 @@
       "public_repos": 12,
       "total_stars": 761,
       "activity_30d": {
-        "events_count": 26,
+        "events_count": 27,
         "commits_count": 7,
         "pushes_count": 7
       },
@@ -112,11 +112,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
       "followers": 71,
       "public_repos": 38,
-      "total_stars": 434,
+      "total_stars": 433,
       "activity_30d": {
-        "events_count": 84,
-        "commits_count": 44,
-        "pushes_count": 44
+        "events_count": 95,
+        "commits_count": 45,
+        "pushes_count": 45
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -130,10 +130,10 @@
       "role_fa": "کاتلین، وایرگارد و فلاتر",
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
       "followers": 60,
-      "public_repos": 12,
-      "total_stars": 374,
+      "public_repos": 13,
+      "total_stars": 375,
       "activity_30d": {
-        "events_count": 74,
+        "events_count": 76,
         "commits_count": 17,
         "pushes_count": 17
       },
@@ -153,7 +153,7 @@
       "public_repos": 13,
       "total_stars": 113,
       "activity_30d": {
-        "events_count": 37,
+        "events_count": 35,
         "commits_count": 6,
         "pushes_count": 6
       },
@@ -171,7 +171,7 @@
       "public_repos": 13,
       "total_stars": 143,
       "activity_30d": {
-        "events_count": 100,
+        "events_count": 96,
         "commits_count": 33,
         "pushes_count": 33
       },
@@ -190,8 +190,8 @@
       "total_stars": 42,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 3,
-        "pushes_count": 3
+        "commits_count": 9,
+        "pushes_count": 9
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -207,9 +207,9 @@
       "public_repos": 32,
       "total_stars": 56,
       "activity_30d": {
-        "events_count": 68,
-        "commits_count": 41,
-        "pushes_count": 41
+        "events_count": 62,
+        "commits_count": 37,
+        "pushes_count": 37
       },
       "featured_repos": [],
       "rank": 11
