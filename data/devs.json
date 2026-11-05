@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T05:02:24.834444+00:00",
+  "updated_at": "2026-11-05T05:25:29.790077+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
@@ -8,9 +8,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
       "followers": 1845,
       "public_repos": 7,
-      "total_stars": 4009,
+      "total_stars": 4011,
       "activity_30d": {
-        "events_count": 9,
+        "events_count": 8,
         "commits_count": 0,
         "pushes_count": 0
       },
@@ -26,12 +26,12 @@
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
       "followers": 425,
-      "public_repos": 318,
+      "public_repos": 319,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 45,
-        "pushes_count": 45
+        "commits_count": 42,
+        "pushes_count": 42
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -70,7 +70,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
       "followers": 146,
       "public_repos": 12,
-      "total_stars": 762,
+      "total_stars": 763,
       "activity_30d": {
         "events_count": 27,
         "commits_count": 7,
@@ -112,7 +112,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
       "followers": 71,
       "public_repos": 38,
-      "total_stars": 434,
+      "total_stars": 432,
       "activity_30d": {
         "events_count": 97,
         "commits_count": 47,
@@ -131,11 +131,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
       "followers": 60,
       "public_repos": 13,
-      "total_stars": 375,
+      "total_stars": 376,
       "activity_30d": {
-        "events_count": 77,
-        "commits_count": 17,
-        "pushes_count": 17
+        "events_count": 88,
+        "commits_count": 24,
+        "pushes_count": 24
       },
       "featured_repos": [
         "Mahdi-mortazavi/relay",
@@ -149,11 +149,11 @@
       "name_fa": "تایماز اکبری",
       "role_fa": "فرانت‌اند، کامپوننت‌های فارسی و ناوبری",
       "avatar_url": "https://avatars.githubusercontent.com/u/71381670?v=4",
-      "followers": 59,
+      "followers": 58,
       "public_repos": 13,
-      "total_stars": 113,
+      "total_stars": 112,
       "activity_30d": {
-        "events_count": 32,
+        "events_count": 30,
         "commits_count": 6,
         "pushes_count": 6
       },
@@ -169,7 +169,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/112873489?v=4",
       "followers": 30,
       "public_repos": 13,
-      "total_stars": 143,
+      "total_stars": 144,
       "activity_30d": {
         "events_count": 96,
         "commits_count": 33,
@@ -187,11 +187,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/91134550?v=4",
       "followers": 21,
       "public_repos": 18,
-      "total_stars": 42,
+      "total_stars": 41,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 22,
-        "pushes_count": 22
+        "commits_count": 29,
+        "pushes_count": 29
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -207,9 +207,9 @@
       "public_repos": 32,
       "total_stars": 56,
       "activity_30d": {
-        "events_count": 57,
-        "commits_count": 32,
-        "pushes_count": 32
+        "events_count": 55,
+        "commits_count": 30,
+        "pushes_count": 30
       },
       "featured_repos": [],
       "rank": 11
