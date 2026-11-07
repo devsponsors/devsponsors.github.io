@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-06T05:24:14.766400+00:00",
+  "updated_at": "2026-11-07T04:52:43.856929+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1844,
+      "followers": 1845,
       "public_repos": 7,
-      "total_stars": 4011,
+      "total_stars": 4017,
       "activity_30d": {
-        "events_count": 8,
+        "events_count": 7,
         "commits_count": 0,
         "pushes_count": 0
       },
@@ -26,12 +26,12 @@
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
       "followers": 424,
-      "public_repos": 319,
+      "public_repos": 321,
       "total_stars": 550,
       "activity_30d": {
-        "events_count": 97,
-        "commits_count": 39,
-        "pushes_count": 39
+        "events_count": 91,
+        "commits_count": 32,
+        "pushes_count": 32
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -50,12 +50,12 @@
       "role_fa": "زیرساخت ابری، لینوکس و سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
       "followers": 397,
-      "public_repos": 30,
+      "public_repos": 29,
       "total_stars": 1138,
       "activity_30d": {
-        "events_count": 46,
-        "commits_count": 34,
-        "pushes_count": 34
+        "events_count": 44,
+        "commits_count": 32,
+        "pushes_count": 32
       },
       "featured_repos": [
         "TheGreatAzizi/Secure-Pastebin-Self-Hosted",
@@ -70,11 +70,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
       "followers": 146,
       "public_repos": 12,
-      "total_stars": 764,
+      "total_stars": 766,
       "activity_30d": {
-        "events_count": 28,
-        "commits_count": 7,
-        "pushes_count": 7
+        "events_count": 30,
+        "commits_count": 9,
+        "pushes_count": 9
       },
       "featured_repos": [
         "ZethRise/SpoofGUI",
@@ -133,9 +133,9 @@
       "public_repos": 14,
       "total_stars": 376,
       "activity_30d": {
-        "events_count": 91,
-        "commits_count": 25,
-        "pushes_count": 25
+        "events_count": 94,
+        "commits_count": 27,
+        "pushes_count": 27
       },
       "featured_repos": [
         "Mahdi-mortazavi/relay",
@@ -149,11 +149,11 @@
       "name_fa": "تایماز اکبری",
       "role_fa": "فرانت‌اند، کامپوننت‌های فارسی و ناوبری",
       "avatar_url": "https://avatars.githubusercontent.com/u/71381670?v=4",
-      "followers": 58,
+      "followers": 59,
       "public_repos": 13,
       "total_stars": 112,
       "activity_30d": {
-        "events_count": 29,
+        "events_count": 27,
         "commits_count": 6,
         "pushes_count": 6
       },
@@ -169,7 +169,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/112873489?v=4",
       "followers": 30,
       "public_repos": 13,
-      "total_stars": 144,
+      "total_stars": 145,
       "activity_30d": {
         "events_count": 96,
         "commits_count": 33,
