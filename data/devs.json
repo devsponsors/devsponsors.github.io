@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-07T04:52:43.856929+00:00",
+  "updated_at": "2026-11-08T04:45:05.707572+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1845,
+      "followers": 1846,
       "public_repos": 7,
-      "total_stars": 4017,
+      "total_stars": 4016,
       "activity_30d": {
         "events_count": 7,
         "commits_count": 0,
@@ -29,9 +29,9 @@
       "public_repos": 321,
       "total_stars": 550,
       "activity_30d": {
-        "events_count": 91,
-        "commits_count": 32,
-        "pushes_count": 32
+        "events_count": 94,
+        "commits_count": 36,
+        "pushes_count": 36
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -70,11 +70,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
       "followers": 146,
       "public_repos": 12,
-      "total_stars": 766,
+      "total_stars": 765,
       "activity_30d": {
-        "events_count": 30,
-        "commits_count": 9,
-        "pushes_count": 9
+        "events_count": 31,
+        "commits_count": 10,
+        "pushes_count": 10
       },
       "featured_repos": [
         "ZethRise/SpoofGUI",
@@ -207,9 +207,9 @@
       "public_repos": 32,
       "total_stars": 56,
       "activity_30d": {
-        "events_count": 52,
-        "commits_count": 29,
-        "pushes_count": 29
+        "events_count": 50,
+        "commits_count": 28,
+        "pushes_count": 28
       },
       "featured_repos": [],
       "rank": 11
