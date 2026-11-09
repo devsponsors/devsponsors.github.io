@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T04:45:05.707572+00:00",
+  "updated_at": "2026-11-09T04:54:25.098942+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
@@ -8,7 +8,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
       "followers": 1846,
       "public_repos": 7,
-      "total_stars": 4016,
+      "total_stars": 4017,
       "activity_30d": {
         "events_count": 7,
         "commits_count": 0,
@@ -29,9 +29,9 @@
       "public_repos": 321,
       "total_stars": 550,
       "activity_30d": {
-        "events_count": 94,
-        "commits_count": 36,
-        "pushes_count": 36
+        "events_count": 100,
+        "commits_count": 46,
+        "pushes_count": 46
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -49,13 +49,13 @@
       "name_fa": "محمد مهدی عزیزی (TheGreatAzizi)",
       "role_fa": "زیرساخت ابری، لینوکس و سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
-      "followers": 397,
+      "followers": 399,
       "public_repos": 29,
       "total_stars": 1138,
       "activity_30d": {
-        "events_count": 44,
-        "commits_count": 32,
-        "pushes_count": 32
+        "events_count": 51,
+        "commits_count": 39,
+        "pushes_count": 39
       },
       "featured_repos": [
         "TheGreatAzizi/Secure-Pastebin-Self-Hosted",
@@ -68,9 +68,9 @@
       "name_fa": "زث (Zeth)",
       "role_fa": "توسعه کلاینت‌های شبکه، Rust, C# & Kotlin",
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
-      "followers": 146,
+      "followers": 147,
       "public_repos": 12,
-      "total_stars": 765,
+      "total_stars": 766,
       "activity_30d": {
         "events_count": 31,
         "commits_count": 10,
@@ -131,11 +131,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
       "followers": 60,
       "public_repos": 14,
-      "total_stars": 376,
+      "total_stars": 377,
       "activity_30d": {
-        "events_count": 94,
-        "commits_count": 27,
-        "pushes_count": 27
+        "events_count": 80,
+        "commits_count": 16,
+        "pushes_count": 16
       },
       "featured_repos": [
         "Mahdi-mortazavi/relay",
@@ -172,8 +172,8 @@
       "total_stars": 145,
       "activity_30d": {
         "events_count": 96,
-        "commits_count": 33,
-        "pushes_count": 33
+        "commits_count": 35,
+        "pushes_count": 35
       },
       "featured_repos": [
         "bllackbull/Songbird"
@@ -207,9 +207,9 @@
       "public_repos": 32,
       "total_stars": 56,
       "activity_30d": {
-        "events_count": 50,
-        "commits_count": 28,
-        "pushes_count": 28
+        "events_count": 45,
+        "commits_count": 26,
+        "pushes_count": 26
       },
       "featured_repos": [],
       "rank": 11
