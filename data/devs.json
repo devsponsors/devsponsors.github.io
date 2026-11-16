@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T05:04:44.322119+00:00",
+  "updated_at": "2026-11-16T05:01:44.418111+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
@@ -8,7 +8,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
       "followers": 1845,
       "public_repos": 7,
-      "total_stars": 4032,
+      "total_stars": 4031,
       "activity_30d": {
         "events_count": 8,
         "commits_count": 0,
@@ -26,12 +26,12 @@
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
       "followers": 433,
-      "public_repos": 327,
+      "public_repos": 329,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 54,
-        "pushes_count": 54
+        "commits_count": 56,
+        "pushes_count": 56
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -51,11 +51,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
       "followers": 397,
       "public_repos": 30,
-      "total_stars": 1148,
+      "total_stars": 1154,
       "activity_30d": {
-        "events_count": 59,
-        "commits_count": 47,
-        "pushes_count": 47
+        "events_count": 61,
+        "commits_count": 48,
+        "pushes_count": 48
       },
       "featured_repos": [
         "TheGreatAzizi/Secure-Pastebin-Self-Hosted",
@@ -68,13 +68,13 @@
       "name_fa": "زث (Zeth)",
       "role_fa": "توسعه کلاینت‌های شبکه، Rust, C# & Kotlin",
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
-      "followers": 149,
+      "followers": 150,
       "public_repos": 12,
       "total_stars": 768,
       "activity_30d": {
-        "events_count": 30,
-        "commits_count": 9,
-        "pushes_count": 9
+        "events_count": 28,
+        "commits_count": 8,
+        "pushes_count": 8
       },
       "featured_repos": [
         "ZethRise/SpoofGUI",
@@ -131,11 +131,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
       "followers": 60,
       "public_repos": 14,
-      "total_stars": 382,
+      "total_stars": 384,
       "activity_30d": {
         "events_count": 99,
-        "commits_count": 21,
-        "pushes_count": 21
+        "commits_count": 20,
+        "pushes_count": 20
       },
       "featured_repos": [
         "Mahdi-mortazavi/relay",
@@ -169,11 +169,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/112873489?v=4",
       "followers": 30,
       "public_repos": 13,
-      "total_stars": 145,
+      "total_stars": 146,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 30,
-        "pushes_count": 30
+        "commits_count": 36,
+        "pushes_count": 36
       },
       "featured_repos": [
         "bllackbull/Songbird"
@@ -186,12 +186,12 @@
       "role_fa": "توسعه پلتفرم‌های تعاملی و فول‌استک",
       "avatar_url": "https://avatars.githubusercontent.com/u/91134550?v=4",
       "followers": 21,
-      "public_repos": 21,
-      "total_stars": 41,
+      "public_repos": 22,
+      "total_stars": 43,
       "activity_30d": {
-        "events_count": 100,
-        "commits_count": 73,
-        "pushes_count": 73
+        "events_count": 99,
+        "commits_count": 46,
+        "pushes_count": 46
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -204,12 +204,12 @@
       "role_fa": "الگوریتم‌های مالی و اتوماسیون داده",
       "avatar_url": "https://avatars.githubusercontent.com/u/49709301?v=4",
       "followers": 10,
-      "public_repos": 32,
+      "public_repos": 33,
       "total_stars": 56,
       "activity_30d": {
-        "events_count": 28,
-        "commits_count": 17,
-        "pushes_count": 17
+        "events_count": 19,
+        "commits_count": 10,
+        "pushes_count": 10
       },
       "featured_repos": [],
       "rank": 11
