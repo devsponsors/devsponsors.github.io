@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-16T05:01:44.418111+00:00",
+  "updated_at": "2026-11-17T06:50:35.088888+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1845,
+      "followers": 1847,
       "public_repos": 7,
-      "total_stars": 4031,
+      "total_stars": 4029,
       "activity_30d": {
-        "events_count": 8,
+        "events_count": 9,
         "commits_count": 0,
         "pushes_count": 0
       },
@@ -25,13 +25,13 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 433,
-      "public_repos": 329,
+      "followers": 432,
+      "public_repos": 330,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 56,
-        "pushes_count": 56
+        "commits_count": 62,
+        "pushes_count": 62
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -49,13 +49,13 @@
       "name_fa": "محمد مهدی عزیزی (TheGreatAzizi)",
       "role_fa": "زیرساخت ابری، لینوکس و سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
-      "followers": 397,
+      "followers": 396,
       "public_repos": 30,
-      "total_stars": 1154,
+      "total_stars": 1153,
       "activity_30d": {
-        "events_count": 61,
-        "commits_count": 48,
-        "pushes_count": 48
+        "events_count": 63,
+        "commits_count": 50,
+        "pushes_count": 50
       },
       "featured_repos": [
         "TheGreatAzizi/Secure-Pastebin-Self-Hosted",
@@ -70,9 +70,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
       "followers": 150,
       "public_repos": 12,
-      "total_stars": 768,
+      "total_stars": 767,
       "activity_30d": {
-        "events_count": 28,
+        "events_count": 27,
         "commits_count": 8,
         "pushes_count": 8
       },
@@ -89,11 +89,11 @@
       "name_fa": "بردیا کاظمی (Bardia Kazemi)",
       "role_fa": "آموزش تخصصی گیت و Golang",
       "avatar_url": "https://avatars.githubusercontent.com/u/8832241?v=4",
-      "followers": 80,
+      "followers": 79,
       "public_repos": 10,
       "total_stars": 220,
       "activity_30d": {
-        "events_count": 42,
+        "events_count": 40,
         "commits_count": 17,
         "pushes_count": 17
       },
@@ -134,8 +134,8 @@
       "total_stars": 384,
       "activity_30d": {
         "events_count": 99,
-        "commits_count": 20,
-        "pushes_count": 20
+        "commits_count": 22,
+        "pushes_count": 22
       },
       "featured_repos": [
         "Mahdi-mortazavi/relay",
@@ -172,8 +172,8 @@
       "total_stars": 146,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 36,
-        "pushes_count": 36
+        "commits_count": 38,
+        "pushes_count": 38
       },
       "featured_repos": [
         "bllackbull/Songbird"
@@ -190,8 +190,8 @@
       "total_stars": 43,
       "activity_30d": {
         "events_count": 99,
-        "commits_count": 46,
-        "pushes_count": 46
+        "commits_count": 59,
+        "pushes_count": 59
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -207,7 +207,7 @@
       "public_repos": 33,
       "total_stars": 56,
       "activity_30d": {
-        "events_count": 19,
+        "events_count": 20,
         "commits_count": 10,
         "pushes_count": 10
       },
