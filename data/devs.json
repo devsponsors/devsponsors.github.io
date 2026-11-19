@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-18T06:08:59.541655+00:00",
+  "updated_at": "2026-11-19T06:10:33.544900+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1846,
+      "followers": 1848,
       "public_repos": 7,
-      "total_stars": 4029,
+      "total_stars": 4032,
       "activity_30d": {
-        "events_count": 8,
+        "events_count": 9,
         "commits_count": 0,
         "pushes_count": 0
       },
@@ -25,7 +25,7 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 434,
+      "followers": 433,
       "public_repos": 330,
       "total_stars": 550,
       "activity_30d": {
@@ -49,11 +49,11 @@
       "name_fa": "محمد مهدی عزیزی (TheGreatAzizi)",
       "role_fa": "زیرساخت ابری، لینوکس و سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
-      "followers": 397,
+      "followers": 398,
       "public_repos": 30,
-      "total_stars": 1159,
+      "total_stars": 1164,
       "activity_30d": {
-        "events_count": 62,
+        "events_count": 66,
         "commits_count": 45,
         "pushes_count": 45
       },
@@ -70,9 +70,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
       "followers": 150,
       "public_repos": 12,
-      "total_stars": 768,
+      "total_stars": 769,
       "activity_30d": {
-        "events_count": 27,
+        "events_count": 28,
         "commits_count": 8,
         "pushes_count": 8
       },
@@ -114,9 +114,9 @@
       "public_repos": 40,
       "total_stars": 434,
       "activity_30d": {
-        "events_count": 97,
-        "commits_count": 37,
-        "pushes_count": 37
+        "events_count": 94,
+        "commits_count": 34,
+        "pushes_count": 34
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -131,11 +131,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
       "followers": 61,
       "public_repos": 14,
-      "total_stars": 384,
+      "total_stars": 387,
       "activity_30d": {
         "events_count": 99,
-        "commits_count": 20,
-        "pushes_count": 20
+        "commits_count": 16,
+        "pushes_count": 16
       },
       "featured_repos": [
         "Mahdi-mortazavi/relay",
@@ -153,7 +153,7 @@
       "public_repos": 13,
       "total_stars": 112,
       "activity_30d": {
-        "events_count": 14,
+        "events_count": 13,
         "commits_count": 0,
         "pushes_count": 0
       },
@@ -189,9 +189,9 @@
       "public_repos": 22,
       "total_stars": 43,
       "activity_30d": {
-        "events_count": 99,
-        "commits_count": 74,
-        "pushes_count": 74
+        "events_count": 100,
+        "commits_count": 77,
+        "pushes_count": 77
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -207,9 +207,9 @@
       "public_repos": 33,
       "total_stars": 56,
       "activity_30d": {
-        "events_count": 20,
-        "commits_count": 10,
-        "pushes_count": 10
+        "events_count": 18,
+        "commits_count": 9,
+        "pushes_count": 9
       },
       "featured_repos": [],
       "rank": 11
