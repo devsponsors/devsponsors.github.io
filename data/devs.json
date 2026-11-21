@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-20T05:56:27.770638+00:00",
+  "updated_at": "2026-11-21T05:51:00.299759+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1849,
+      "followers": 1850,
       "public_repos": 7,
       "total_stars": 4032,
       "activity_30d": {
-        "events_count": 9,
+        "events_count": 10,
         "commits_count": 0,
         "pushes_count": 0
       },
@@ -25,13 +25,13 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 434,
+      "followers": 435,
       "public_repos": 330,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 61,
-        "pushes_count": 61
+        "commits_count": 60,
+        "pushes_count": 60
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -49,13 +49,13 @@
       "name_fa": "محمد مهدی عزیزی (TheGreatAzizi)",
       "role_fa": "زیرساخت ابری، لینوکس و سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
-      "followers": 403,
+      "followers": 404,
       "public_repos": 30,
-      "total_stars": 1179,
+      "total_stars": 1180,
       "activity_30d": {
-        "events_count": 69,
-        "commits_count": 43,
-        "pushes_count": 43
+        "events_count": 61,
+        "commits_count": 35,
+        "pushes_count": 35
       },
       "featured_repos": [
         "TheGreatAzizi/Secure-Pastebin-Self-Hosted",
@@ -68,9 +68,9 @@
       "name_fa": "زث (Zeth)",
       "role_fa": "توسعه کلاینت‌های شبکه، Rust, C# & Kotlin",
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
-      "followers": 150,
+      "followers": 153,
       "public_repos": 12,
-      "total_stars": 769,
+      "total_stars": 771,
       "activity_30d": {
         "events_count": 29,
         "commits_count": 9,
@@ -93,7 +93,7 @@
       "public_repos": 10,
       "total_stars": 219,
       "activity_30d": {
-        "events_count": 40,
+        "events_count": 42,
         "commits_count": 17,
         "pushes_count": 17
       },
@@ -110,13 +110,13 @@
       "name_fa": "امیرعلی بیگی",
       "role_fa": "توسعه ابزارهای مدرن & تقویم فارسی",
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
-      "followers": 71,
+      "followers": 72,
       "public_repos": 40,
-      "total_stars": 434,
+      "total_stars": 435,
       "activity_30d": {
         "events_count": 97,
-        "commits_count": 36,
-        "pushes_count": 36
+        "commits_count": 37,
+        "pushes_count": 37
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -131,11 +131,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
       "followers": 62,
       "public_repos": 14,
-      "total_stars": 389,
+      "total_stars": 390,
       "activity_30d": {
-        "events_count": 99,
-        "commits_count": 16,
-        "pushes_count": 16
+        "events_count": 85,
+        "commits_count": 13,
+        "pushes_count": 13
       },
       "featured_repos": [
         "Mahdi-mortazavi/relay",
@@ -153,7 +153,7 @@
       "public_repos": 13,
       "total_stars": 112,
       "activity_30d": {
-        "events_count": 13,
+        "events_count": 12,
         "commits_count": 0,
         "pushes_count": 0
       },
@@ -207,9 +207,9 @@
       "public_repos": 33,
       "total_stars": 56,
       "activity_30d": {
-        "events_count": 18,
-        "commits_count": 9,
-        "pushes_count": 9
+        "events_count": 15,
+        "commits_count": 6,
+        "pushes_count": 6
       },
       "featured_repos": [],
       "rank": 11
