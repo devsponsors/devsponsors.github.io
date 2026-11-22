@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-21T05:51:00.299759+00:00",
+  "updated_at": "2026-11-22T05:24:16.456220+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1850,
+      "followers": 1853,
       "public_repos": 7,
       "total_stars": 4032,
       "activity_30d": {
@@ -25,7 +25,7 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 435,
+      "followers": 438,
       "public_repos": 330,
       "total_stars": 550,
       "activity_30d": {
@@ -51,11 +51,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
       "followers": 404,
       "public_repos": 30,
-      "total_stars": 1180,
+      "total_stars": 1183,
       "activity_30d": {
-        "events_count": 61,
-        "commits_count": 35,
-        "pushes_count": 35
+        "events_count": 59,
+        "commits_count": 34,
+        "pushes_count": 34
       },
       "featured_repos": [
         "TheGreatAzizi/Secure-Pastebin-Self-Hosted",
@@ -68,7 +68,7 @@
       "name_fa": "زث (Zeth)",
       "role_fa": "توسعه کلاینت‌های شبکه، Rust, C# & Kotlin",
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
-      "followers": 153,
+      "followers": 154,
       "public_repos": 12,
       "total_stars": 771,
       "activity_30d": {
@@ -114,9 +114,9 @@
       "public_repos": 40,
       "total_stars": 435,
       "activity_30d": {
-        "events_count": 97,
-        "commits_count": 37,
-        "pushes_count": 37
+        "events_count": 90,
+        "commits_count": 33,
+        "pushes_count": 33
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -129,11 +129,11 @@
       "name_fa": "محمد مهدی مرتضوی",
       "role_fa": "کاتلین، وایرگارد و فلاتر",
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
-      "followers": 62,
+      "followers": 63,
       "public_repos": 14,
       "total_stars": 390,
       "activity_30d": {
-        "events_count": 85,
+        "events_count": 81,
         "commits_count": 13,
         "pushes_count": 13
       },
@@ -167,13 +167,13 @@
       "name_fa": "پویا خلیلی (Pouya Khalili)",
       "role_fa": "توسعه فول‌استک، Node.js & پیام‌رسان سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/112873489?v=4",
-      "followers": 30,
+      "followers": 29,
       "public_repos": 13,
       "total_stars": 146,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 38,
-        "pushes_count": 38
+        "commits_count": 37,
+        "pushes_count": 37
       },
       "featured_repos": [
         "bllackbull/Songbird"
@@ -190,8 +190,8 @@
       "total_stars": 43,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 98,
-        "pushes_count": 98
+        "commits_count": 95,
+        "pushes_count": 95
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -207,7 +207,7 @@
       "public_repos": 33,
       "total_stars": 56,
       "activity_30d": {
-        "events_count": 15,
+        "events_count": 14,
         "commits_count": 6,
         "pushes_count": 6
       },
