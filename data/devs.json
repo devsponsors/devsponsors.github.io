@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T05:24:16.456220+00:00",
+  "updated_at": "2026-11-23T06:00:10.439768+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
@@ -8,9 +8,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
       "followers": 1853,
       "public_repos": 7,
-      "total_stars": 4032,
+      "total_stars": 4033,
       "activity_30d": {
-        "events_count": 10,
+        "events_count": 9,
         "commits_count": 0,
         "pushes_count": 0
       },
@@ -72,7 +72,7 @@
       "public_repos": 12,
       "total_stars": 771,
       "activity_30d": {
-        "events_count": 29,
+        "events_count": 28,
         "commits_count": 9,
         "pushes_count": 9
       },
@@ -93,9 +93,9 @@
       "public_repos": 10,
       "total_stars": 219,
       "activity_30d": {
-        "events_count": 42,
-        "commits_count": 17,
-        "pushes_count": 17
+        "events_count": 35,
+        "commits_count": 12,
+        "pushes_count": 12
       },
       "featured_repos": [
         "mrbardia72/Go-Interview-Questions-And-Answers",
@@ -112,7 +112,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
       "followers": 72,
       "public_repos": 40,
-      "total_stars": 435,
+      "total_stars": 434,
       "activity_30d": {
         "events_count": 90,
         "commits_count": 33,
@@ -131,7 +131,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
       "followers": 63,
       "public_repos": 14,
-      "total_stars": 390,
+      "total_stars": 391,
       "activity_30d": {
         "events_count": 81,
         "commits_count": 13,
@@ -153,7 +153,7 @@
       "public_repos": 13,
       "total_stars": 112,
       "activity_30d": {
-        "events_count": 12,
+        "events_count": 13,
         "commits_count": 0,
         "pushes_count": 0
       },
@@ -190,8 +190,8 @@
       "total_stars": 43,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 95,
-        "pushes_count": 95
+        "commits_count": 80,
+        "pushes_count": 80
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -207,9 +207,9 @@
       "public_repos": 33,
       "total_stars": 56,
       "activity_30d": {
-        "events_count": 14,
-        "commits_count": 6,
-        "pushes_count": 6
+        "events_count": 12,
+        "commits_count": 4,
+        "pushes_count": 4
       },
       "featured_repos": [],
       "rank": 11
