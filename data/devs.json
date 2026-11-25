@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-24T08:41:20.217005+00:00",
+  "updated_at": "2026-11-25T07:15:30.122668+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1853,
+      "followers": 1854,
       "public_repos": 7,
-      "total_stars": 4034,
+      "total_stars": 4036,
       "activity_30d": {
         "events_count": 8,
         "commits_count": 0,
@@ -25,13 +25,13 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 440,
+      "followers": 442,
       "public_repos": 333,
       "total_stars": 550,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 59,
-        "pushes_count": 59
+        "commits_count": 60,
+        "pushes_count": 60
       },
       "featured_repos": [
         "FreeMovieIR/freemovieir.github.io",
@@ -51,9 +51,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
       "followers": 405,
       "public_repos": 30,
-      "total_stars": 1184,
+      "total_stars": 1186,
       "activity_30d": {
-        "events_count": 60,
+        "events_count": 63,
         "commits_count": 35,
         "pushes_count": 35
       },
@@ -70,9 +70,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
       "followers": 154,
       "public_repos": 12,
-      "total_stars": 770,
+      "total_stars": 768,
       "activity_30d": {
-        "events_count": 28,
+        "events_count": 29,
         "commits_count": 9,
         "pushes_count": 9
       },
@@ -93,9 +93,9 @@
       "public_repos": 10,
       "total_stars": 219,
       "activity_30d": {
-        "events_count": 35,
-        "commits_count": 12,
-        "pushes_count": 12
+        "events_count": 6,
+        "commits_count": 0,
+        "pushes_count": 0
       },
       "featured_repos": [
         "mrbardia72/Go-Interview-Questions-And-Answers",
@@ -114,9 +114,9 @@
       "public_repos": 40,
       "total_stars": 434,
       "activity_30d": {
-        "events_count": 92,
-        "commits_count": 33,
-        "pushes_count": 33
+        "events_count": 94,
+        "commits_count": 35,
+        "pushes_count": 35
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -131,7 +131,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
       "followers": 63,
       "public_repos": 14,
-      "total_stars": 392,
+      "total_stars": 394,
       "activity_30d": {
         "events_count": 77,
         "commits_count": 13,
@@ -171,9 +171,9 @@
       "public_repos": 13,
       "total_stars": 147,
       "activity_30d": {
-        "events_count": 99,
-        "commits_count": 36,
-        "pushes_count": 36
+        "events_count": 93,
+        "commits_count": 34,
+        "pushes_count": 34
       },
       "featured_repos": [
         "bllackbull/Songbird"
@@ -190,8 +190,8 @@
       "total_stars": 43,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 75,
-        "pushes_count": 75
+        "commits_count": 73,
+        "pushes_count": 73
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -207,7 +207,7 @@
       "public_repos": 33,
       "total_stars": 56,
       "activity_30d": {
-        "events_count": 11,
+        "events_count": 7,
         "commits_count": 4,
         "pushes_count": 4
       },
