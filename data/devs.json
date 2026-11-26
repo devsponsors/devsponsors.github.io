@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-25T07:15:30.122668+00:00",
+  "updated_at": "2026-11-26T07:03:35.001178+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1854,
+      "followers": 1853,
       "public_repos": 7,
       "total_stars": 4036,
       "activity_30d": {
@@ -25,7 +25,7 @@
       "name_fa": "ریک سانچز (Rick Sanchez)",
       "role_fa": "معمار ایجنت‌های خودمختار & اکوسیستم متن‌باز",
       "avatar_url": "https://avatars.githubusercontent.com/u/101627789?v=4",
-      "followers": 442,
+      "followers": 444,
       "public_repos": 333,
       "total_stars": 550,
       "activity_30d": {
@@ -49,13 +49,13 @@
       "name_fa": "محمد مهدی عزیزی (TheGreatAzizi)",
       "role_fa": "زیرساخت ابری، لینوکس و سلف‌هاستد",
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
-      "followers": 405,
+      "followers": 406,
       "public_repos": 30,
-      "total_stars": 1186,
+      "total_stars": 1187,
       "activity_30d": {
-        "events_count": 63,
-        "commits_count": 35,
-        "pushes_count": 35
+        "events_count": 67,
+        "commits_count": 38,
+        "pushes_count": 38
       },
       "featured_repos": [
         "TheGreatAzizi/Secure-Pastebin-Self-Hosted",
@@ -70,7 +70,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
       "followers": 154,
       "public_repos": 12,
-      "total_stars": 768,
+      "total_stars": 766,
       "activity_30d": {
         "events_count": 29,
         "commits_count": 9,
@@ -112,7 +112,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/43336552?v=4",
       "followers": 72,
       "public_repos": 40,
-      "total_stars": 434,
+      "total_stars": 433,
       "activity_30d": {
         "events_count": 94,
         "commits_count": 35,
@@ -131,7 +131,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/127998145?v=4",
       "followers": 63,
       "public_repos": 14,
-      "total_stars": 394,
+      "total_stars": 395,
       "activity_30d": {
         "events_count": 77,
         "commits_count": 13,
@@ -153,7 +153,7 @@
       "public_repos": 13,
       "total_stars": 112,
       "activity_30d": {
-        "events_count": 14,
+        "events_count": 13,
         "commits_count": 0,
         "pushes_count": 0
       },
@@ -171,9 +171,9 @@
       "public_repos": 13,
       "total_stars": 147,
       "activity_30d": {
-        "events_count": 93,
-        "commits_count": 34,
-        "pushes_count": 34
+        "events_count": 90,
+        "commits_count": 31,
+        "pushes_count": 31
       },
       "featured_repos": [
         "bllackbull/Songbird"
@@ -190,8 +190,8 @@
       "total_stars": 43,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 73,
-        "pushes_count": 73
+        "commits_count": 70,
+        "pushes_count": 70
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -207,9 +207,9 @@
       "public_repos": 33,
       "total_stars": 56,
       "activity_30d": {
-        "events_count": 7,
-        "commits_count": 4,
-        "pushes_count": 4
+        "events_count": 6,
+        "commits_count": 3,
+        "pushes_count": 3
       },
       "featured_repos": [],
       "rank": 11
