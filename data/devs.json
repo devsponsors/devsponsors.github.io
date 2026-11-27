@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-26T07:03:35.001178+00:00",
+  "updated_at": "2026-11-27T06:58:45.621830+00:00",
   "developers": [
     {
       "username": "MatinSenPai",
       "name_fa": "متین سنپای (Matin SenPai)",
       "role_fa": "توسعه ابزارهای شبکه، Go & Rust",
       "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4",
-      "followers": 1853,
+      "followers": 1857,
       "public_repos": 7,
-      "total_stars": 4036,
+      "total_stars": 4040,
       "activity_30d": {
         "events_count": 8,
         "commits_count": 0,
@@ -51,7 +51,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/121211931?v=4",
       "followers": 406,
       "public_repos": 30,
-      "total_stars": 1187,
+      "total_stars": 1189,
       "activity_30d": {
         "events_count": 67,
         "commits_count": 38,
@@ -70,7 +70,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4",
       "followers": 154,
       "public_repos": 12,
-      "total_stars": 766,
+      "total_stars": 764,
       "activity_30d": {
         "events_count": 29,
         "commits_count": 9,
@@ -114,9 +114,9 @@
       "public_repos": 40,
       "total_stars": 433,
       "activity_30d": {
-        "events_count": 94,
-        "commits_count": 35,
-        "pushes_count": 35
+        "events_count": 90,
+        "commits_count": 33,
+        "pushes_count": 33
       },
       "featured_repos": [
         "amiralibg/Doran",
@@ -149,7 +149,7 @@
       "name_fa": "تایماز اکبری",
       "role_fa": "فرانت‌اند، کامپوننت‌های فارسی و ناوبری",
       "avatar_url": "https://avatars.githubusercontent.com/u/71381670?v=4",
-      "followers": 59,
+      "followers": 58,
       "public_repos": 13,
       "total_stars": 112,
       "activity_30d": {
@@ -171,9 +171,9 @@
       "public_repos": 13,
       "total_stars": 147,
       "activity_30d": {
-        "events_count": 90,
-        "commits_count": 31,
-        "pushes_count": 31
+        "events_count": 71,
+        "commits_count": 26,
+        "pushes_count": 26
       },
       "featured_repos": [
         "bllackbull/Songbird"
@@ -190,8 +190,8 @@
       "total_stars": 43,
       "activity_30d": {
         "events_count": 100,
-        "commits_count": 70,
-        "pushes_count": 70
+        "commits_count": 89,
+        "pushes_count": 89
       },
       "featured_repos": [
         "aliinreallife/metto"
@@ -207,7 +207,7 @@
       "public_repos": 33,
       "total_stars": 56,
       "activity_30d": {
-        "events_count": 6,
+        "events_count": 4,
         "commits_count": 3,
         "pushes_count": 3
       },
